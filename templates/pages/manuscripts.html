@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+    <title data-template="config:app-title"/>
+    <meta name="description" content="Zacuto's Manuscripts"/>
+
+    <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/zacuto.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script type="module" src="pb-leaflet-map.js" data-template="pages:load-components"/>
+    <style>
+        body {
+            --pb-view-height: calc(100vh - 220px);
+            --pb-base-font-family: "Spartan", Verdana, sans-serif;
+        }
+        
+        .menubar {
+                    font-family: 'Spartan', sans-serif;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    background-color: #89A6FB;
+                    background-image: url('resources/images/background.jpg');                    
+                    --pb-menubar-color: white;
+                    --pb-download: {
+                        color: black;
+                    };
+                }
+                paper-tab {
+                    font-family: "Spartan", sans-serif;
+                    font-size: 16px;
+                }
+
+        pb-view {
+            font: var(--pb-base-font);
+        }
+        
+        #view1 {
+            flex: 3 0;
+            max-width: 60vw;
+            margin: 8px 16px;
+            height: var(--pb-view-height);
+            overflow: auto;
+        }
+
+        .content-body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin: 0 10px;
+        }
+        
+        .headline {
+                    display: flex;
+                    justify-content: space-between;
+                    align-self: center;
+                    padding:10px 0 0 20px;
+                    margin:0;
+                    font-family: "Junicode", Georgia, "Times New Roman", serif;
+                    font-size: 20px;
+                    --pb-breadcrumbs-font-size: 30px;
+}
+        aside {
+            flex: 1 0;
+            min-width: 360px;
+            max-width: 480px;
+            margin-right: 16px;
+            height: var(--pb-view-height);
+            overflow: auto;
+        }
+
+        aside pb-highlight {
+            display: block;
+            width: 100%;
+            padding: 0 8px;
+        }
+
+        pb-leaflet-map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .toc-toggle, pb-navigation {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-document id="document1" data-template="pages:pb-document"/>
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                   <!-- <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>-->
+                </app-header>
+                
+                
+                <div class="headline">
+                    <pb-view id="metadata" src="document1" xpath="//titleStmt/title[1]" view="single"/>
+                    </div>
+                
+                <section class="content-body">
+                 <pb-tabs>
+		        <paper-tab slot="tab">Index of Letters</paper-tab>
+		        <paper-tab slot="tab">Codicology</paper-tab>
+		        <paper-tab slot="tab">History</paper-tab>
+                   
+                    <div slot="page">
+                        <pb-view id="view1" src="document1" xpath="//msContents" view="single">
+                        </pb-view>
+                        </div>
+                        
+                        <div slot="page">
+                        <pb-view id="view1" src="document1" xpath="//physDesc" view="single">
+                        </pb-view>
+                        </div>
+                        
+                        <div slot="page">
+                        <pb-view id="view1" src="document1" xpath="//history" view="single">
+                        </pb-view>
+                        </div>
+                </pb-tabs>
+                </section>
+                                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+            </app-header-layout>
+        </app-drawer-layout>
+    </pb-page>
+    <div class="splash"/>
+</body>
+
+</html>

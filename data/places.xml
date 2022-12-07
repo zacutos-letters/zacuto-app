@@ -1,0 +1,610 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Corpus of R. Moses Zacuto’s Correspondence and Lexica of Holy Names: Editions, Tools, and Database</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPlace>
+            <place xml:id="place-ZM001" n="Venice">
+               <placeName xml:lang="en" type="main">Venice</placeName>
+               <placeName xml:lang="it">Venezia</placeName>
+               <placeName xml:lang="he" type="main">ונציה</placeName>
+               <location>
+                  <geo>45.437191 12.33459</geo>
+               </location>
+               <country>Republic of Venice</country>
+               <note>Capital city in the Republic of Venice located by the Venetian Lagoon</note>
+               <note>Center of trade for the Eastern Mediterranean Sea. Zacuto served as rabbi in Venice from $$$$ to $$$$.</note>
+               <idno source="kima">949</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/1083</idno>
+               <idno source="geoNames">6542284</idno>
+               <idno source="gnd">4062501-1</idno>
+               <idno source="viaf">136651400</idno>
+               <idno source="wikiData">Q641</idno>
+               <idno source="britannica">https://www.britannica.com/place/Venice</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/venezia</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/14667-venice</idno>
+            </place>
+            <place xml:id="place-ZM002" n="Mantua">
+               <placeName xml:lang="en" type="main">Mantua</placeName>
+               <placeName xml:lang="it">Mantova</placeName>
+               <placeName xml:lang="he" type="main">מנטובה</placeName>
+               <location>
+                  <geo>45.156389 10.791667</geo>
+               </location>
+               <country>Duchy of Mantua</country>
+               <note>Major city in the Duchy of Mantua located by the Mincio river</note>
+               <note>Zacuto became rabbi in Mantua in 1673 and remained there until his death in 1697.</note>
+               <idno source="kima">1627</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/655</idno>
+               <idno source="geoNames">6541855</idno>
+               <idno source="gnd">4114978-6</idno>
+               <idno source="viaf">304911478</idno>
+               <idno source="wikiData">Q6247</idno>
+               <idno source="britannica">https://www.britannica.com/place/Mantua-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/mantova</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/10381-mantua</idno>
+            </place>
+            <place xml:id="place-ZM003" n="Verona">
+               <placeName xml:lang="en" type="main">Verona</placeName>
+               <placeName xml:lang="it">Verona</placeName>
+               <placeName xml:lang="he" type="main">ורונה</placeName>
+               <location>
+                  <geo>45.438611 10.992778</geo>
+               </location>
+               <country>Republic of Venice</country>
+               <note>city in the Republic of Venice located by the Adige river</note>
+               <idno source="kima">950</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/1084</idno>
+               <idno source="geoNames">3164527</idno>
+               <idno source="viaf">140704516</idno>
+               <idno source="wikiData">Q2028</idno>
+               <idno source="britannica">https://www.britannica.com/place/Verona-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/verona</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/14681-verona</idno>
+            </place>
+            <place xml:id="place-ZM004" n="Modena">
+               <placeName xml:lang="en" type="main">Modena</placeName>
+               <placeName xml:lang="it">Modena</placeName>
+               <placeName xml:lang="he" type="main">מודנה</placeName>
+               <location>
+                  <geo>44.646944 10.925556</geo>
+               </location>
+               <country>Duchy of Modena and Reggio</country>
+               <note>Large city in the Duchy of Modena and Reggio located by the rivers Secchia and Panaro</note>
+               <idno source="kima">153</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/525</idno>
+               <idno source="geoNames">6541461</idno>
+               <idno source="gnd">4115170-7</idno>
+               <idno source="viaf">130110243</idno>
+               <idno source="nli">000976246</idno>
+               <idno source="wikiData">Q279</idno>
+               <idno source="britannica">https://www.britannica.com/place/Modena-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/modena</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/10905-modena</idno>
+            </place>
+            <place xml:id="place-ZM005" n="Amsterdam">
+               <placeName xml:lang="en" type="main">Amsterdam</placeName>
+               <placeName xml:lang="he" type="main">אמסטרדם</placeName>
+               <location>
+                  <geo>52.366667 4.9</geo>
+               </location>
+               <country>Dutch Republic</country>
+               <note>Major city in the Dutch Republic located by the Amstel, IJ, IJmeer</note>
+               <note>The birth place of Zacuto.</note>
+               <idno source="kima">550</idno>
+               <idno source="geoNames">2759794</idno>
+               <idno source="gnd">4001783-7</idno>
+               <idno source="viaf">158212776</idno>
+               <idno source="nli">000187618</idno>
+               <idno source="wikiData">Q727</idno>
+               <idno source="britannica">https://www.britannica.com/place/Amsterdam</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/amsterdam</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/1442-amsterdam</idno>
+            </place>
+            <place xml:id="place-ZM008" n="Jerusalem">
+               <placeName xml:lang="en" type="main">Jerusalem</placeName>
+               <placeName xml:lang="he" type="main">ירושלים</placeName>
+               <location>
+                  <geo>31.783333 35.216667</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Major city in the Ottoman Empire located by the</note>
+               <idno source="kima">691</idno>
+               <idno source="geoNames">281184</idno>
+               <idno source="gnd">4028586-8</idno>
+               <idno source="viaf">131280745</idno>
+               <idno source="nli">000988457</idno>
+               <idno source="wikiData">Q1218</idno>
+               <idno source="britannica">https://www.britannica.com/place/Jerusalem</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/gerusalemme</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/4923-david-city-of</idno>
+            </place>
+            <place xml:id="place-ZM010" n="Reggio Emilia">
+               <placeName xml:lang="en" type="main">Reggio Emilia</placeName>
+               <placeName xml:lang="it">Reggio nell'Emilia</placeName>
+               <placeName xml:lang="he" type="main">רג'ו אמיליה</placeName>
+               <location>
+                  <geo>44.7096 10.6205</geo>
+               </location>
+               <country>Duchy of Modena and Reggio</country>
+               <note>city in the Duchy of Modena and Reggio located by the Crostolo river</note>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/543</idno>
+               <idno source="geoNames">6542002</idno>
+               <idno source="gnd">4116943-8</idno>
+               <idno source="viaf">242133821</idno>
+               <idno source="wikiData">Q13360</idno>
+               <idno source="britannica">https://www.britannica.com/place/Reggio-nellEmilia-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/reggio-nell-emilia</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12641-reggio</idno>
+            </place>
+            <place xml:id="ZM011" n="Alessandria">
+               <placeName xml:lang="en" type="main">Alessandria</placeName>
+               <placeName xml:lang="it">Alessandria</placeName>
+               <placeName xml:lang="he" type="main">אלסנדריה</placeName>
+               <location>
+                  <geo>44.916667 8.616667</geo>
+               </location>
+               <country>Duchy of Milan</country>
+               <note>Large city in the Duchy of Milan located by the Tanaro and the Bormida rivers</note>
+               <idno source="kima">13681</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/918</idno>
+               <idno source="geoNames">6541464</idno>
+               <idno source="gnd">4207729-1</idno>
+               <idno source="viaf">143051370</idno>
+               <idno source="wikiData">Q6088</idno>
+               <idno source="britannica">https://www.britannica.com/place/Alessandria-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/alessandria</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/1116-alessandria</idno>
+            </place>
+            <place xml:id="place-ZM012" n="Casale Montferrato">
+               <placeName xml:lang="en" type="main">Casale Monferrato</placeName>
+               <placeName xml:lang="it">Casale Monferrato</placeName>
+               <placeName xml:lang="he" type="main">קזאלה מונפראטו</placeName>
+               <location>
+                  <geo>45.133333 8.45</geo>
+               </location>
+               <country>Duchy of Mantua</country>
+               <note>city in the Duchy of Mantua located by the Po river</note>
+               <idno source="kima">8178</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/902</idno>
+               <idno source="geoNames">6536054</idno>
+               <idno source="gnd">4229867-2</idno>
+               <idno source="viaf">135580175</idno>
+               <idno source="wikiData">Q16333</idno>
+               <idno source="britannica">https://www.britannica.com/place/Casale-Monferrato</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/casale-monferrato</idno>
+            </place>
+            <place xml:id="place-ZM013" n="Vienna">
+               <placeName xml:lang="en" type="main">Vienna</placeName>
+               <placeName xml:lang="he" type="main">וינה</placeName>
+               <location>
+                  <geo>48.2 16.366667</geo>
+               </location>
+               <country>Holy Roman Empire</country>
+               <note>city in the Holy Roman Empire located by the Danube and Wien rivers</note>
+               <idno source="kima">945</idno>
+               <idno source="geoNames">2761369</idno>
+               <idno source="gnd">4066009-6</idno>
+               <idno source="viaf">155870729</idno>
+               <idno source="nli">000137900</idno>
+               <idno source="wikiData">Q1741</idno>
+               <idno source="britannica">https://www.britannica.com/place/Vienna</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/vienna</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/14699-vienna</idno>
+            </place>
+            <place xml:id="place-ZM014" n="Constantinople">
+               <placeName xml:lang="en" type="main">Constantinople</placeName>
+               <placeName xml:lang="he" type="main">קושטא</placeName>
+               <location>
+                  <geo>41.01 28.960278</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Capital city in the Ottoman Empire located by the Sea of Marmara</note>
+               <idno source="kima">533</idno>
+               <idno source="geoNames">745044</idno>
+               <idno source="gnd">4073697-0</idno>
+               <idno source="viaf">122641741</idno>
+               <idno source="wikiData">Q16869</idno>
+               <idno source="britannica">https://www.britannica.com/place/Istanbul</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/costantinopoli</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/4623-constantinople</idno>
+            </place>
+            <place xml:id="place-ZM015" n="Senigallia">
+               <placeName xml:lang="en" type="main">Senigallia</placeName>
+               <placeName xml:lang="it">Senigallia</placeName>
+               <placeName xml:lang="he" type="main">סניגליה</placeName>
+               <location>
+                  <geo>43.716667 13.216667</geo>
+               </location>
+               <note>city in the located by the Misa river</note>
+               <idno source="kima">8779</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/742</idno>
+               <idno source="geoNames">6536781</idno>
+               <idno source="viaf">123150796</idno>
+               <idno source="wikiData">Q124925</idno>
+               <idno source="britannica">https://www.britannica.com/place/Senigallia</idno>
+            </place>
+            <place xml:id="place-ZM016" n="Hamburg">
+               <placeName xml:lang="en" type="main">Hamburg</placeName>
+               <placeName xml:lang="he" type="main">המבורג</placeName>
+               <location>
+                  <geo>53.565278 10.001389</geo>
+               </location>
+               <country>Free Imperial City</country>
+               <note>Major port city in the Free Imperial City located by the Alster, Elbe</note>
+               <note>Port city at the Northern Sea. Zacuto lived in Hamburg from $$$$ to $$$$.</note>
+               <idno source="kima">994</idno>
+               <idno source="geoNames">2911298</idno>
+               <idno source="gnd">4023118-5</idno>
+               <idno source="viaf">148855657</idno>
+               <idno source="nli">000986517</idno>
+               <idno source="wikiData">Q1055</idno>
+               <idno source="britannica">https://www.britannica.com/place/Hamburg-Germany</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/amburgo</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/7131-hamburg</idno>
+            </place>
+            <place xml:id="place-ZM017" n="Padua">
+               <placeName xml:lang="en" type="main">Padua</placeName>
+               <placeName xml:lang="it">Padova</placeName>
+               <placeName xml:lang="he" type="main">פדובה</placeName>
+               <location>
+                  <geo>45.416667 11.866667</geo>
+               </location>
+               <country>Republic of Venice</country>
+               <note>city in the Republic of Venice located by the Bacchiglione river</note>
+               <idno source="kima">83</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/16</idno>
+               <idno source="geoNames">3171728</idno>
+               <idno source="viaf">160986471</idno>
+               <idno source="wikiData">Q617</idno>
+               <idno source="britannica">https://www.britannica.com/place/Padua-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/padova</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/11843-padua</idno>
+            </place>
+            <place xml:id="place-ZM018" n="Saloniki">
+               <placeName xml:lang="en" type="main">Saloniki</placeName>
+               <placeName xml:lang="he" type="main">סלוניקי</placeName>
+               <location>
+                  <geo>40.640317 22.935272</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Port city in the Ottoman Empire located by the Thermaic Gulf</note>
+               <idno source="kima">103</idno>
+               <idno source="geoNames">734077</idno>
+               <idno source="gnd">4051394-4</idno>
+               <idno source="viaf">312797568</idno>
+               <idno source="wikiData">Q17151</idno>
+               <idno source="britannica">https://www.britannica.com/place/Thessaloniki</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/salonicco</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/13042-salonica</idno>
+            </place>
+            <place xml:id="place-ZM019" n="Safed">
+               <placeName xml:lang="en" type="main">Safed</placeName>
+               <placeName xml:lang="he" type="main">צפת</placeName>
+               <location>
+                  <geo>32.965833 35.498333</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Small city in the Ottoman Empire located by the Nachal Akbara</note>
+               <idno source="kima">377</idno>
+               <idno source="geoNames">293100</idno>
+               <idno source="gnd">4225222-2</idno>
+               <idno source="viaf">243512273</idno>
+               <idno source="wikiData">Q188336</idno>
+               <idno source="britannica">https://www.britannica.com/place/Zefat</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/safed</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12990-safed</idno>
+            </place>
+            <place xml:id="place-ZM020" n="Busseto">
+               <placeName xml:lang="en" type="main">Busseto</placeName>
+               <placeName xml:lang="it">Busseto</placeName>
+               <placeName xml:lang="he" type="main">בוסטו</placeName>
+               <location>
+                  <geo>38.016667 12.733333</geo>
+               </location>
+               <country>Duchy of Parma</country>
+               <note>city in the Duchy of Parma located by the Po river</note>
+               <idno source="kima">11667</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/473</idno>
+               <idno source="geoNames">6543640</idno>
+               <idno source="viaf">143640645</idno>
+               <idno source="wikiData">Q481567</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/busseto</idno>
+            </place>
+            <place xml:id="place-ZM021" n="Ferrara">
+               <placeName xml:lang="en" type="main">Ferrara</placeName>
+               <placeName xml:lang="it">Ferrara</placeName>
+               <placeName xml:lang="he" type="main">פרארה</placeName>
+               <location>
+                  <geo>44.833333 11.616667</geo>
+               </location>
+               <country>part of the Papal States</country>
+               <note>Important city in the part of the Papal States located by the Po di Volano</note>
+               <idno source="kima">423</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/501</idno>
+               <idno source="geoNames">6542120</idno>
+               <idno source="gnd">4092153-0</idno>
+               <idno source="viaf">131333082</idno>
+               <idno source="wikiData">Q13362</idno>
+               <idno source="britannica">https://www.britannica.com/place/Ferrara-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/ferrara</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6090-ferrara</idno>
+            </place>
+            <place xml:id="place-ZM022" n="Ancona">
+               <placeName xml:lang="en" type="main">Ancona</placeName>
+               <placeName xml:lang="it">Ancona</placeName>
+               <placeName xml:lang="he" type="main">אנקונה</placeName>
+               <location>
+                  <geo>43.616944 13.516667</geo>
+               </location>
+               <country>part of the Papal States</country>
+               <note>Small city in the part of the Papal States located by the Adriatic Sea</note>
+               <idno source="kima">8714</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/678</idno>
+               <idno source="geoNames">6542126</idno>
+               <idno source="gnd">4001901-9</idno>
+               <idno source="viaf">130178261</idno>
+               <idno source="wikiData">Q3415</idno>
+               <idno source="britannica">https://www.britannica.com/place/Ancona-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/ancona</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/1491-ancona</idno>
+            </place>
+            <place xml:id="place-ZM023" n="Egypt">
+               <placeName xml:lang="en" type="main">Egypt</placeName>
+               <placeName xml:lang="he" type="main">מצרים</placeName>
+               <location>
+                  <geo>30.5 31</geo>
+               </location>
+               <idno source="kima">8046</idno>
+               <idno source="viaf">130890862</idno>
+               <idno source="wikiData">Q491507</idno>
+               <idno source="britannica">https://www.britannica.com/place/Egypt</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/egitto</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/10895-mizraim</idno>
+            </place>
+            <place xml:id="place-ZM024" n="Erets Israel">
+               <placeName xml:lang="en" type="main">Erets Israel</placeName>
+               <placeName xml:lang="he" type="main">ארץ ישראל</placeName>
+               <location>
+                  <geo>31 35</geo>
+               </location>
+               <idno source="kima">697</idno>
+               <idno source="geoNames">294640</idno>
+               <idno source="viaf">146498911</idno>
+               <idno source="wikiData">Q48175</idno>
+               <idno source="britannica">https://www.britannica.com/place/Palestine</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/palestina</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/9039-judea#anchor37</idno>
+            </place>
+            <place xml:id="place-ZM025" n="Izmir">
+               <placeName xml:lang="en" type="main">Izmir</placeName>
+               <placeName xml:lang="he" type="main">איזמיר</placeName>
+               <location>
+                  <geo>38.42 27.14</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Port city in the Ottoman Empire located by the Gulf of İzmir, Aegean Sea, Gediz River</note>
+               <idno source="kima">707</idno>
+               <idno source="geoNames">311046</idno>
+               <idno source="gnd">4096359-7</idno>
+               <idno source="viaf">128990823</idno>
+               <idno source="wikiData">Q35997</idno>
+               <idno source="britannica">https://www.britannica.com/place/Izmir</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/smirne</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/13813-smyrna</idno>
+            </place>
+            <place xml:id="place-ZM026" n="Livorno">
+               <placeName xml:lang="en" type="main">Livorno</placeName>
+               <placeName xml:lang="it">Livorno</placeName>
+               <placeName xml:lang="he" type="main">ליבורנו</placeName>
+               <location>
+                  <geo>43.55 10.316667</geo>
+               </location>
+               <country>Grand Duchy of Tuscany</country>
+               <note>Port city in the Grand Duchy of Tuscany located by the Ligurian Sea</note>
+               <idno source="kima">132</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/947</idno>
+               <idno source="geoNames">6540122</idno>
+               <idno source="gnd">4114431-4</idno>
+               <idno source="viaf">134273104</idno>
+               <idno source="nli">000085294</idno>
+               <idno source="wikiData">Q6761</idno>
+               <idno source="britannica">https://www.britannica.com/place/Livorno-Italy</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/9715-leghorn#sts=LEGHORN%20(Italian,%20Livorno;%20Hebrew,%20):</idno>
+            </place>
+            <place xml:id="place-ZM027" n="Meldola">
+               <placeName xml:lang="en" type="main">Meldola</placeName>
+               <placeName xml:lang="it">Meldola</placeName>
+               <placeName xml:lang="he" type="main">מלדולה</placeName>
+               <location>
+                  <geo>44.133333 12.05</geo>
+               </location>
+               <note>Small town in the located by the</note>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/521</idno>
+               <idno source="geoNames">3173635</idno>
+               <idno source="viaf">145616808</idno>
+               <idno source="wikiData">Q99945</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/meldola</idno>
+            </place>
+            <place xml:id="place-ZM028" n="Poland">
+               <placeName xml:lang="en" type="main">Poland</placeName>
+               <placeName xml:lang="he" type="main">פולין</placeName>
+               <location>
+                  <geo>52 20</geo>
+               </location>
+               <idno source="kima">7313</idno>
+               <idno source="viaf">51145003714561340859</idno>
+               <idno source="wikiData">Q36</idno>
+               <idno source="britannica">https://www.britannica.com/place/Poland</idno>
+            </place>
+            <place xml:id="place-ZM029" n="Poznań">
+               <placeName xml:lang="en" type="main">Poznań</placeName>
+               <placeName xml:lang="he" type="main">פוזנן</placeName>
+               <location>
+                  <geo>52.4 16.916667</geo>
+               </location>
+               <country>Polish–Lithuanian Commonwealth</country>
+               <note>city in the Polish–Lithuanian Commonwealth located by the Warta</note>
+               <idno source="kima">84</idno>
+               <idno source="geoNames">3088171</idno>
+               <idno source="gnd">4046868-9</idno>
+               <idno source="viaf">158250702</idno>
+               <idno source="nli">000107453</idno>
+               <idno source="wikiData">Q268</idno>
+               <idno source="britannica">https://www.britannica.com/place/Poznan</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/poznan</idno>
+            </place>
+            <place xml:id="place-ZM030" n="Ragusa">
+               <placeName xml:lang="en" type="main">Ragusa</placeName>
+               <placeName xml:lang="it">Ragusa</placeName>
+               <placeName xml:lang="he" type="main">רגוזה</placeName>
+               <location>
+                  <geo>42.640278 18.108333</geo>
+               </location>
+               <note>city in the located by the</note>
+               <idno source="viaf">316732547</idno>
+            </place>
+            <place xml:id="place-ZM031" n="Rome">
+               <placeName xml:lang="en" type="main">Rome</placeName>
+               <placeName xml:lang="it">Roma</placeName>
+               <placeName xml:lang="he" type="main">רומא</placeName>
+               <location>
+                  <geo>41.883333 12.5</geo>
+               </location>
+               <country>part of the Papal States</country>
+               <note>Capital city in the part of the Papal States located by the Tiber</note>
+               <idno source="kima">440</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/54</idno>
+               <idno source="geoNames">3169070</idno>
+               <idno source="gnd">4050471-2</idno>
+               <idno source="viaf">251380480</idno>
+               <idno source="nli">000974521</idno>
+               <idno source="wikiData">Q220</idno>
+               <idno source="britannica">https://www.britannica.com/place/Rome</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/roma</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/14482-trastevere</idno>
+            </place>
+            <place xml:id="place-ZM032" n="Florence">
+               <placeName xml:lang="en" type="main">Florence</placeName>
+               <placeName xml:lang="it">Firenze</placeName>
+               <placeName xml:lang="he" type="main">פירנצה</placeName>
+               <location>
+                  <geo>43.783333 11.25</geo>
+               </location>
+               <country>Grand Duchy of Tuscany</country>
+               <note>city in the Grand Duchy of Tuscany located by the Arno</note>
+               <idno source="kima">411</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/773</idno>
+               <idno source="geoNames">6542285</idno>
+               <idno source="gnd">4017581-9</idno>
+               <idno source="viaf">158387156</idno>
+               <idno source="wikiData">Q2044</idno>
+               <idno source="britannica">https://www.britannica.com/place/Florence</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/firenze</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6194-florence</idno>
+            </place>
+            <place xml:id="place-ZM033" n="Aleppo">
+               <placeName xml:lang="en" type="main">Aleppo</placeName>
+               <placeName xml:lang="he" type="main">חלב</placeName>
+               <location>
+                  <geo>36.2 37.15</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>city in the Ottoman Empire located by the Queiq river</note>
+               <idno source="kima">794</idno>
+               <idno source="geoNames">170063</idno>
+               <idno source="gnd">4001116-1</idno>
+               <idno source="viaf">152061976</idno>
+               <idno source="wikiData">Q41183</idno>
+               <idno source="britannica">https://www.britannica.com/place/Aleppo</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/aleppo</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/7089-haleb</idno>
+            </place>
+            <place xml:id="place-ZM034" n="Kraków">
+               <placeName xml:lang="en" type="main">Kraków</placeName>
+               <placeName xml:lang="he" type="main">קרקוב</placeName>
+               <location>
+                  <geo>50.061389 19.937222</geo>
+               </location>
+               <country>Polish–Lithuanian Commonwealth</country>
+               <note>city in the Polish–Lithuanian Commonwealth located by the Vistula river</note>
+               <idno source="kima">489</idno>
+               <idno source="geoNames">3094802</idno>
+               <idno source="gnd">4073760-3</idno>
+               <idno source="viaf">125421472</idno>
+               <idno source="nli">000977192</idno>
+               <idno source="wikiData">Q31487</idno>
+               <idno source="britannica">https://www.britannica.com/place/Krakow</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/cracovia</idno>
+            </place>
+            <place xml:id="place-ZM035" n="Pesaro">
+               <placeName xml:lang="en" type="main">Pesaro</placeName>
+               <placeName xml:lang="it">Pesaro</placeName>
+               <placeName xml:lang="he" type="main">פזרו</placeName>
+               <location>
+                  <geo>43.916667 12.9</geo>
+               </location>
+               <country>Papal States</country>
+               <note>city in the Papal States located by the Adriatic Sea</note>
+               <idno source="kima">1686</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/730</idno>
+               <idno source="geoNames">6542003</idno>
+               <idno source="gnd">4115912-3</idno>
+               <idno source="viaf">131207135</idno>
+               <idno source="wikiData">Q13134</idno>
+               <idno source="britannica">https://www.britannica.com/place/Pesaro</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/pesaro</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12057-pesaro</idno>
+            </place>
+            <place xml:id="place-ZM036" n="Siena">
+               <placeName xml:lang="en" type="main">Siena</placeName>
+               <placeName xml:lang="it">Siena</placeName>
+               <placeName xml:lang="he" type="main">סיינה</placeName>
+               <location>
+                  <geo>43.318611 11.330556</geo>
+               </location>
+               <country>Grand Duchy of Tuscany</country>
+               <note>city in the Grand Duchy of Tuscany located by the</note>
+               <idno source="kima">6445</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/800</idno>
+               <idno source="geoNames">6541466</idno>
+               <idno source="gnd">4054903-3</idno>
+               <idno source="viaf">239842096</idno>
+               <idno source="nli">000122481</idno>
+               <idno source="wikiData">Q2751</idno>
+               <idno source="britannica">https://www.britannica.com/place/Siena-Italy</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/siena</idno>
+            </place>
+            <place xml:id="place-ZM037" n="Urbino">
+               <placeName xml:lang="en" type="main">Urbino</placeName>
+               <placeName xml:lang="it">Urbino</placeName>
+               <placeName xml:lang="he" type="main">אורבינו</placeName>
+               <location>
+                  <geo>43.716667 12.633333</geo>
+               </location>
+               <country>Papal States</country>
+               <note>city in the Papal States located by the</note>
+               <idno source="kima">6358</idno>
+               <idno source="itJudaica">http://www7.tau.ac.il/omeka/italjuda/items/show/748</idno>
+               <idno source="geoNames">6541472</idno>
+               <idno source="gnd">4119316-7</idno>
+               <idno source="viaf">122906755</idno>
+               <idno source="nli">000136246</idno>
+               <idno source="wikiData">Q2759</idno>
+               <idno source="britannica">https://www.britannica.com/place/Urbino</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/urbino</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/14599-urbino</idno>
+            </place>
+        </listPlace>
+    </standOff>
+</TEI>

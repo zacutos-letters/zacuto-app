@@ -1,0 +1,176 @@
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:functx="http://www.functx.com" xmlns:saxon="http://saxon.sf.net/" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Moses ben Mordecai Zacuto — <foreign xml:lang="he">זכות,
+                  משה בן מרדכי</foreign>
+            </title>
+            <title level="m" xml:lang="en">The Corpus of R. Moses Zacuto’s Correspondence and Lexica
+               of Holy Names: Editions, Tools, and Database</title>
+            <sponsor ref="https://www.uni-halle.de/">
+               <orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg</orgName> (<orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg </orgName>) </sponsor>
+            <sponsor ref="https://www.judaistik.uni-halle.de/">
+               <orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName> (<orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName>) </sponsor>
+            <sponsor ref="https://in.bgu.ac.il/">
+               <orgName xml:lang="he">אוניברסיטת בן-גוריון בנגב</orgName> (<orgName xml:lang="en">Ben-Gurion University of the Negev in the Negev</orgName>) </sponsor>
+            <funder ref="https://www.dfg.de/">
+               <orgName xml:lang="de">DFG: Deutsche Forschungsgemeinschaft</orgName> (<orgName xml:lang="en">German Science Foundation</orgName>) </funder>
+            <principal ref="#gnecker">Gerold Necker</principal>
+            <principal ref="#yharari">Yuval Harari</principal>
+            <editor xml:id="mmoliere" role="contributor" ref="                         https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/                         https://orcid.org/0000-0002-2168-8655                         http://viaf.org/viaf/65156495392717561393">Maximilian de Molière</editor>
+            <editor role="creator" ref="#mmoliere">Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Data compilation and conversion into TEI-XML format by</resp>
+               <name type="person" ref="#mmoliere">Maximilian de Molière</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original tabular architecture and XSLT script by</resp>
+               <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.6.0-dev"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <ref target="https://zacuto.net">zacuto.net</ref>
+            </authority>
+            <idno type="URI">https://zacuto.net/person/ZP001/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
+                     License.</p>
+               </licence>
+            </availability>
+            <date>2021-11-24+01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the Syriaca.org guidelines. Documentation available at:
+                  <ref target="http://syriaca.org/documentation">http://syriaca.org/documentation</ref>.</p>
+            <interpretation>
+               <p>Approximate dates described in terms of centuries or partial centuries have been
+                  interpreted as documented in <ref target="http://syriaca.org/documentation/dates.html">Syriaca.org
+                  Dates</ref>.</p>
+            </interpretation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="syriaca-headword">
+                  <catDesc>The name used by Syriaca.org for document titles, citation, and
+                     disambiguation. These names have been created according to the Syriac.org
+                     guidelines for headwords:
+                        <ref>http://syriaca.org/documentation/headwords.html</ref>.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="he">Hebrew</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft"/>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="ZP001">
+               <persName xml:lang="en" type="main">Moses ben Mordecai Zacuto</persName>
+               <persName xml:lang="he" type="main">זכות, משה בן מרדכי</persName>
+               <persName xml:lang="en">
+                  <addName type="patronym">Mordecai</addName>
+                  <forename>Moses</forename>
+                  <surname>Zacuto</surname>
+               </persName>
+               <persName xml:lang="he">
+                  <addName type="patronym">מרדכי</addName>
+                  <forename>משה</forename>
+                  <surname>זכות</surname>
+               </persName>
+               <birth>
+                  <placeName key="place-ZM005">Amsterdam</placeName>
+               </birth>
+               <death>
+                  <placeName key="place-ZM002">Mantua</placeName>
+               </death>
+               <sex>male</sex>
+               <faith>Judaism</faith>
+               <note type="bioSummary">Dutch-Italian poet and kabbalist who was active in Venice,
+                  Mantua, Padua. He was born in 1625 in Amsterdam and died in
+                  1697 in Mantua.</note> 
+               <idno source="isni">0000 0001 1827 880X</idno>
+               <idno source="viaf">100212052</idno>
+               <idno source="wikidata">Q1148266</idno>
+               <idno source="gnd">130677973</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/mose-zacuto_%28Enciclopedia-Dantesca%29/</idno>
+               <idno source="jE">https://jewishencyclopedia.com/articles/12986-sacuto-zakuto-moses-b-mordecai</idno>
+                <linkGrp type="sender">
+                        <link target="ZL00110">Moses Zacuto to Abraham Rovigo in Modena Venice, Lag be-ʿOmer
+                    / P. Emor 5433 (4 May 1673) </link>
+                        <link target="ZL00111">Moses Zacuto to [Abraham Rovigo] in [Modena], [Venice]</link>
+                        <link target="ZL00462">Moses Zacuto to Angel Basani in Verona  Mantua, P. Haʾazinu
+                    5456? (11-17 September 1695) </link>
+                        <link target="ZL00116">Moses Zacuto to Abraham Rovigo in Modena, Mantua, Parashat Ki Teitzei, 5436
+					(1675/1676)</link>
+                        <link target="ZL00129">Moses Zacuto to Abraham Rovigo in Modena, Mantua, Lag be-Omer 5440 (17 May
+					1680)</link>
+                        <link target="ZL00128">Moses Zacuto to Abraham Rovigo in Modena Mantua, P. Tetsaweh
+                    5440 (4-10 February 1680) </link>
+                        <link target="ZL00007">Moses Zacuto to Abraham Rovigo in [Modena]Venice, P. Nitsavim
+                    5430 (7-13 September 1670) </link>
+                        <link target="ZL00006">Moses Zacuto to Abraham Rovigo in [Modena] Venice, 3 Elul 5430
+                    (19 August 1670) </link>
+                        <link target="ZL00012">Moses Zacuto to Abraham Rovigo in
+                    ModenaVenice, P. Pinḥas 5432 (10-16 July 1672) </link>
+                        <link target="ZL00011">Moses Zacuto to Abraham Rovigo in ModenaVenice, 37 ʿOmer 5432
+                    [22 Iyyar] (19 May 1672) </link>
+                        <link target="ZL00439">Moses Zacuto to Isaac ha-Levi and Judah in Reggio 
+                </link>
+                        <link target="ZL00340">Moses Zacuto to Community of Mantua in Mantua, Venice, P. Va-yiḳra 5433
+					(18-24 March 1673)</link>
+                        <link target="ZL00119">Moses Zacuto to Abraham Rovigo in Modena, [Mantua], [5436]</link>
+                        <link target="ZL00092">Moses Zacuto to Abraham Rovigo in Mantua, Venice, 6 Elul 5431 (12 August
+					1671)</link>
+                        <link target="ZL00118">Moses Zacuto to Abraham Rovigo in Modena</link>
+                        <link target="ZL00330">Moses Zacuto to Abraham Rovigo in
+                    ModenaVenice, P. Pinḥas 5432 (10-16 July 1672) </link>
+                        <link target="ZL00127">Moses Zacuto to Abraham Rovigo in Modena Mantua, P. Beshalaḥ
+                    5440 (7-13 January 1680) </link>
+                        <link target="ZL00095">Moses Zacuto to Abraham Rovigo in Modena</link>
+                        <link target="ZL00120">Moses Zacuto to Abraham Rovigo in Modena</link>
+                        <link target="ZL00134">Moses Zacuto to [Abraham Rovigo] in [Modena]   Mantua, 14 of
+                    ʿOmer 5447 [29 Nisan] (12 April 1687) </link>
+                        <link target="ZL00121">Moses Zacuto to Abraham Rovigo in Modena, Mantua, P. Lech-Lecha 5437 (17-23 October 1676)</link>
+                        <link target="ZL00109">Moses Zacuto to Abraham Rovigo in [Modena], Venice, P. Shemini /
+                    13 Nisan 5433 (30 March 1673) </link>
+                    </linkGrp>
+                    <linkGrp type="adressee">
+                        <link target="ZL00215">Abraham Rovigo to Moses Zacuto Before 3 Elul 5430 (Before 19
+                    August 1670) </link>
+                        <link target="ZL00026">Benjamin ha-Kohen to Moses Zacuto in Venice</link>
+                        <link target="ZL00220">[Abraham Rovigo] to Moses Zacuto in [Venice], [Modena], 13 Tishri 5431 (27
+					September 1670)</link>
+                    </linkGrp>
+                    <linkGrp type="mentioned-by-zacuto">
+                        <link target="ZL00092">Moses Zacuto to Abraham Rovigo in Mantua, Venice, 6 Elul 5431 (12 August
+					1671)</link>
+                        <link target="ZL00121">Moses Zacuto to Abraham Rovigo in Modena, Mantua, P. Lech-Lecha 5437 (17-23 October 1676)</link>
+                    </linkGrp>
+                    <linkGrp type="mentioned-by-other">
+                        <link target="ZL00220">[Abraham Rovigo] to Moses Zacuto in [Venice], [Modena], 13 Tishri 5431 (27
+					September 1670)</link>
+                    </linkGrp>  
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

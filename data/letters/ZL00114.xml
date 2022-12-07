@@ -1,0 +1,191 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"??><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:saxon="http://saxon.sf.net/" xml:id="ZL00114">
+   <teiHeader xmlns="">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Moses Zacuto to Abraham Rovigo in Modena<lb/> P. Shemot
+                            5434 (24-30 December 1673) </title>
+            <editor>Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Maximilian de
+                                Molière</name>
+               <resp>Conversion to TEI</resp>
+               <name>Maximilian de
+                                Molière</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Moses Zacuto Correspondence
+                                    Project</name>
+               <address>
+                  <name>Seminar für Judaistik/ Jüdische
+                                    Studien</name>
+                  <institution>Martin-Luther Universität
+                                    Halle-Wittenberg</institution>
+                  <street>Großer Berlin
+                                    14</street>
+                  <postCode>06108</postCode>
+                  <placeName>
+                     <country>Germany</country>
+                     <settlement>Halle / Saale</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY
+                                4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="summary">1. Thanks for Rovigo's assistance. 2. Benjamin ha-Kohen
+                            has promised that he will send to Rovigo the replies he received from
+                            Zacuto concerning "secrets" and kawwanot.Kohen also had Neḥemias copy
+                            yiḥudim for tiqqun shovevim who also worked on the copy of Sefer
+                            ha-Kawwanot for Rovigo. Z. will see to it that the copies of Sefer
+                            ha-Kinuyyim and novella on Yodʿei Binah will be sent to Rovigo. He paid
+                            almost one Hungarian ducat for the two volumes more than Rovigo had
+                            sent. David Aviaṭar expects payments of another ducat for his work.
+                            Payment of these debts leaves in Z's hands six pounds and 6 scudi. 3. Z.
+                            thanks for the wine Rovigo sent him.</note>
+            <note type="incipit" xml:lang="he">את קולך שמעתי</note>
+         </notesStmt>
+         <sourceDesc>
+            <listWit>
+               <summary>
+                  <bold>Autograph:</bold>
+                  <label>L9165</label> London BL, Or. 9165, f. 40a.<bold>Copy
+                                    Scribe:</bold>
+                  <label>J165</label> Jerusalem, Benayahu K 165, ff.
+                                    34b-35a.<bold>Text from L9165.</bold>
+               </summary>
+               <witness xml:id="J165">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Israel</country>
+                        <settlement>Jerusalem</settlement>
+                        <repository>Meir
+                                            Benayahu Library</repository>
+                        <idno>K
+                                            165</idno>
+                        <locus>34b-35a</locus>
+                        <altIdentifier type="IMHM">F 72372</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L9165">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>United
+                                            Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British
+                                            Library</repository>
+                        <idno>Or.
+                                            9165</idno>
+                        <locus>40a</locus>
+                        <altIdentifier type="IMHM">F 6601</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <additional>
+               <listBibl>
+                  <bibl n="firstPrint"/>
+               </listBibl>
+            </additional>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This edition was created as part of the DFG-funded project "Encyclopedic
+                            Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of
+                            Practical and Theoretical Kabbalah".</p>
+         </projectDesc>
+         <editorialDecl>
+            <punctuation>
+               <p>All punctuation marks in the source manuscript have been
+                                retained and represented using the appropriate Unicode code point.
+                            </p>
+            </punctuation>
+            <interpretation>
+               <p>Names of persons, places and works are marked.
+                                </p>
+               <p>Dates are marked and equivalents in the Gregorian calendar
+                                are given. </p>
+               <p>Quotes and allusions to other texts are marked and
+                                referenced. </p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="Hebrew">
+               <p>Hebrew calendar; depending on the source the
+                                Hebrew date is partly given in months and days and partly in the
+                                sections of the Pentateuch (pericopes) that were read in the week of
+                                the composition.</p>
+            </calendar>
+            <calendar xml:id="Gregorian">
+               <p>Gregorian calendar; computed from the Hebrew
+                                date. If the Hebrew date is given as a pericope in the source, a
+                                range of days is computed.</p>
+            </calendar>
+         </calendarDesc>
+         <!--NAMEN UND ORTE AKTUALISIEREN-->
+         <correspDesc n="ZL00114">
+            <correspAction type="sent">
+               <idno>ZL00114</idno>
+               <persName key="ZP001" cert="high">Moses Zacuto</persName>
+               <date calendar="hebrew">P. Shemot
+                                5434</date>
+               <date when="1673" calendar="gregorian">24-30 December
+                                1673</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ZP003" cert="high">Abraham
+                                Rovigo</persName>
+               <settlement key="ZM004" cert="high">Modena</settlement>
+               <!--Poznań, Erets Israel, Meldola, Ragusa, Rome, Poland, Egypt, Livorno, Halab, Ferrara, Izmir, Ancona-->
+            </correspAction>
+            <correspContext> </correspContext>
+         </correspDesc>
+         <langUsage>
+            <language ident="he">Hebrew</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xmlns="" type="letter" xml:lang="he" xml:id="ZL00114">
+      <body>
+         <div>
+            <p>
+               <opener>
+                  <salute>HELLO</salute>
+               </opener>
+            </p>
+            <p>MAIN TEXT</p>
+            <dateline>
+               <p>DATE PLACE</p>
+            </dateline>
+            <closer>
+               <p>
+                  <salute>GOODBYE</salute>
+                  <signed>NAME</signed>
+               </p>
+            </closer>
+            <postscript>
+               <p>POSTSCRIPT</p>
+            </postscript>
+         </div>
+         <div type="address">
+            <p>
+               <pb n="FOLIO"/>
+               <address>
+                  <addrLine>ADDRESS</addrLine>
+                  <addrLine>ADDRESS</addrLine>
+               </address>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

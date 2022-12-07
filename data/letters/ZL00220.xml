@@ -1,0 +1,107 @@
+<!--<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00220">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>	<title>[Abraham Rovigo] to Moses Zacuto, [Modena], 13 Tishri 5431 (27 September 1670)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00003">[Abraham Rovigo]</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher> <name>Seminar für Judaistik/ Jüdische Studien</name> <address>
+					<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+					<street>Großer Berlin 14</street>
+					<postCode>06108</postCode>
+					<placeName> <country>Germany</country>
+						<settlement>Halle / Saale</settlement> </placeName>
+					</address> </publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">Rovigo has letter transported together with two other items through R. Abraham.</note>
+				<note type="incipit" xml:lang="he">הן האדם הגדול</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165"> <msDesc>
+						<msIdentifier>
+							<country>UK</country>
+							<settlement>London</settlement>
+							<repository>British Library</repository>
+							<idno>Or. 9165</idno>
+							<locus>4b </locus>
+						</msIdentifier>
+						</msDesc> </witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00220">
+				<correspAction type="sent">
+					<idno>ZL00220</idno>
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+					<date calendar="hebrew">13 Tishri 5431</date>
+					<date when="1670" calendar="gregorian">27 September 1670</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM001">Venice</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<standOff>
+		<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Index_Folder/Zacuto_People.xml" xpointer="element(personenListe)"/>
+	</standOff>
+	<text type="letter" xml:lang="he" xml:id="ZL00220">
+		<front>
+			<div type="abstract"/>
+		</front>
+		<body>
+			<div>
+				<opener>
+					<salute>אבי אבי רכב ישראל ופרשיו, המ<unclear/> לאדם דעת דבר דבור על אופניו</salute> </opener>
+				<p>הן האדם הגדול בערקים יצא יצא לקראת יתוש ושלשול קטן שבים בכמה מעלות טובות ולראות לו חשק חיבתו לעבדו זקן ביתו עבד נרצע התאב בכל לב לעבדו ולשרתו הנה כי כן יבורך גבר גברא רבא וחסינא דבסרקום גדולתו שם [.]ציך עכותנותו כי רבה היא ובכן לו דומה תהלה ולכן אומ׳ שישו בני מעי שישו שנת כוונתי לדעת גדול׳ ע״ד הי <unclear/>א דתפילה דיד וחינא וחסדא <persName key="ZP00001">למעכ״ת</persName> דפתח לי ב[ה]א פתח כפתחו של אולם ודרכיו -- שמרתי ולא אני ובהא נחיתנא ובהא סליקנא ומינא לא אזרז (כמו שאעשה גם כן ע״ד העתקת הספרים ומיד אכתוב בשביל כך, אל <persName key="ZP00002">כמה״ר בנימן הכהן</persName> נאח״כ שיתרצה גם הוא <workName>בסידור מעכ״ת</workName> והנני שולח ליד <persName key="ZP00004">ר׳ אברהם מינייץ</persName> ב׳ כפולות כדי שיתום מיד <persName key="ZP00001">למעכ״ת</persName> אם אגרתי זאת קודם נסיעת<persName key="ZP00001">מעכ[״]ת</persName> כדי ללכת <placeName key="ZPL00002">לא״י</placeName>) וכ״ש הישתא דמניא לי גילה אחד גילה בשמועה קרובה הנה באה ונהיתה שחר[.] אל <persName>שמעכ״ת</persName> מתיישב מחודש בעיר <placeName key="ZPL00001">וניציאה</placeName> ואינו נוסע ממנה עוד זאת היא נחמתי שיהיה לי מעיר לעזור הן על הספרים שחסרים לי הן לידע ולהודיע ולהיודע<del rend="strikethrough">לה</del> במאי דחהורי מחהדא<add place="above">מיני ויימא</add> דהכי קתני מה אומר לשני׳ אדו׳ דם מה אדבר ומה אצטדק על כל הטובות אשר בכל עת ו<add place="above">בכל שעה עו</add> ה עמי ובדרך ודיבה יסמכני אין לי לא לסמוך על בעל הגמולות שישלם <persName key="ZP00001">למעכ״ת</persName> לך לפי לפי׳ ו[.]כי רבות פעמי׳ הטובות שעשה עמי והנני שולח <persName key="ZP00001">למעכ״ת</persName> שני כפולות אשר כתבת לכהר פלו׳[ני] שיתנם לו אשר ע״ז אני מעתיר שיודיעני אם הגיעו לידו,<del rend="strikethrough">ואם</del> מעל׳ החסיד <persName key="ZP00002">ר׳ בנימין הכהן</persName> <subst>
+					<del rend="strikethrough">הגיע</del>
+					<add place="above">שלח</add>
+					</subst> לידי הכתב הלזה אשר הוא כמוס בתוך כתבי ולפי שיראתי שמא לא תגיע ליד <persName key="ZP00001">מעכ״ת</persName> קודם נסיעתו ועתה שידעתי נאמנה שאינו נוסע עוד ת״ל<del rend="strikethrough">אני שלח</del> שלחתיה <persName key="ZP00001">למעכ״ת</persName> [.]די שיפדוס הודו והדרו עליו וידריכהו בדרך שרה וברה בעוני אלקי׳ ואדם, הוה נא פתחתי פי׳ דברה לשוני<del rend="strikethrough">בניהן</del> בחכי להטריח <persName key="ZP00001">למעכ״ת</persName> שנא בלשון בקשה אם ימצא<del rend="">שא</del>
+					<workName>ס׳ שערי ציון</workName> שיקנהו בעדי ועלי לשלם למד כל מה שיוציא בעדו ואם הטרחתי יותר מדאי <persName key="ZP00001">למעכ״ת</persName> עליו הסליחה כי עיני תלויות <persName key="ZP00001">ולמעכ״ת</persName> הסליחה ומהל׳ תהיה משבורתו שלמה ובכריעה על ב[ת]כים ובקידה אפים אשק ידיו הקדושות והטהרות<subst>
+					<del rend="strikethrough">אולא מלפניו</del>
+					<add place="above">מברכות</add>
+					</subst> אפיו נא ברך יברכני והל׳ אקי׳ חיים ומלך עולם שמחהר ויוהגהו עלמות במקראי קדש הבאים לקראתינו לשלו׳ ואדברה נא שלו׳<subst>
+					<add place="above">רב</add>
+					<del rend="strikethrough">בך בך […]</del>
+					</subst> מורי יש הו[א]</p>
+				<dateline>י״ג תשרי התל״א ס׳ ירכבהו על בתותי ארץ</dateline>
+				<closer>עב[ד]א נוהם כריסיה לא שוי</closer>
+			</div>
+			<div type="address">
+				<address>
+					<addrLine>יעלה ויבא יגיע יראה וירצה אל יד תפארת רבנים והחכמה<add place="below">בינה כירח</add> אשר אור תורתו שואך זורח ולעד יכון ה״ה מעל׳ <persName key="ZP00001">כמהר״ר משה זכות נר״ו</persName>
+                    </addrLine>
+				</address>
+			</div>
+		</body>
+	</text>
+</TEI>

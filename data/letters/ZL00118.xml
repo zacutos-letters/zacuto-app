@@ -1,0 +1,115 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00118">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>				
+				<title>Moses Zacuto to Abraham Rovigo, Mantua 12 Menaḥem-Av 5436 (22 July 1676)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. Z. thanks Abraham Rovigo for sending him tobacco. 2. Z. received letter in secret from another scholar in halakhic matter and gives the minutae of this legal case. 3. Z. encloses gazelle parchment for the preparation of an amulet and advises him to wait until Elul.</note>
+				<note type="incipit" xml:lang="he">מיד אחיך הגדול</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>46a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00118">
+				<correspAction type="sent">
+					<idno>ZL00118</idno>
+					<persName key="ZP00001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+					<date calendar="hebrew">12 Menaḥem-Av 5436</date>
+					<date when="1676" calendar="gregorian">22 July 1676</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>בני חמודי יקירי וידידי נר״ו</salute>
+					</opener>
+				</p>
+				<p>מיד <persName key="">אחיך הגדול יצ״ו</persName> קבלתי אגרתך המסולאה ובתוכה הקמיע אשר שלחתי אליך וגם נתן לי שני מיני הטאבאקו חן חן לך כי יש לי רב בו לכמה זמן אם יגזור ה׳ בחיים, ידוע תדע כי אותו <persName key="">ת״ח</persName> החולק עלי בענין הודעת התובע תביעתו לנתבע כתב בדרך העלם וסתר ע״י א׳ <placeName key="">מפדואה</placeName> <placeName key="">לויניציאה</placeName> על אותו הדבר והיה מבקש שישלחו חתימת ידיהם עליו <persName key="">והרבנים נר״ו</persName> חשבו שהשאלה היא בבאים לפני ב״ד קבוע כשלהם והשיבו על פה לשאול שאין התובע חייב להודיע תביעתו מה שגם אני מודה בזה כי עיקר דברי הוא במבוררים ועתה עתה ברוך ה׳ הנני שולח לך מה שכתבתי בענין זה ותחלה תראהו למעלת אחי ורעי <persName key="">כמוה״ררי לוי נר״ו</persName> בהרבות לו אלומות שלומות מאתי, ואח״כ תסדר כתב א׳ <persName key="">למע׳ כמוהר״ר שמואל אבוהב נר״ו</persName> ותשלח לו את פסקי בשמך כי אתה ידעת שאין לב איזה מרבני <placeName key="">ויניציאה</placeName> שלם עמי ובפרט אותו <persName key="">ר׳ יוסף אלואלאנסי</persName> הנודע במעשיו ובמקומו, אך תחלה פניו שאם לא ירצה להראותו לרבני הישיבה שלכל הפחות יודיעך דעתו בדבר</p>
+				<p> והנה פה כמוס הקלף צבי שמאחוריו שיש כמה שערות נודע וניכר שהוא של צבי ואינו רוצה לפחות ממה שכתבתי לך, ואם אין השעה דחוקה הייתי מיעץ אותך שתמתין לסדר כתיבת הקמיעות עד ר״ח אלול כי עת רצון הוא לה׳ הוא ברחמיו יברכך וישמרך מכל רע ומכל מחלה ואת כל בני ביתך ינצור ויגן עליהם ברוב עוז ושלו׳</p>
+				<dateline>
+					<p>
+                        <placeName key="">מנטו׳</placeName> סי׳ טבא למנחם ש׳ ישענו</p>
+				</dateline>
+				<closer>
+					<p> כאב את בן ירצה <l/> <persName key="">משה בכה״ר מרדכי זכות זלה״ה</persName>
+                    </p>
+				</closer>
+				<postscript>
+					<p>ואם תרצה <persName key="">שהפרווינצאל</persName> יעתיק לך גם אותם ב׳ קונטריסים שהנחת ביד <persName key="">החכ׳ ר׳ יוסף ריקיטי</persName> אעשה כרצונך וש״ש</p>
+				</postscript>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine>
+                            <pb key="47b"/> Al molto ecc[ellen]te sig[nore] כמהח״ר Abraham f[iglio] Refael Rovigo נר״ו <l/> Mod[en]a</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

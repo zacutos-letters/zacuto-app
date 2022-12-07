@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00119">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				
+				<title>Moses Zacuto to Abraham Rovigo, [Mantua]</title>
+
+				<title level="s">The Correspondence of R. Moses Zacuto</title>				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. As Z. is too occupied with his own affairs to fulfill Rovigo's request for an amulet. 2. He sends Abraham Rovigo the recipe for the amulet which his student had requested.</note>
+				<note type="incipit" xml:lang="he">קבלתי אגרת בשורותיך</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>48a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00119">
+				<correspAction type="sent">
+					<idno>ZL00119</idno>
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>הבן יקיר לי שלו׳</salute>
+					</opener>
+				</p>
+				<p>קבלתי אגרת בשורותיך הטובות מהגעתך לביתך לשלו׳ ואברך את ה׳ אלקי׳ אברהם אשר הנחך בדרך אמת יהי רצון מלפניו להשגיח על קהלת קדושכם בחסד ובחמלה ויסיר מכם כל מחלה. על דבר הקמיע אשר שאלת ממני ההעתק לא היה פנאי לעשותו ולכן גמרתי לשלוח לך העיקרי אשר כמוס הנה ואתה תצוה להעתיקה ובשבוע הע״ל תשוב ותחזירנו לי בלי שהיה כי אין לי אחר זולתו ועיניך תחזנה התפלה הכוללת לכל דבר ואם תחפוץ לעשותו אל בנך יקירך ה׳ ישמרהו תכתב כל התפלה מענין החכמה והבינה ואם תעשהו להקבה אין צריך להזכיר כן רק שתהיה הכתיבה בקדושה טבילה ותענית ואחר שתסיים עשייתה ותכפלוה היטב יכתב מצד א׳ החיצון את החותם שהוא מא׳ עד ט׳ ועולה שם יה מכל צד ומכל פנה ומהצד הב׳ יכתב זה [magic square] שהוא נקרא חותם שלמה ונעשה בבת א׳ לא בב׳ פעמים ואח״כ תכרכנו בגידין כשרין ותקשור ד׳ קשרים ובכל קשר תכוין לשם א׳ משם כ״ב <del xmlns="">אקת</del> אנקת׳ וכו׳ ואח״כ כל הד׳ קשרים תאמר בשם אברהם יצח׳ ויעק׳ משה ואהרן דוד ושלמה ואח״כ תכסה הכל בשעוה בתולה ואח״כ במכסה עור דק ותתפור בו משיחה <foreign>cordela</foreign> של משי לתלותו בצואר וכשתתלהו תאמר ג׳ פסו׳ ה׳ צבאות עמנו, ה׳ צבאות אשרי, ה׳ הושיעה ויהי נועם וחפץ ה׳ בידך יצלח ועוד איעצך ותעשה הכופר נפש אשר מסרתי לך בעד בנך ישמרהו צורו אבל היה עיקר גדול למצוא קלף צבי כי כך צוה <persName key="">האר״י זלה״ה</persName> ודע כי בכאן נמצא ביד בעל בית א׳ שאינו רוצה להזכר חתיכת קלף צבי אבל שאל לי בעדה דופיא א׳ ויהיה בה כדי ב׳ קמיעות, ובזה אשים <add xmlns="">יד</add> על קץ, יד יושיעך מכל רע ויגן בעדך ובעד כל אשר לך ברוב עוז ושלו׳</p>
+				<closer>
+					<p>כאב את בן ירצה <l/> <persName key="">משה בכה״ר מרדכי זכות זלה״ה</persName>
+                    </p>
+				</closer>
+				<postscript>
+					<p> בחסדך שתשלח לי מעט טאבאקו עפר מן החשוב והיותר מעולה כי צריך הוא לי לאשמורות וש״ש</p>
+				</postscript>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine>
+                            <pb key="49b"/>Al molto ecc[ellen]te sig[nore] <persName key="default_value">כמהח״ר Abraham f[iglio] Refael Rovigo
+								נר״ו</persName>
+							<l/>
+							<placeName key="default_value">Modena</placeName>
+                        </addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

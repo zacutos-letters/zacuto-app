@@ -1,0 +1,31 @@
+<app-toolbar class="toolbar" sticky="sticky">
+    <paper-icon-button id="tocToggle" class="toc-toggle" icon="info-outline"> Metadata</paper-icon-button>
+    <!--<a href="${app}/index.html?collection=${collection}" data-i18n="[title]browse.${collection}.title" title="" data-template="pages:parse-params">
+        <paper-icon-button icon="icons:folder-open"/>
+    </a>-->
+    <pb-restricted login="login">
+        <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="pages:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
+            <h3 slot="title">
+                <pb-i18n key="menu.admin.recompile"/>
+            </h3>
+            <paper-icon-button icon="icons:refresh"/>
+        </pb-ajax>
+    </pb-restricted>
+                            <pb-toggle-feature name="name" selector=".persName" action="toggle" default="on" emit="transcription" subscribe="transcription">Persons</pb-toggle-feature>
+                            <pb-toggle-feature name="place" selector=".placeName" action="toggle" default="on" emit="transcription" subscribe="transcription">Places</pb-toggle-feature>
+                            <pb-toggle-feature name="work" selector=".workName" action="toggle" default="on" emit="transcription" subscribe="transcription">Works</pb-toggle-feature>
+                            <pb-toggle-feature name="ref" selector=".quote" action="toggle" default="on" emit="transcription" subscribe="transcription">References</pb-toggle-feature>
+                            <!--
+                            <pb-toggle-feature name="var" selector=".lem,.rdg" action="toggle" default="on" emit="transcription" subscribe="transcription">Variants</pb-toggle-feature>-->
+                            
+    <pb-zoom emit="transcription" direction="in" icon="icons:zoom-in"/>
+    <pb-zoom emit="transcription" direction="out" icon="icons:zoom-out"/>
+    <!--<pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
+        <paper-icon-button icon="icons:chevron-left"/>
+    </pb-navigation>
+    <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
+        <paper-icon-button icon="icons:chevron-right"/>
+    </pb-navigation>-->
+    <paper-icon-button icon="icons:more-vert" drawer-toggle="drawer-toggle"/>
+    <pb-progress subscribe="transcription" indeterminate="indeterminate" bottom-item="bottom-item"/>
+</app-toolbar>

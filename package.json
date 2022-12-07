@@ -1,0 +1,8 @@
+{
+  "dependencies" : {
+    "@teipublisher/pb-components" : "1.14.0"
+  },
+  "name" : "zacutos-letters",
+  "version" : "1.0.0",
+  "description" : "Moses Zacuto's Correspondence"
+}

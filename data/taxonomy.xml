@@ -1,0 +1,158 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomy for Moses Zacuto's Correspondence</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="pb-taxonomy">
+                    <category xml:id="topics">
+                        <catDesc>Topics of a text</catDesc>
+                        <category xml:id="life">
+                            <catDesc>Life</catDesc>
+                            <category xml:id="finances">
+                                <catDesc>Finances</catDesc>
+                            </category>
+                            <category xml:id="estate">
+                                <catDesc>Estate</catDesc>
+                            </category>
+                            <category xml:id="illness">
+                                <catDesc>Illness</catDesc>
+                            </category>
+                            <category xml:id="estate">
+                                <catDesc>Estate</catDesc>
+                            </category>
+                            <category xml:id="travels">
+                                <catDesc>Travels</catDesc>
+                            </category>
+                            <category xml:id="family">
+                                <catDesc>Family</catDesc>
+                            </category>
+                            <category xml:id="profession">
+                                <catDesc>Profession</catDesc>
+                                <category xml:id="copies">
+                                    <catDesc>Copies</catDesc>
+                                </category>
+                                <category xml:id="teaching">
+                                    <catDesc>Teaching</catDesc>
+                                </category>
+                                <category xml:id="learning">
+                                    <catDesc>Learning</catDesc>
+                                </category>
+                                <category xml:id="editing">
+                                    <catDesc>Editing</catDesc>
+                                </category>
+                                <category xml:id="rabbinate">
+                                    <catDesc>Rabbinate</catDesc>
+                                </category>
+                            </category>
+                        </category>
+                        <category xml:id="halakha">
+                            <catDesc>Halakha</catDesc>
+                            <category xml:id="mishnah">
+                                <catDesc>Mishnah</catDesc>
+                            </category>
+                            <category xml:id="circumcision">
+                                <catDesc>Circumcision</catDesc>
+                            </category>
+                            <category xml:id="divorce">
+                                <catDesc>Divorce</catDesc>
+                            </category>
+                            <category xml:id="viands">
+                                <catDesc>Viands</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="liturgy">
+                            <catDesc>Liturgy</catDesc>
+                            <category xml:id="holidays">
+                                <catDesc>Holidays</catDesc>
+                            </category>
+                            <category xml:id="shabbat">
+                                <catDesc>Shabbat</catDesc>
+                            </category>
+                            <category xml:id="marriage">
+                                <catDesc>Marriage</catDesc>
+                            </category>
+                            <category xml:id="prayer">
+                                <catDesc>Prayer</catDesc>
+                                <category xml:id="shma">
+                                    <catDesc>Shma</catDesc>
+                                </category>
+                                <category xml:id="amidah">
+                                    <catDesc>Amidah</catDesc>
+                                </category>
+                                <category xml:id="shacharit">
+                                    <catDesc>Shacharit</catDesc>
+                                </category>
+                                <category xml:id="minchah">
+                                    <catDesc>Minchah</catDesc>
+                                </category>
+                                <category xml:id="selichot">
+                                    <catDesc>Selichot</catDesc>
+                                </category>
+                                <category xml:id="tikkunim">
+                                    <catDesc>Tikkunim</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="food">
+                                <catDesc>Food</catDesc>
+                            </category>
+                            <category xml:id="tefillin">
+                                <catDesc>Tefillin</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="kabbalah">
+                            <catDesc>Kabbalah</catDesc>
+                            <category xml:id="theoretical">
+                                <catDesc>Theoretical</catDesc>
+                                <category xml:id="zohar">
+                                    <catDesc>Zohar</catDesc>
+                                </category>
+                                <category xml:id="bible">
+                                    <catDesc>Bible</catDesc>
+                                </category>
+                                <category xml:id="creation">
+                                    <catDesc>Creation</catDesc>
+                                </category>
+                                <category xml:id="letters">
+                                    <catDesc>Letters</catDesc>
+                                </category>
+                                <category xml:id="kawwanot">
+                                    <catDesc>Kawwanot</catDesc>
+                                </category>
+                                <category xml:id="yichudim">
+                                    <catDesc>Yichudim</catDesc>
+                                </category>
+                                <category xml:id="holyNames">
+                                    <catDesc>Holy Names</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="practical">
+                                <catDesc>Practical</catDesc>
+                                <category xml:id="refuot">
+                                    <catDesc>Refuot</catDesc>
+                                </category>
+                                <category xml:id="segullot">
+                                    <catDesc>Segullot</catDesc>
+                                </category>
+                            </category>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

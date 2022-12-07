@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00129">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Moses Zacuto to Abraham Rovigo, Mantua, Lag be-Omer 5440 (17 May 1680)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+                    <name>Seminar für Judaistik/ Jüdische Studien</name>
+                    <address>
+					<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+					<street>Großer Berlin 14</street>
+					<postCode>06108</postCode>
+					<placeName>
+                            <country>Germany</country>
+						<settlement>Halle / Saale</settlement>
+                        </placeName>
+					</address>
+                </publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. Z. is distressed about two events: One, the death of R. Isaac ha-Levi. Z. wonders why has not received the news from Rovigo himself but learned about it when he met his father-in-law until he read the letter by Rovigo's brother, Ovadiah, that told him of the second event: the death of Abraham's son. 2. Z. consoles Rovigo.</note>
+				<note type="incipit" xml:lang="he">שתי צרות תכופות</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>64a </locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00129">
+				<correspAction type="sent">
+					<idno>ZL00129</idno>
+					<persName key="ZP00001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+					<date calendar="hebrew">Lag be-Omer 5440</date>
+					<date when="1680" calendar="gregorian">17 May 1680</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<opener>
+                    <salute> יקירי חביבי <persName key="ZP00003">אברהם אוהבי נר״ו</persName>
+                    </salute>
+                </opener>
+				<p> שתי צרות תכופות זו לזו הבהילוני שות שתוני שומם, האחת פטירת אחי נועם הרב המבוהק <persName key="ZP00005">כמוהר״ר יצחק הלוי זצוק״ל</persName> [זכר צדיק וקדוש לברכה] ומי זה האיש מרגי״ש אשר לא ירגיז על רוגז גזרה קשה כזאת כי באמת גלה כבוד מקהל קדשכם ומכללות מדינות איטליא יען הוא היה מייתר הרופאים למחלת רפיון התורה ומיעוט מיעוטה בגלילות האלו, והן לזאת חרד לבי ונתחממתי בהספדו כפי קוצר כחי, אבל עודני עומד ומשתאה על שלא ראיתי כתב ידך להגיד לי השמועה הרעה עד שפגעתי בכבוד חמיך יצ״ו וראיתי בדמעות על לחיו והראני כתב יד כבוד אחיך <persName>הח׳ ר׳ עובדיה יצ״ו</persName> המודיע הצרה השניה מגזר דין הקשה אשר נגזר עליך במיתת <persName key="ZP00006">בנך</persName> יקירך במיתה מבהלת אז נמס לבי והיה למים אחזני פיך ברכים וחלחלה למתנים ואעמוד נדהם ומשתומם על הרעה כי חסידותך הנודעת לי מקיימת לדעתי שזה מעשה השגחה פרטית יען בלי ספק מעשיך יקרבוך לפני עין ה׳ ולא נכלל המאורע הרע שלך <unclear>בכלל</unclear> ויש נספה בלא משפט רק בצדק נצדק הקדש עליך ועם תעשה חיפוש מחיפוש בנרות שכלך תמצא סבת הגזרה המשונה, את הדבר הזה ארמוז אליך כי די לחכימא ברמיזא ולא אאריך יותר (רק לצאת ידי חובתי) כי יראתי פן אהיה עליך למשא יען נשתנו סדרי בראשית ביני בינך, ויהי נא אנכי אעתיר מול פני אל נחמו״ת ה׳ אל נחמו״ת יופיע לגדור פרצתך וכמדת חסדו יכריע וכל טוב עליך ישפיע ורזי תורת אמת אליך יודיע וכל צד רע מפניך יכניע ויפריע ואור טובו אשר ליריאיו הצניע עליך יעלה ויבא יגיע</p>
+				<dateline>
+					<placeName>מנטו׳</placeName> ל״ג לעומר שנת ת״ם וראו ישר</dateline>
+				<closer> אשר אהבתך לא ינשה וכאב את בן ירצה<lb/>
+					<signed> הצעיר משה בכה״ר מרדכי זכות זלה״ה</signed>
+                </closer>
+			</div>
+		</body>
+	</text>
+</TEI>

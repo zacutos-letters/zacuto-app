@@ -1,0 +1,1194 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="persons">
+<listPersons>
+	<person xml:id="ZP00001">
+		<idno type="viaf">100212052</idno>
+		<persName type="en">
+			<forename>Moses ben Mordecai</forename>
+			<surname>Zacuto</surname>
+		</persName>
+		<persName type="he">
+			<forename>משה בן מרדכי</forename>
+			<surname>זכות</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="1620">ca. 1620</date>
+			<settlement>Amsterdam</settlement>
+		</birth>
+		<death>
+			<date when="1697">1697</date>
+			<settlement>Mantua</settlement>
+		</death>
+		<note>Italian rabbi, kabbalist, and poet.</note>
+	</person>
+	<person xml:id="ZP00002">
+		<idno type="viaf">88359058</idno>
+		<persName type="en">
+			<forename>Benjamin ben Eliezer</forename>
+			<surname>ha-Kohen</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="1651">1651</date>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="1730">1730</date>
+			<settlement/>
+		</death>
+		<note>Italian rabbi, kabbalist, and poet.</note>
+	</person>
+	<person xml:id="ZP00003">
+		<idno type="viaf">9733995</idno>
+		<persName type="en">
+			<forename>Abraham ben Rafael Michael</forename>
+			<surname>Rovigo</surname>
+		</persName>
+		<persName type="he">
+			<forename>אברהם בן רפאל מיכאל</forename>
+			<surname>רוויגו</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="1650">1650</date>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="1713">1713</date>
+			<settlement/>
+		</death>
+		<note>Italian rabbi, kabbalist, and poet.</note>
+	</person>
+	<person xml:id="ZP00004">
+		<idno type="viaf">-</idno>
+		<persName type="en">
+			<forename>Abraham of Nice</forename>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="-"/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="-"/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00005">
+		<idno type="viaf">-</idno>
+		<persName type="en">
+			<forename>Isaac</forename>
+			<surname>ha-Levi</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="-"/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="-"/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00006">
+		<idno type="viaf">-</idno>
+		<persName type="en">
+			<forename>Ploni ben Abraham</forename>
+			<surname>Rovigo</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="-"/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="-"/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00007">
+		<idno type="viaf">97604990</idno>
+		<persName type="en">
+			<forename>Samuel ben Abraham</forename>
+			<surname>Aboab</surname>
+		</persName>
+		<persName type="he">
+			<forename>שמואל בן אברהם</forename>
+			<surname>אבוהב</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="1610">1610</date>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="1694">1694</date>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00008">
+		<idno type="viaf">-</idno>
+		<persName type="en">
+			<forename>Gur</forename>
+			<surname>ha-Levi</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="-"/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="-"/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00009">
+		<idno type="viaf">45891113</idno>
+		<persName type="en">
+			<forename>Moses ben Abraham</forename>
+			<surname>Provençal</surname>
+		</persName>
+		<persName type="he">
+			<forename>משה בן אברהם</forename>
+			<surname>פרובנצלו</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when="1503">1503</date>
+			<settlement/>
+		</birth>
+		<death>
+			<date when="1575">1575</date>
+			<settlement/>
+		</death>
+		<note>Italian rabbi, poseq.</note>
+	</person>
+	<person xml:id="ZP00010">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Shimshon</forename>
+			<surname>Bacchi</surname>
+		</persName>
+		<persName type="he">
+			<forename>שמשון</forename>
+			<surname>בקי</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00011">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Israel</forename>
+			<surname>Lengi</surname>
+		</persName>
+		<persName type="he">
+			<forename>ישראל</forename>
+			<surname>לנגי</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00012">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Gabriel</forename>
+			<surname>Pontremoli</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00013">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Benjamin</forename>
+			<surname>ha-Levi</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00014">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Samuel ben Judah</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00015">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Meir</forename>
+			<surname>Isserles</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00016">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Ḥiyya</forename>
+			<surname>Dayyan</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00017">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Isaac ben Abraham</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00018">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Yedidiah of Liria</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00019">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Judah</forename>
+			<surname>Bariel</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00020">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Isaac</forename>
+			<surname>Aboab</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00021">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Ḥayyim</forename>
+			<surname>Kohen</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00022">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Natanel</forename>
+			<surname>Travot</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00023">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Solomon</forename>
+			<surname>Vellecid</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00024">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Isaiah of Trani</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00025">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Immanuel</forename>
+			<surname>Shneur</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00026">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Daniel</forename>
+			<surname>Finto</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00027">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Abraham</forename>
+			<surname>ha-Kohen</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00028">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>David</forename>
+			<surname>ha-Levi</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00029">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Yom Tov</forename>
+			<surname>Zahalon</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00030">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Samuel</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00031">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Zvi</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00032">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Isaac</forename>
+			<surname>della Rippa</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00033">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>David</forename>
+			<surname>Altaras</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00034">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Ḥiyya</forename>
+			<surname>Shalom</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00035">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Jacob b. David</forename>
+			<surname>Frances</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00036">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Emanuel b. David</forename>
+			<surname>Frances</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00037">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Casali</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00038">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Constantinople</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00039">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Rome</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00040">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Vienna</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00041">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Community of Jerusalem</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00042">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Community of Ragusa</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00043">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Community of Mantua</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00044">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Sages of Egypt</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00045">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Sages of Poland</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00046">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Amsterdam</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00047">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Rabbis of Jerusalem</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00048">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Menachem</forename>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00049">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Elḥanan</forename>
+			<surname>Rovigo</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00050">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Moses</forename>
+			<surname>Nortsi</surname>
+		</persName>
+		<persName type="he">
+			<forename>משה</forename>
+			<surname>נורצי</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00051">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Joseph Jehoshua</forename>
+			<surname>Jonah</surname>
+		</persName>
+		<persName type="he">
+			<forename>יוסף יהושוע</forename>
+			<surname>יונה</surname>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00052">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename>Solomon</forename>
+			<surname>Formiggini</surname>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00000">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename/>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00000">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename/>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+	<person xml:id="ZP00000">
+		<idno type="viaf"/>
+		<persName type="en">
+			<forename/>
+			<surname/>
+		</persName>
+		<persName type="he">
+			<forename/>
+			<surname/>
+		</persName>
+		<sex>m</sex>
+		<occupation/>
+		<birth>
+			<date when=""/>
+			<settlement/>
+		</birth>
+		<death>
+			<date when=""/>
+			<settlement/>
+		</death>
+		<note/>
+	</person>
+</listPersons>
+</TEI>

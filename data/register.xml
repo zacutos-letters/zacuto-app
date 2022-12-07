@@ -1,0 +1,207 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Local Authority File</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy/>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+      <person xml:id="gnd-ZP003" n="Rovigo, Abraham " type="correspondent">
+                    <persName xml:lang="en" type="full">Rovigo, Abraham</persName>
+                    <persName xml:id="ZP003-1" xml:lang="en" type="main">Abraham ben Michael
+                        Rovigo</persName>
+                    <persName xml:id="ZP003-2" xml:lang="he" type="main">רוויגו, אברהם בן רפאל
+                        מיכאל</persName>
+                    <persName xml:id="ZP003-3" xml:lang="en">
+                        <forename>Abraham</forename>
+                        <surname>Rovigo</surname>
+                    </persName>
+                    <persName xml:id="ZP003-4" xml:lang="he">
+                        <forename>אברהם</forename>
+                        <surname>רוויגו</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM004">Modena</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1670" to="1680">1670-1680</date>
+                        <placeName ref="ZM004">Modena</placeName>
+                        <placeName ref="ZM008">Jerusalem</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi who was active in Modena and Jerusalem. He
+                        was born in 1650 in Modena and died in 1713 in
+                        Mantua.</note>
+                    <idno source="isni">0000 0000 5058 1182</idno>
+                    <idno source="viaf">9733995</idno>
+                    <idno source="wikidata">Q4669158</idno>
+                    <idno source="gnd">1076764436</idno>
+                </person>
+            <person xml:id="ZP00Z">
+                <persName type="full">Zacuto, Moses</persName>
+                <note>unser Held!</note>
+                <occupation>Kabbalist</occupation>
+            </person>
+         <person xml:id="gnd-139890289">
+            <persName type="full">Lucia Graves</persName>
+            <note>Robert Graves' first daughter by Beryl</note>
+        </person>
+      <person xml:id="gnd-1077532091">
+                <persName type="full">Kent, Deya</persName>
+                <note/>
+                <occupation>Schauspielerin</occupation>
+            </person>
+            <person xml:id="gnd-124507514">
+                <persName type="full">Graves, William</persName>
+                <birth when="1940"/>
+                <note>Brit. Geologe, Sohn von Robert Graves</note>
+            </person>
+            <person xml:id="ZP001" n="Zacuto, Moses" type="correspondent">
+                    <persName xml:lang="en" type="full">Zacuto, Moses</persName>
+                    <persName xml:id="ZP001-2" xml:lang="he" type="full">זכות, משה בן
+                        מרדכי</persName>
+                    <persName xml:id="ZP001-3" xml:lang="en">
+                        <forename>Moses</forename>
+                        <surname>Zacuto</surname>
+                    </persName>
+                    <persName xml:id="ZP001-4" xml:lang="he">
+                        <forename>משה</forename>
+                        <surname>זכות</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM005">Amsterdam</placeName>
+                        <date>1610</date>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM002">Mantua</placeName>
+                        <date>1697</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1642" to="1695">1642-1695</date>
+                        <placeName ref="ZM001">Venice</placeName>
+                        <placeName ref="ZM002">Mantua</placeName>
+                        <placeName ref="ZM017">Padua</placeName>
+                    </floruit>
+                    <note type="bioSummary">Dutch-Italian poet and kabbalist who was active in
+                        Venice, Mantua, Padua. He was born in 1625 in Amsterdam and
+                        died in 1697 in Mantua.</note>
+                    <idno source="isni">0000 0001 1827 880X</idno>
+                    <idno source="viaf">100212052</idno>
+                    <idno source="wikidata">Q1148266</idno>
+                    <idno source="gnd">130677973</idno>
+                    <idno source="treccani">https://www.treccani.it/enciclopedia/mose-zacuto_%28Enciclopedia-Dantesca%29/</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12986-sacuto-zakuto-moses-b-mordecai</idno>
+                    <ptr>Points to Zacuto…</ptr>
+                </person>
+        <person xml:id="999635633">
+                <persName type="full">Mühldudenheim, Max</persName>
+                <birth when="1575"/>
+                <death when="1642"/>
+                <note>Nicht ident. mit ASS 805187!</note>
+                <occupation>Hebraist</occupation>
+            </person>
+        <person xml:id="104330775">
+                <persName type="full">Zacuto, Abraham</persName>
+                <birth when="1575"/>
+                <death when="1642"/>
+                <note>Nicht ident. mit ASS 805187!</note>
+                <occupation>Arzt</occupation>
+            </person>
+        <person xml:id="130677973">
+                <persName type="full">Zacuto, Moses ben Mordecai</persName>
+                <birth when="1620"/>
+                <death when="1697"/>
+                <note>Ital. Kabbalist, Marrano, geb. in Amsterdam</note>
+            </person>
+        </listPerson>
+      <listOrg/>
+      <listPlace>
+         <place xml:id="custom-Deia">
+            <placeName type="full">Deya</placeName>
+            <placeName>Deià</placeName>
+            <location>
+               <geo>39.7484 2.64918</geo>
+            </location>
+            <location type="geopolitical">
+               <settlement>Deya</settlement>
+               <region>Majorca</region>
+               <region>Balearic Islands</region>
+               <country>Spain</country>
+            </location>
+            <note>Deià is a small coastal village in the Serra de Tramuntana, which forms the northern ridge of the Spanish island of Mallorca. It is
+               located about ten miles north of Valldemossa, and it is known for its literary and musical residents. Its idyllic landscape, orange and
+               olive groves on steep cliffs overlooking the Mediterranean, served as a draw for German, English, and American expatriates after the First
+               World War.</note>
+         </place>
+         <place xml:id="geo-00556">
+            <placeName type="full">Wolkenland</placeName>
+         </place>
+         <place xml:id="geo-6946437">
+            <placeName type="full">Basilika San Francisco</placeName>
+            <placeName>Convento de San Francisco</placeName>
+            <placeName>Sant Francesc de Palma</placeName>
+            <location>
+                <geo>39.5689 2.65306</geo>
+            </location>
+            <country>Spain</country>
+            <region>Balearic Islands</region>
+            <ptr type="geonames" target="https://www.geonames.org/6946437"/>
+            <ptr type="info" target="https://es.wikipedia.org/wiki/Convento_de_San_Francisco_(Palma_de_Mallorca)"/>
+            <note>El Convento de San Francisco de Palma de Mallorca es un conjunto formado por la basílica menor del mismo nombre, el claustro y varias edificaciones adosadas. Se inició la construcción a finales de siglo XIII.</note>
+        </place>
+      <place xml:id="geo-3117735">
+                <placeName type="full">Madrid</placeName>
+                <location>
+                    <geo>40.4165 -3.70256</geo>
+                </location>
+                <country>Spain</country>
+                <region>Madrid</region>
+                <note>capital of a political entity</note>
+                <ptr type="geonames" target="https://www.geonames.org/3117735"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Madrid"/>
+            </place>
+            <place xml:id="geo-5128581">
+                <placeName type="full">New York City</placeName>
+                <location>
+                    <geo>40.71427 -74.00597</geo>
+                </location>
+                <country>United States</country>
+                <region>New York</region>
+                <note>populated place</note>
+                <ptr type="geonames" target="https://www.geonames.org/5128581"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/New_York_City"/>
+            </place>
+            <place xml:id="geo-2640729">
+                <placeName type="full">Oxford</placeName>
+                <location>
+                    <geo>51.75222 -1.25596</geo>
+                </location>
+                <country>United Kingdom</country>
+                <region>England</region>
+                <note>seat of a second-order administrative division</note>
+                <ptr type="geonames" target="https://www.geonames.org/2640729"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Oxford"/>
+            </place>
+        </listPlace>
+   </standOff>
+</tei:TEI>

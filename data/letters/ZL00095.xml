@@ -1,0 +1,185 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00095">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			<title>Moses Zacuto to Abraham Rovigo, Venice, P. Shoftim 5437 (29 August-4 September 1677)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. In response to Rovigo’s request, Z. sends gazelle parchment enclosed with the letter which is of better quality than another piece that the two saw upon Rovigo’s last visit to Venice. 2. Z. explains the secret of the name “LUẒ”. For additional information, he refers Rovigo to Sefer Raziel.</note>
+				<note type="incipit" xml:lang="he">חבתי בתשלומי כפל אגרותיך</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>26a </locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+					<witness n="1" xml:id="JB165">
+						<msDesc>
+							<msIdentifier>
+								<country>Israel</country>
+								<settlement>Jerusalem</settlement>
+								<repository>Meir Benayahu Library</repository>
+								<idno>K 165</idno>
+								<locus>31b-32a </locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint">Leveen, Autograph Letters, V</bibl>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00095">
+				<correspAction type="sent">
+					<idno>ZL00095</idno>
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM0001">Venice</settlement>
+					<date calendar="hebrew">P. Shoftim 5437</date>
+					<date when="1677" calendar="gregorian">29 August - 4 September 1677</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+			<textClass>
+			<catRef scheme="#kabbalah" target="#bible"/>
+			<catRef scheme="#halakha" target="#circumcision"/>
+			<catRef scheme="#life" target="#finances"/>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>
+							<p>בחירי כבכורי יקירי גבור כארי ההכם הנע׳ נר״ו</p>
+						</salute>
+					</opener>
+				</p>
+				<p>חבתי בתשלומי כפל אגרותיך החמודות לי מפז כי לא יכולתי להשיב לראשונה מפני רוב הצרות אשר <cit xmlns="">
+                        <quote>סבוני גם שבבוני</quote>
+                        <bibl>תהלים, קיח יא</bibl>
+                    </cit> מבית ומחוץ, ועתה הנה באתי בדרך קצרה לעשות רצונך ולמלאות שאלתך במעט קלף צבי הכמוס בזה כי הוא ביותר טוב שיש לי באותה חתיכה שהראתיך בהיותך <placeName>הנה</placeName> כי השאר הנשאר לי הוא קשה כעץ וכמעט לא יצלח לכל וצריך אתה לצחצח יפה את זה הקלף בדבר שמחליקו ומכינו ליפוי הכתב, וכמדומה לי שכבר הודעתיך סוד שם הלוז שהוא סוד חו״ב [חכמה ובינה] דזו״ן [דזעיר ונקבה] בהיותם פנים בפנים כי א״ד דאדנות הוא בחו״ב דנוקבא כשתי אותיות ראשונות דהויה בחו״ב דז״א [דזעיר אנפין] ובהיותם פנים בפנים אז הא׳ שהיא חכמה דרחל מאירה מן ה׳ שהוא בינה דז״א והד׳ שהוא בינה דרחל מאירה מן י׳ היינו חכמה דז״א, האמנם דע לך כי צריך אתה לצרף לזה כונת הזכירה של סוד <cit>
+                        <quote>קלעים חמש עשרה</quote>
+                        <bibl>שמות לח, יד ושמות  כז, יד</bibl>
+                    </cit> כאשר העתקת <workName key="">מס׳ ר״ה</workName> שלי ואני הודעתיך קצת מרמזיו, ה׳ יהיה בעזרך <cit>
+                        <quote>ויתן לך משאלות לבך</quote>
+                        <bibl>תהילים לז, ד</bibl>
+                    </cit>, הלא ידעת ידידי כי רעך הטוב <persName key="ZP00002">כמהח״ר בנימין הכהן נר״ו</persName> כבר הלך לו לשלום והנה הוא העתיק הרבה דברים נחמדים מכתבי וכונתו רצויה עליך מאד לצוות להעתיקם שם לך לשמך רק חידושי על <workName>יודעי בינה</workName> רצוני לומר <workName key="">פי׳ מאמרי זוהר פר׳ בראשית</workName> אותו מעתיק <persName key="">הר״ר יצחק נחמיאש</persName> כאשר צוית אותו, ואם <cit>
+                        <quote>עודך מחזיק</quote>
+                        <bibl>איוב ב, ט</bibl>
+                    </cit> ברצונך הראשון להעתיק <workName key="">ס׳ כונות</workName> שלי <cit>
+                        <quote>גזור אומר ויקם לך</quote>
+                        <bibl>איוב כב, כח</bibl>
+                    </cit> כי באמת הסדר שהסדיר <persName key="">מהר״ן שפירא זלה״ה</persName> ארוך מאד כאשר ראית ומלא דרושים שאינם צריכים אל כונת התפלות, זאת ועוד אודיעך כי <persName key="ZP00002">כמהח״ר בנימין</persName> הניח בכאן את אותו <persName key="">הבחור ר׳ מרדכי</persName> המצפה ללכת <placeName key="">לא׳׳י</placeName> ואותו צוה להגיה לו <workName key="">ס׳ הזוהר</workName> שלו כשלי וגם לכתוב בו <workName>החידושי׳</workName> שלי שסביב גליון <workName>הזוהר</workName>, אמת כי המלאכה מרובה אבל הוא וחברו שוקדים עליה יומם ולילה וגם <persName key="ZP00002">הח״ר בנימין</persName> שלם משלם לו במיטבא משום <cit xmlns="">
+                        <quote>דנפיש בטרחא</quote>
+                        <bibl>ביצה יד, ב</bibl>
+                    </cit>, אם יש <cit>
+                        <quote>לך <workName key="">זוהר</workName> בגליון גדול</quote>
+                        <bibl>ע״ד ישעיהו ח, א</bibl>
+                    </cit> ונייר ריאלי כשלו ותחפוץ גם אתה לעשות כמוהו שלחהו אלי כי <persName key="">הבחור נחמיאש</persName> יעשהו לך באותו השכר עצמו שנותן אהובנו <persName key="ZP00002">הכהן</persName> וממנו תדעהו ועל דבר החביות צר לי מאד שאני מוכרח להיות עליך לטורח אבל מה אעשה והרופא צוני לבקש יין טוב מאד לביתי מב״ת אולי תוכל להתאפק ולהתחזק מעט, ולכן אשאל <persName key="">מהבחור הנחמד הר׳ דוד אבן עטר</persName> שישתדל לשלוח אליך ב׳ החביות ועליך נסמכתי על הכשרות, יתר על כן אגלה אזנך כי בהגעת <persName key="ZP00002">כהח״ר בנימין</persName> לק״ק <placeName key="">מנטובה</placeName> יע״א חזר וניעור החשק שלהם להמשיכני אצלם ובאמת <cit>
+                        <quote>כמים הפנים לפנים</quote>
+                        <bibl>משלי כז, יט</bibl>
+                    </cit> כי גם אנכי משתוקק הרבה להתגורר ביניהם כי ידעתים יראי ה׳ ואוהבי תורתו אבל כעת איני יכול לגמור הדבר מפני חולי ביתי שהולך ומתמיד בעונותי וגם עד אראה <cit>
+                        <quote>איך יפול דבר</quote>
+                        <bibl>רות ג, יח</bibl>
+                    </cit>
+					<cit>
+                        <quote>בתקופת השנה</quote>
+                        <bibl>שמות לד, כב</bibl>
+                    </cit>, אם מאת ה׳ יהיה אודיעהו אליך למען <cit>
+                        <quote>תהיה לי מעיר לעזור</quote>
+                        <bibl>ע״ד שמואל ב יח, ג</bibl>
+                    </cit> בהצטרכי אליו, ובזה <cit>
+                        <quote>אשימה קנצי למלין</quote>
+                        <bibl>איוב יח, ב</bibl>
+                    </cit>
+					<cit>
+                        <quote>בנשאי ידי לדביר הקדש</quote>
+                        <bibl>ע״ד תהילים כח, ב</bibl>
+                    </cit> בתפלה <cit>
+                        <quote>לצור עולמים</quote>
+                        <bibl>ישעיהו כו, ד</bibl>
+                    </cit> יצורך כבת עין ויצליחך בתורתך הטהורה <cit>
+                        <quote>ישלח עזרך מקדש</quote>
+                        <bibl>תהילים כ, ג</bibl>
+                    </cit> ברוב עוז ושלו׳</p>
+				<dateline>
+					<p>
+                        <placeName key="">ויניציאה</placeName> ס׳ <cit>
+                            <quote>תחיה וירשת</quote>
+                            <bibl>דברים טז, כ</bibl>
+                        </cit> שנת ונושעה</p>
+				</dateline>
+				<closer>
+					<p>
+						<cit>
+							<quote>כאב את בן ירצה</quote>
+							<bibl>משלי ג, יב</bibl>
+						</cit>
+						<l/>
+						<persName key="">משה בכה״ר מרדכי זכות זלה׳׳ה</persName>
+					</p>
+				</closer>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine>
+                            <pb n="27b"/>ליד מעלת תהלת החכם הנעלה לשם טוב ולתהלה <persName>כמה״ר אברהם בכר מיכאל רוויגו נר״ו</persName>
+							<l/> בק״ק <placeName>מודינא</placeName> יע״א</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

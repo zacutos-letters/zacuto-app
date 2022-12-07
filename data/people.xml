@@ -1,0 +1,2278 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Corpus of R. Moses Zacuto’s Correspondence and Lexica of Holy Names: Editions, Tools, and Database</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+            <listPerson>
+                <person xml:id="ZP001" n="Zacuto, Moses" type="correspondent">
+                    <persName xml:lang="en" type="sort">Zacuto, Moses</persName>
+                    <persName xml:id="ZP001-1" xml:lang="en" type="full">Moses ben Mordecai
+                        Zacuto</persName>
+                    <persName xml:id="ZP001-2" xml:lang="he" type="full">זכות, משה בן
+                        מרדכי</persName>
+                    <persName xml:id="ZP001-3" xml:lang="en">
+                        <forename>Moses</forename>
+                        <surname>Zacuto</surname>
+                    </persName>
+                    <persName xml:id="ZP001-4" xml:lang="he">
+                        <forename>משה</forename>
+                        <surname>זכות</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM005">Amsterdam</placeName>
+                        <date>1610</date>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM002">Mantua</placeName>
+                        <date>1697</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1642" to="1695">1642-1695</date>
+                        <placeName ref="ZM001">Venice</placeName>
+                        <placeName ref="ZM002">Mantua</placeName>
+                        <placeName ref="ZM017">Padua</placeName>
+                    </floruit>
+                    <note type="bioSummary">Dutch-Italian poet and kabbalist who was active in
+                        Venice, Mantua, Padua. He was born in 1625 in Amsterdam and
+                        died in 1697 in Mantua.</note>
+                    <idno source="isni">0000 0001 1827 880X</idno>
+                    <idno source="viaf">100212052</idno>
+                    <idno source="wikidata">Q1148266</idno>
+                    <idno source="gnd">130677973</idno>
+                    <idno source="treccani">https://www.treccani.it/enciclopedia/mose-zacuto_%28Enciclopedia-Dantesca%29/</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12986-sacuto-zakuto-moses-b-mordecai</idno>
+                    <ptr>Points to Zacuto…</ptr>
+                </person>
+                <person xml:id="ZP002" n="ha-Kohen, Benjamin" type="correspondent">
+                    <persName xml:lang="en" type="sort">ha-Kohen, Benjamin</persName>
+                    <persName xml:id="ZP002-1" xml:lang="en" type="full">Benjamin
+                        ha-Kohen</persName>
+                    <persName xml:id="ZP002-2" xml:lang="he" type="full">הכהן, בנימין בן
+                        אליעזר</persName>
+                    <persName xml:id="ZP002-3" xml:lang="en">
+                        <forename>Benjamin</forename>
+                        <surname>ha-Kohen</surname>
+                    </persName>
+                    <persName xml:id="ZP002-4" xml:lang="he">
+                        <forename>בנימין</forename>
+                        <surname>הכהן</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM010">Reggio Emilia</placeName>
+                    </birth>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1670" to="1687">1670-1687</date>
+                        <placeName ref="ZM011">Alessandria</placeName>
+                        <placeName ref="ZM010">Reggio Emilia</placeName>
+                        <placeName ref="ZM012">Casale Monferrato</placeName>
+                    </floruit>
+                    <idno source="isni">0000 0000 6669 2311</idno>
+                    <idno source="viaf">88359058</idno>
+                    <idno source="wikidata">Q18220757</idno>
+                    <idno source="gnd">1053384750</idno>
+                </person>
+                <person xml:id="ZP003" n="Rovigo, Abraham " type="correspondent">
+                    <persName xml:lang="en" type="sort">Rovigo, Abraham</persName>
+                    <persName xml:id="ZP003-1" xml:lang="en" type="main">Abraham ben Michael
+                        Rovigo</persName>
+                    <persName xml:id="ZP003-2" xml:lang="he" type="main">רוויגו, אברהם בן רפאל
+                        מיכאל</persName>
+                    <persName xml:id="ZP003-3" xml:lang="en">
+                        <forename>Abraham</forename>
+                        <surname>Rovigo</surname>
+                    </persName>
+                    <persName xml:id="ZP003-4" xml:lang="he">
+                        <forename>אברהם</forename>
+                        <surname>רוויגו</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM004">Modena</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1670" to="1680">1670-1680</date>
+                        <placeName ref="ZM004">Modena</placeName>
+                        <placeName ref="ZM008">Jerusalem</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi who was active in Modena and Jerusalem. He
+                        was born in 1650 in Modena and died in 1713 in
+                        Mantua.</note>
+                    <idno source="isni">0000 0000 5058 1182</idno>
+                    <idno source="viaf">9733995</idno>
+                    <idno source="wikidata">Q4669158</idno>
+                    <idno source="gnd">1076764436</idno>
+                </person>
+                <person xml:id="ZP004" n="Graziano, Abraham" type="correspondent">
+                    <persName xml:lang="en" type="sort">Graziano, Abraham</persName>
+                    <persName xml:id="ZP004-1" xml:lang="en" type="main">Abraham Graziano</persName>
+                    <persName xml:id="ZP004-2" xml:lang="he" type="main">גראציאנו, אברהם</persName>
+                    <persName xml:id="ZP004-3" xml:lang="en">
+                        <forename>Abraham</forename>
+                        <surname>Graziano</surname>
+                    </persName>
+                    <persName xml:id="ZP004-4" xml:lang="he">
+                        <forename>אברהם</forename>
+                        <surname>גראציאנו</surname>
+                    </persName>
+                    <birth/>
+                    <death>
+                        <placeName ref="ZM004">Modena</placeName>
+                        <date>1685</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1683">1683</date>
+                        <placeName ref="ZM004">Modena</placeName>
+                    </floruit>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6865-graziano-abraham-joseph-solomon-ben-mordecai</idno>
+                </person>
+                <person xml:id="ZP005" n="Abraham ha-Levi of Krakow" type="correspondent">
+                    <persName xml:lang="en" type="sort">Abraham ha-Levi of Krakow</persName>
+                    <persName xml:id="ZP005-1" xml:lang="en" type="main">Abraham ha-Levi of
+                        Krakow</persName>
+                    <persName xml:id="ZP005-2" xml:lang="he" type="main">הלוי, אברהם</persName>
+                    <persName xml:id="ZP005-3" xml:lang="en">
+                        <forename>Abraham ha-Levi of Krakow</forename>
+                    </persName>
+                    <persName xml:id="ZP005-4" xml:lang="he">
+                        <forename>אברהם</forename>
+                        <surname>הלוי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="#N/A">Krakow</placeName>
+                    </floruit>
+                    <note type="bioSummary">Polish rabbi who was active in Krakow. He was born in
+                        1620 in and died in 1670 in .</note>
+                    <idno source="viaf">36173364</idno>
+                    <idno source="wikidata">Q4669259</idno>
+                </person>
+                <person xml:id="ZP006" n="Algazi, Abraham Joseph Solomon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Algazi, Abraham Joseph Solomon</persName>
+                    <persName xml:id="ZP006-1" xml:lang="en" type="main">Abraham Joseph Solomon
+                        Algazi</persName>
+                    <persName xml:id="ZP006-2" xml:lang="he" type="main">אברהם יוסף שלמה</persName>
+                    <persName xml:id="ZP006-3" xml:lang="en">
+                        <forename>Abraham Joseph Solomon</forename>
+                        <surname>Algazi</surname>
+                    </persName>
+                    <persName xml:id="ZP006-4" xml:lang="he">
+                        <surname>???</surname>
+                    </persName>
+                    <birth>
+                        <date>1620</date>
+                    </birth>
+                    <death>
+                        <date>1670</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1659">1659</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP007" n="Aboab, Samuel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Aboab, Samuel</persName>
+                    <persName xml:id="ZP007-1" xml:lang="en" type="main">Samuel Aboab</persName>
+                    <persName xml:id="ZP007-2" xml:lang="he" type="main">אבוהב, שמואל בן
+                        אברהם</persName>
+                    <persName xml:id="ZP007-3" xml:lang="en">
+                        <forename>Samuel</forename>
+                        <surname>Aboab</surname>
+                    </persName>
+                    <persName xml:id="ZP007-4" xml:lang="he">
+                        <forename>שמואל</forename>
+                        <surname>אבוהב</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM016">Hamburg</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM001">Venice</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1642" to="1646">1642-1646</date>
+                        <placeName ref="ZM001">Venice</placeName>
+                        <placeName ref="ZM003">Verona</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi who was active in Venice, Verona. He was
+                        born in 1610 in Hamburg and died in 1694-08-22 in
+                        Venice.</note>
+                    <idno source="isni">0000 0001 1953 2961</idno>
+                    <idno source="viaf">97604990</idno>
+                    <idno source="wikidata">Q3946667</idno>
+                    <idno source="gnd">1011981157</idno>
+                    <idno source="treccani">https://www.treccani.it/enciclopedia/samuele-aboab_(Dizionario-Biografico)</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/375-abraham-aboab#anchor16</idno>
+                </person>
+                <person xml:id="ZP008" n="Aaron ben Israel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Aaron ben Israel</persName>
+                    <persName xml:id="ZP008-1" xml:lang="en" type="main">Aaron ben Israel</persName>
+                    <persName xml:id="ZP008-2" xml:lang="he" type="main">אהרון בן ישארל</persName>
+                    <persName xml:id="ZP008-3" xml:lang="en">
+                        <forename>Aaron</forename>
+                    </persName>
+                    <persName xml:id="ZP008-4" xml:lang="he">
+                        <forename>אהרון</forename>
+                    </persName>
+                    <birth>
+                        <date>1650</date>
+                    </birth>
+                    <death>
+                        <geo>test,test</geo>
+                        <date>1713</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1678">1678</date>
+                        <placeName ref="#N/A">Krakow</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP009" n="Aaron ben Simon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Aaron ben Simon</persName>
+                    <persName xml:id="ZP009-1" xml:lang="en" type="main">Aaron ben Simon</persName>
+                    <persName xml:id="ZP009-2" xml:lang="he" type="main">אהרון בן שמעון</persName>
+                    <persName xml:id="ZP009-3" xml:lang="en">
+                        <forename>Aaron</forename>
+                    </persName>
+                    <persName xml:id="ZP009-4" xml:lang="he">
+                        <forename>אהרון</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP010" n="Bacchi, Samson" type="correspondent">
+                    <persName xml:lang="en" type="sort">Bacchi, Samson</persName>
+                    <persName xml:id="ZP010-1" xml:lang="en" type="main">Samson Bacchi</persName>
+                    <persName xml:id="ZP010-2" xml:lang="he" type="main">באקי, שמשון</persName>
+                    <persName xml:id="ZP010-3" xml:lang="en">
+                        <forename>Samson</forename>
+                        <surname>Bacchi</surname>
+                    </persName>
+                    <persName xml:id="ZP010-4" xml:lang="he">
+                        <forename>שמשון</forename>
+                        <surname>באקי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date from="1665" to="1681">1665-1681</date>
+                        <placeName ref="ZM012">Casale Monferrato</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP011" n="Lenghi, Israel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Lenghi, Israel</persName>
+                    <persName xml:id="ZP011-1" xml:lang="en" type="main">Israel Lenghi</persName>
+                    <persName xml:id="ZP011-2" xml:lang="he" type="main">לנגי, ישראל</persName>
+                    <persName xml:id="ZP011-3" xml:lang="en">
+                        <forename>Israel</forename>
+                        <surname>Lenghi</surname>
+                    </persName>
+                    <persName xml:id="ZP011-4" xml:lang="he">
+                        <forename>ישראל</forename>
+                        <surname>לנגי</surname>
+                    </persName>
+                    <birth>
+                        <date>1651</date>
+                    </birth>
+                    <death>
+                        <date>1727-02-08</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1672 1677">1672, 1677</date>
+                        <placeName ref="ZM010">Reggio Emilia</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP012" n="Pontremoli, Gabriel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Pontremoli, Gabriel</persName>
+                    <persName xml:id="ZP012-1" xml:lang="en" type="main">Gabriel
+                        Pontremoli</persName>
+                    <persName xml:id="ZP012-2" xml:lang="he" type="main">פונטרימולי,
+                        גבריאל</persName>
+                    <persName xml:id="ZP012-3" xml:lang="en">
+                        <forename>Gabriel</forename>
+                        <surname>Pontremoli</surname>
+                    </persName>
+                    <persName xml:id="ZP012-4" xml:lang="he">
+                        <forename>גבריאל</forename>
+                        <surname>פונטרימולי</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM012">Casale Monferrato</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="#N/A">Turin</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1682">1682</date>
+                    </floruit>
+                    <idno source="wikidata">Q88902415</idno>
+                </person>
+                <person xml:id="ZP013" n="Benjamin ha-Levi" type="correspondent">
+                    <persName xml:lang="en" type="sort">Benjamin ha-Levi</persName>
+                    <persName xml:id="ZP013-1" xml:lang="en" type="main">Benjamin ha-Levi</persName>
+                    <persName xml:id="ZP013-2" xml:lang="he" type="main">הלוי, בנימין</persName>
+                    <persName xml:id="ZP013-3" xml:lang="en">
+                        <forename>Benjamin</forename>
+                    </persName>
+                    <persName xml:id="ZP013-4" xml:lang="he">
+                        <forename>בנימין</forename>
+                        <surname>הלוי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP014" n="Samuel ben Judah" type="correspondent">
+                    <persName xml:lang="en" type="sort">Samuel ben Judah</persName>
+                    <persName xml:id="ZP014-1" xml:lang="en" type="main">Samuel ben Judah</persName>
+                    <persName xml:id="ZP014-2" xml:lang="he" type="main">שמואל בן יהודה</persName>
+                    <persName xml:id="ZP014-3" xml:lang="en">
+                        <forename>Samuel</forename>
+                    </persName>
+                    <persName xml:id="ZP014-4" xml:lang="he">
+                        <forename>שמואל</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1677">1677</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP015" n="Isserles, Meir" type="correspondent">
+                    <persName xml:lang="en" type="sort">Isserles, Meir</persName>
+                    <persName xml:id="ZP015-1" xml:lang="en" type="main">Meir Isserles</persName>
+                    <persName xml:id="ZP015-3" xml:lang="en">
+                        <forename>Meir</forename>
+                        <surname>Isserles</surname>
+                    </persName>
+                    <persName xml:id="ZP015-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1668">1668</date>
+                        <placeName ref="ZM013">Vienna</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP016" n="Dayyan, Ḥiyya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Dayyan, Ḥiyya</persName>
+                    <persName xml:id="ZP016-1" xml:lang="en" type="main">Ḥiyya Dayyan</persName>
+                    <persName xml:id="ZP016-2" xml:lang="he" type="main">דיין, חייא</persName>
+                    <persName xml:id="ZP016-3" xml:lang="en">
+                        <forename>Ḥiyya</forename>
+                        <surname>Dayyan</surname>
+                    </persName>
+                    <persName xml:id="ZP016-4" xml:lang="he">
+                        <forename>חייא</forename>
+                        <surname>דיין</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1673">1673</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP017" n="Isaac ben Abraham" type="correspondent">
+                    <persName xml:lang="en" type="sort">Isaac ben Abraham</persName>
+                    <persName xml:id="ZP017-1" xml:lang="en" type="main">Isaac ben
+                        Abraham</persName>
+                    <persName xml:id="ZP017-2" xml:lang="he" type="main">יצחק בן אברהם</persName>
+                    <persName xml:id="ZP017-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                    </persName>
+                    <persName xml:id="ZP017-4" xml:lang="he">
+                        <forename>יצחק</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1671">1671</date>
+                        <placeName ref="ZM029">Poznań</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP018" n="Yedidiah of Liria" type="correspondent">
+                    <persName xml:lang="en" type="sort">Yedidiah of Liria</persName>
+                    <persName xml:id="ZP018-1" xml:lang="en" type="main">Yedidiah of
+                        Liria</persName>
+                    <persName xml:id="ZP018-3" xml:lang="en">
+                        <forename>Yedidiah of Liria</forename>
+                    </persName>
+                    <persName xml:id="ZP018-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1656">1656</date>
+                        <placeName ref="ZM025">Izmir</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP019" n="Briel, Judah " type="correspondent">
+                    <persName xml:lang="en" type="sort">Briel, Judah</persName>
+                    <persName xml:id="ZP019-1" xml:lang="en" type="main">Judah ben Eliezer
+                        Briel</persName>
+                    <persName xml:id="ZP019-2" xml:lang="he" type="main">בריאל, יהודה בן
+                        אליעזר</persName>
+                    <persName xml:id="ZP019-3" xml:lang="en">
+                        <forename>Judah</forename>
+                        <surname>Briel</surname>
+                    </persName>
+                    <persName xml:id="ZP019-4" xml:lang="he">
+                        <forename>יהודה</forename>
+                        <surname>בריאל</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </birth>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1683">1683</date>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </floruit>
+                    <idno source="viaf">38640738</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/3709-brieli-judah-leon-ben-eliezer</idno>
+                </person>
+                <person xml:id="ZP020" n="Aboab, Isaac" type="correspondent">
+                    <persName xml:lang="en" type="sort">Aboab, Isaac</persName>
+                    <persName xml:id="ZP020-1" xml:lang="en" type="main">Isaac Aboab</persName>
+                    <persName xml:id="ZP020-2" xml:lang="he" type="main">אבוהב, יצחק בן
+                        מתתיה</persName>
+                    <persName xml:id="ZP020-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                        <surname>Aboab</surname>
+                    </persName>
+                    <persName xml:id="ZP020-4" xml:lang="he">
+                        <forename>יצחק</forename>
+                        <surname>אבוהב</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1663">1663</date>
+                        <placeName ref="ZM005">Amsterdam</placeName>
+                    </floruit>
+                    <idno source="isni">0000 0000 6697 3332</idno>
+                    <idno source="viaf">14680040</idno>
+                    <idno source="wikidata">Q5920544</idno>
+                </person>
+                <person xml:id="ZP021" n="Kohen, Ḥayyim" type="correspondent">
+                    <persName xml:lang="en" type="sort">Kohen, Ḥayyim</persName>
+                    <persName xml:id="ZP021-1" xml:lang="en" type="main">Ḥayyim Kohen</persName>
+                    <persName xml:id="ZP021-2" xml:lang="he" type="main">כהן, חיים</persName>
+                    <persName xml:id="ZP021-3" xml:lang="en">
+                        <forename>Ḥayyim</forename>
+                        <surname>Kohen</surname>
+                    </persName>
+                    <persName xml:id="ZP021-4" xml:lang="he">
+                        <forename>חיים</forename>
+                        <surname>כהן</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1652">1652</date>
+                        <placeName ref="ZM033">Aleppo</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP022" n="Travot, Netanel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Travot, Netanel</persName>
+                    <persName xml:id="ZP022-1" xml:lang="en" type="main">Netanel Travot</persName>
+                    <persName xml:id="ZP022-3" xml:lang="en">
+                        <forename>Netanel</forename>
+                        <surname>Travot</surname>
+                    </persName>
+                    <persName xml:id="ZP022-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP023" n="Vellecid, Solomon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Vellecid, Solomon</persName>
+                    <persName xml:id="ZP023-1" xml:lang="en" type="main">Solomon Vellecid</persName>
+                    <persName xml:id="ZP023-3" xml:lang="en">
+                        <forename>Solomon</forename>
+                        <surname>Vellecid</surname>
+                    </persName>
+                    <persName xml:id="ZP023-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM026">Livorno</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP024" n="Isaac ben Abraham" type="correspondent">
+                    <persName xml:lang="en" type="sort">Isaac ben Abraham</persName>
+                    <persName xml:id="ZP024-1" xml:lang="en" type="main">Isaiah of Trani</persName>
+                    <persName xml:id="ZP024-3" xml:lang="en">
+                        <forename>Isaiah of Trani</forename>
+                    </persName>
+                    <persName xml:id="ZP024-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP025" n="Yedidiah of Liria" type="correspondent">
+                    <persName xml:lang="en" type="sort">Yedidiah of Liria</persName>
+                    <persName xml:id="ZP025-1" xml:lang="en" type="main">Isaac ben
+                        Abraham</persName>
+                    <persName xml:id="ZP025-3" xml:lang="en">
+                        <forename>Isaac ben</forename>
+                        <surname>Abraham</surname>
+                    </persName>
+                    <persName xml:id="ZP025-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP026" n="Finto, Daniel Isaiah" type="correspondent">
+                    <persName xml:lang="en" type="sort">Finto, Daniel Isaiah</persName>
+                    <persName xml:id="ZP026-1" xml:lang="en" type="main">Yedidiah of
+                        Liria</persName>
+                    <persName xml:id="ZP026-2" xml:lang="he" type="main">פינטו, דניאל
+                        ישעיהו</persName>
+                    <persName xml:id="ZP026-3" xml:lang="en">
+                        <forename>Yedidiah of</forename>
+                        <surname>Liria</surname>
+                    </persName>
+                    <persName xml:id="ZP026-4" xml:lang="he">
+                        <forename>דניאל ישעיהו</forename>
+                        <surname>פינטו</surname>
+                    </persName>
+                    <birth/>
+                    <death>
+                        <date>after 1641</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM033">Aleppo</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP027" n="ha-Kohen, Abraham" type="correspondent">
+                    <persName xml:lang="en" type="sort">ha-Kohen, Abraham</persName>
+                    <persName xml:id="ZP027-1" xml:lang="en" type="main">Abraham ha-Kohen</persName>
+                    <persName xml:id="ZP027-2" xml:lang="he" type="main">הכהן, אברהם</persName>
+                    <persName xml:id="ZP027-3" xml:lang="en">
+                        <forename>Abraham</forename>
+                        <surname>ha-Kohen</surname>
+                    </persName>
+                    <persName xml:id="ZP027-4" xml:lang="he">
+                        <forename>אברהם</forename>
+                        <surname>הכהן</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM033">Aleppo</placeName>
+                    </floruit>
+                    <idno source="wikidata">Q1469143</idno>
+                </person>
+                <person xml:id="ZP028" n="ha-Levi, David" type="correspondent">
+                    <persName xml:lang="en" type="sort">ha-Levi, David</persName>
+                    <persName xml:id="ZP028-1" xml:lang="en" type="main">David ha-Levi</persName>
+                    <persName xml:id="ZP028-2" xml:lang="he" type="main">הלוי, דוד</persName>
+                    <persName xml:id="ZP028-3" xml:lang="en">
+                        <forename>David</forename>
+                        <surname>ha-Levi</surname>
+                    </persName>
+                    <persName xml:id="ZP028-4" xml:lang="he">
+                        <forename>דוד</forename>
+                        <surname>הלוי</surname>
+                    </persName>
+                    <birth>
+                        <date>22.07.1618</date>
+                    </birth>
+                    <death>
+                        <date>after 1703</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP029" n="Zahalon, Yom Tov" type="correspondent">
+                    <persName xml:lang="en" type="sort">Zahalon, Yom Tov</persName>
+                    <persName xml:id="ZP029-1" xml:lang="en" type="main">Yom Tov Zahalon</persName>
+                    <persName xml:id="ZP029-2" xml:lang="he" type="main">צהלון, יום טוב</persName>
+                    <persName xml:id="ZP029-3" xml:lang="en">
+                        <forename>Yom Tov</forename>
+                        <surname>Zahalon</surname>
+                    </persName>
+                    <persName xml:id="ZP029-4" xml:lang="he">
+                        <forename>יום טוב</forename>
+                        <surname>צהלון</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP030" n="Samuel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Samuel</persName>
+                    <persName xml:id="ZP030-1" xml:lang="en" type="main">Samuel</persName>
+                    <persName xml:id="ZP030-2" xml:lang="he" type="main">שמואל</persName>
+                    <persName xml:id="ZP030-3" xml:lang="en">
+                        <forename>Samuel</forename>
+                    </persName>
+                    <persName xml:id="ZP030-4" xml:lang="he"/>
+                    <birth>
+                        <date>1650</date>
+                    </birth>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP031" n="Zvi" type="correspondent">
+                    <persName xml:lang="en" type="sort">Zvi</persName>
+                    <persName xml:id="ZP031-1" xml:lang="en" type="main">Zvi</persName>
+                    <persName xml:id="ZP031-2" xml:lang="he" type="main">צבי</persName>
+                    <persName xml:id="ZP031-3" xml:lang="en">
+                        <forename>Zvi</forename>
+                    </persName>
+                    <persName xml:id="ZP031-4" xml:lang="he">
+                        <forename>צבי</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP032" n="della Rippa, Isaac" type="correspondent">
+                    <persName xml:lang="en" type="sort">della Rippa, Isaac</persName>
+                    <persName xml:id="ZP032-1" xml:lang="en" type="main">Isaac della
+                        Rippa</persName>
+                    <persName xml:id="ZP032-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                        <surname>della Rippa</surname>
+                    </persName>
+                    <persName xml:id="ZP032-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1667">1667</date>
+                        <placeName ref="ZM015">Senigallia</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP033" n="Altaras, David " type="correspondent">
+                    <persName xml:lang="en" type="sort">Altaras, David</persName>
+                    <persName xml:id="ZP033-1" xml:lang="en" type="main">David ben Solomon
+                        Altaras</persName>
+                    <persName xml:id="ZP033-2" xml:lang="he" type="main">אלטראס, דוד בן
+                        שלמה</persName>
+                    <persName xml:id="ZP033-3" xml:lang="en">
+                        <forename>David</forename>
+                        <surname>Altaras</surname>
+                    </persName>
+                    <persName xml:id="ZP033-4" xml:lang="he">
+                        <forename>דוד</forename>
+                        <surname>אלטראס</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM001">Venice</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi and editor who was active in Venice. He
+                        was born in in and died in in .</note>
+                    <idno source="isni">0000 0000 4961 555X</idno>
+                    <idno source="viaf">58983241</idno>
+                    <idno source="wikidata">Q11774427</idno>
+                    <idno source="gnd">1089712499</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/1324-altaras-david-ben-solomon</idno>
+                </person>
+                <person xml:id="ZP034" n="Shalom, Ḥiyya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Shalom, Ḥiyya</persName>
+                    <persName xml:id="ZP034-1" xml:lang="en" type="main">Ḥiyya Shalom</persName>
+                    <persName xml:id="ZP034-2" xml:lang="he" type="main">שלום, חייא</persName>
+                    <persName xml:id="ZP034-3" xml:lang="en">
+                        <forename>Ḥiyya</forename>
+                        <surname>Shalom</surname>
+                    </persName>
+                    <persName xml:id="ZP034-4" xml:lang="he">
+                        <forename>חייא</forename>
+                        <surname>שלום</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM019">Safed</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP035" n="Frances, Jacob " type="correspondent">
+                    <persName xml:lang="en" type="sort">Frances, Jacob</persName>
+                    <persName xml:id="ZP035-1" xml:lang="en" type="main">Jacob ben David
+                        Frances</persName>
+                    <persName xml:id="ZP035-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                        <surname>Frances</surname>
+                    </persName>
+                    <persName xml:id="ZP035-4" xml:lang="he"/>
+                    <birth>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM032">Florence</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6264-frances-jacob-ben-david</idno>
+                </person>
+                <person xml:id="ZP036" n="Frances, Emanuel " type="correspondent">
+                    <persName xml:lang="en" type="sort">Frances, Emanuel</persName>
+                    <persName xml:id="ZP036-1" xml:lang="en" type="main">Emanuel ben David
+                        Frances</persName>
+                    <persName xml:id="ZP036-3" xml:lang="en">
+                        <forename>Emanuel</forename>
+                        <surname>Frances</surname>
+                    </persName>
+                    <persName xml:id="ZP036-4" xml:lang="he"/>
+                    <birth>
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM026">Livorno</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                    <note type="bioSummary">Italian poet and rabbinical scholar who was active in .
+                        He was born in -102794 in Mantua and died in after 1703 in Livorno.</note>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6263-frances-immanuel-ben-david</idno>
+                </person>
+                <person xml:id="ZP037" n="Rabbinate of Casali" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Casali</persName>
+                    <persName xml:id="ZP037-1" xml:lang="en" type="main">Rabbinate of
+                        Casali</persName>
+                    <persName xml:id="ZP037-3" xml:lang="en"/>
+                    <persName xml:id="ZP037-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1675">1675</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP038" n="Rabbinate of Constantinople" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Constantinople</persName>
+                    <persName xml:id="ZP038-1" xml:lang="en" type="main">Rabbinate of
+                        Constantinople</persName>
+                    <persName xml:id="ZP038-3" xml:lang="en"/>
+                    <persName xml:id="ZP038-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1666">1666</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP039" n="Rabbinate of Rome" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Rome</persName>
+                    <persName xml:id="ZP039-1" xml:lang="en" type="main">Rabbinate of
+                        Rome</persName>
+                    <persName xml:id="ZP039-3" xml:lang="en"/>
+                    <persName xml:id="ZP039-4" xml:lang="he"/>
+                    <birth>
+                        <date>1632</date>
+                    </birth>
+                    <death>
+                        <date>1707</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP040" n="Rabbinate of Vienna" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Vienna</persName>
+                    <persName xml:id="ZP040-1" xml:lang="en" type="main">Rabbinate of
+                        Vienna</persName>
+                    <persName xml:id="ZP040-3" xml:lang="en"/>
+                    <persName xml:id="ZP040-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1672">1672</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP041" n="Community of Jerusalem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Community of Jerusalem</persName>
+                    <persName xml:id="ZP041-1" xml:lang="en" type="main">Community of
+                        Jerusalem</persName>
+                    <persName xml:id="ZP041-3" xml:lang="en"/>
+                    <persName xml:id="ZP041-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1657">1657</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP042" n="Community of Ragusa" type="correspondent">
+                    <persName xml:lang="en" type="sort">Community of Ragusa</persName>
+                    <persName xml:id="ZP042-1" xml:lang="en" type="main">Community of
+                        Ragusa</persName>
+                    <persName xml:id="ZP042-3" xml:lang="en"/>
+                    <persName xml:id="ZP042-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP043" n="Community of Mantua" type="correspondent">
+                    <persName xml:lang="en" type="sort">Community of Mantua</persName>
+                    <persName xml:id="ZP043-1" xml:lang="en" type="main">Community of
+                        Mantua</persName>
+                    <persName xml:id="ZP043-3" xml:lang="en"/>
+                    <persName xml:id="ZP043-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1661 1673">1661, 1673</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP044" n="Sages of Egypt" type="correspondent">
+                    <persName xml:lang="en" type="sort">Sages of Egypt</persName>
+                    <persName xml:id="ZP044-1" xml:lang="en" type="main">Sages of Egypt</persName>
+                    <persName xml:id="ZP044-2" xml:lang="he" type="main">חכמי מצרים</persName>
+                    <persName xml:id="ZP044-3" xml:lang="en"/>
+                    <persName xml:id="ZP044-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP045" n="Sages of Poland" type="correspondent">
+                    <persName xml:lang="en" type="sort">Sages of Poland</persName>
+                    <persName xml:id="ZP045-1" xml:lang="en" type="main">Sages of Poland</persName>
+                    <persName xml:id="ZP045-3" xml:lang="en"/>
+                    <persName xml:id="ZP045-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1689">1689</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP046" n="Rabbinate of Amsterdam" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Amsterdam</persName>
+                    <persName xml:id="ZP046-1" xml:lang="en" type="main">Rabbinate of
+                        Amsterdam</persName>
+                    <persName xml:id="ZP046-3" xml:lang="en"/>
+                    <persName xml:id="ZP046-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1657">1657</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP047" n="Rabbinate of Jerusalem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Jerusalem</persName>
+                    <persName xml:id="ZP047-1" xml:lang="en" type="main">Rabbinate of
+                        Jerusalem</persName>
+                    <persName xml:id="ZP047-3" xml:lang="en"/>
+                    <persName xml:id="ZP047-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1659">1659</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP048" n="Ḥabibi, Menachem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Ḥabibi, Menachem</persName>
+                    <persName xml:id="ZP048-1" xml:lang="en" type="main">Menachem Ḥabibi</persName>
+                    <persName xml:id="ZP048-2" xml:lang="he" type="main">חביבי, מנחם</persName>
+                    <persName xml:id="ZP048-3" xml:lang="en">
+                        <forename>Menachem</forename>
+                        <surname>Ḥabibi</surname>
+                    </persName>
+                    <persName xml:id="ZP048-4" xml:lang="he">
+                        <forename>שלמה</forename>
+                        <surname>פורמיגיני</surname>
+                    </persName>
+                    <birth>
+                        <date>02.06.1904</date>
+                    </birth>
+                    <death>
+                        <date>1667</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP049" n="Ashkenazic Community of Jerusalem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Ashkenazic Community of Jerusalem</persName>
+                    <persName xml:id="ZP049-1" xml:lang="en" type="main">Ashkenazic Community of
+                        Jerusalem</persName>
+                    <persName xml:id="ZP049-3" xml:lang="en"/>
+                    <persName xml:id="ZP049-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP050" n="Communities of Amsterdam" type="correspondent">
+                    <persName xml:lang="en" type="sort">Communities of Amsterdam</persName>
+                    <persName xml:id="ZP050-1" xml:lang="en" type="main">Communities of
+                        Amsterdam</persName>
+                    <persName xml:id="ZP050-3" xml:lang="en"/>
+                    <persName xml:id="ZP050-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                    <idno source="wikidata">Q6190025</idno>
+                </person>
+                <person xml:id="ZP051" n="Communities of France" type="correspondent">
+                    <persName xml:lang="en" type="sort">Communities of France</persName>
+                    <persName xml:id="ZP051-1" xml:lang="en" type="main">Communities of
+                        France</persName>
+                    <persName xml:id="ZP051-3" xml:lang="en"/>
+                    <persName xml:id="ZP051-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP052" n="Formiggini, Solomon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Formiggini, Solomon</persName>
+                    <persName xml:id="ZP052-1" xml:lang="en" type="main">Solomon
+                        Formiggini</persName>
+                    <persName xml:id="ZP052-2" xml:lang="he" type="main">פורמיגיני, שלמה</persName>
+                    <persName xml:id="ZP052-3" xml:lang="en">
+                        <forename>Solomon</forename>
+                        <surname>Formiggini</surname>
+                    </persName>
+                    <persName xml:id="ZP052-4" xml:lang="he">
+                        <forename>שלמה</forename>
+                        <surname>פורמיגיני</surname>
+                    </persName>
+                    <birth>
+                        <date>1630</date>
+                    </birth>
+                    <death>
+                        <date>1693</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM002">Mantua</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP053" n="Bassani, Angel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Bassani, Angel</persName>
+                    <persName xml:id="ZP053-1" xml:lang="en" type="main">Angel Bassani</persName>
+                    <persName xml:id="ZP053-3" xml:lang="en">
+                        <forename>Angel</forename>
+                        <surname>Bassani</surname>
+                    </persName>
+                    <persName xml:id="ZP053-4" xml:lang="he"/>
+                    <birth>
+                        <date>ca. 1600</date>
+                    </birth>
+                    <death>
+                        <date>1667</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1695">1695</date>
+                        <placeName ref="ZM003">Verona</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP054" n="Monselice, Aaron" type="correspondent">
+                    <persName xml:lang="en" type="sort">Monselice, Aaron</persName>
+                    <persName xml:id="ZP054-1" xml:lang="en" type="main">Aaron Monselice</persName>
+                    <persName xml:id="ZP054-3" xml:lang="en">
+                        <forename>Aaron</forename>
+                        <surname>Monselice</surname>
+                    </persName>
+                    <persName xml:id="ZP054-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1687">1687</date>
+                        <placeName ref="ZM020">Busseto</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP055" n="Communities of Italy" type="correspondent">
+                    <persName xml:lang="en" type="sort">Communities of Italy</persName>
+                    <persName xml:id="ZP055-1" xml:lang="en" type="main">Communities of
+                        Italy</persName>
+                    <persName xml:id="ZP055-3" xml:lang="en"/>
+                    <persName xml:id="ZP055-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP056" n="Community of Rome" type="correspondent">
+                    <persName xml:lang="en" type="sort">Community of Rome</persName>
+                    <persName xml:id="ZP056-1" xml:lang="en" type="main">Community of
+                        Rome</persName>
+                    <persName xml:id="ZP056-3" xml:lang="en"/>
+                    <persName xml:id="ZP056-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1676">1676</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP057" n="Miesi, David" type="correspondent">
+                    <persName xml:lang="en" type="sort">Miesi, David</persName>
+                    <persName xml:id="ZP057-1" xml:lang="en" type="main">David Miesi</persName>
+                    <persName xml:id="ZP057-3" xml:lang="en">
+                        <forename>David</forename>
+                        <surname>Miesi</surname>
+                    </persName>
+                    <persName xml:id="ZP057-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1677">1677</date>
+                        <placeName ref="ZM021">Ferrara</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP058" n="Orilio, Elia Menaḥem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Orilio, Elia Menaḥem</persName>
+                    <persName xml:id="ZP058-1" xml:lang="en" type="main">Elia Menaḥem
+                        Orilio</persName>
+                    <persName xml:id="ZP058-3" xml:lang="en">
+                        <forename>Elia Menaḥem</forename>
+                        <surname>Orilio</surname>
+                    </persName>
+                    <persName xml:id="ZP058-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1670">1670</date>
+                        <placeName ref="ZM004">Modena</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP059" n="Mataron, Eliezer" type="correspondent">
+                    <persName xml:lang="en" type="sort">Mataron, Eliezer</persName>
+                    <persName xml:id="ZP059-1" xml:lang="en" type="main">Eliezer Mataron</persName>
+                    <persName xml:id="ZP059-3" xml:lang="en">
+                        <forename>Eliezer</forename>
+                        <surname>Mataron</surname>
+                    </persName>
+                    <persName xml:id="ZP059-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM019">Safed</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP060" n="Foa, Eliezer Naḥman" type="correspondent">
+                    <persName xml:lang="en" type="sort">Foa, Eliezer Naḥman</persName>
+                    <persName xml:id="ZP060-1" xml:lang="en" type="main">Eliezer Naḥman
+                        Foa</persName>
+                    <persName xml:id="ZP060-2" xml:lang="he" type="main">פואה, אליעזר
+                        נחמן</persName>
+                    <persName xml:id="ZP060-3" xml:lang="en">
+                        <forename>Eliezer Naḥman</forename>
+                        <surname>Foa</surname>
+                    </persName>
+                    <persName xml:id="ZP060-4" xml:lang="he">
+                        <forename>אליעזר נחמן</forename>
+                        <surname>פואה</surname>
+                    </persName>
+                    <birth/>
+                    <death>
+                        <placeName ref="#N/A">Reggio</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/6207-foa-eliezer-nahman</idno>
+                </person>
+                <person xml:id="ZP061" n="Ravenna, Elijah" type="correspondent">
+                    <persName xml:lang="en" type="sort">Ravenna, Elijah</persName>
+                    <persName xml:id="ZP061-1" xml:lang="en" type="main">Elijah Ravenna</persName>
+                    <persName xml:id="ZP061-3" xml:lang="en">
+                        <forename>Elijah</forename>
+                        <surname>Ravenna</surname>
+                    </persName>
+                    <persName xml:id="ZP061-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP062" n="Esperanssa, Gabriel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Esperanssa, Gabriel</persName>
+                    <persName xml:id="ZP062-1" xml:lang="en" type="main">Gabriel
+                        Esperanssa</persName>
+                    <persName xml:id="ZP062-3" xml:lang="en">
+                        <forename>Gabriel</forename>
+                        <surname>Esperanssa</surname>
+                    </persName>
+                    <persName xml:id="ZP062-4" xml:lang="he"/>
+                    <birth>
+                        <placeName ref="#N/A">Salonika</placeName>
+                    </birth>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM019">Safed</placeName>
+                    </floruit>
+                    <note type="bioSummary">Ottoman rabbi and Talmudic scholar who was active in
+                        Safed. He was born in in Salonika and died in in .</note>
+                    <idno source="isni">39200027</idno>
+                    <idno source="viaf">65996633</idno>
+                    <idno source="wikidata">Q5515611</idno>
+                </person>
+                <person xml:id="ZP063" n="Finci, Gur Arye" type="correspondent">
+                    <persName xml:lang="en" type="sort">Finci, Gur Arye</persName>
+                    <persName xml:id="ZP063-1" xml:lang="en" type="main">Gur Arye Finci</persName>
+                    <persName xml:id="ZP063-3" xml:lang="en">
+                        <forename>Gur Arye</forename>
+                        <surname>Finci</surname>
+                    </persName>
+                    <persName xml:id="ZP063-4" xml:lang="he"/>
+                    <birth>
+                        <date>ca. 1643</date>
+                    </birth>
+                    <death>
+                        <date>1722</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP064" n="Qasis, Hananya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Qasis, Hananya</persName>
+                    <persName xml:id="ZP064-1" xml:lang="en" type="main">Hananya Qasis</persName>
+                    <persName xml:id="ZP064-3" xml:lang="en">
+                        <forename>Hananya</forename>
+                        <surname>Qasis</surname>
+                    </persName>
+                    <persName xml:id="ZP064-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1677">1677</date>
+                        <placeName ref="ZM032">Florence</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP065" n="Norci, Ḥayyim" type="correspondent">
+                    <persName xml:lang="en" type="sort">Norci, Ḥayyim</persName>
+                    <persName xml:id="ZP065-1" xml:lang="en" type="main">Ḥayyim Norci</persName>
+                    <persName xml:id="ZP065-3" xml:lang="en">
+                        <forename>Ḥayyim</forename>
+                        <surname>Norci</surname>
+                    </persName>
+                    <persName xml:id="ZP065-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP066" n="Gabriel, Ḥiyya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Gabriel, Ḥiyya</persName>
+                    <persName xml:id="ZP066-1" xml:lang="en" type="main">Ḥiyya Gabriel</persName>
+                    <persName xml:id="ZP066-2" xml:lang="he" type="main">גבריאל, חייא</persName>
+                    <persName xml:id="ZP066-3" xml:lang="en">
+                        <forename>Ḥiyya</forename>
+                        <surname>Gabriel</surname>
+                    </persName>
+                    <persName xml:id="ZP066-4" xml:lang="he">
+                        <forename>חייא</forename>
+                        <surname>גבריאל</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM019">Safed</placeName>
+                    </floruit>
+                    <note type="bioSummary">Ottoman Talmudic scholar who was active in Safed. He was
+                        born in in and died in in .</note>
+                    <idno source="viaf">9768354</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/7782-hiyya-gabriel</idno>
+                </person>
+                <person xml:id="ZP067" n="ha-Levi, Isaac" type="correspondent">
+                    <persName xml:lang="en" type="sort">ha-Levi, Isaac</persName>
+                    <persName xml:id="ZP067-1" xml:lang="en" type="main">Isaac ha-Levi</persName>
+                    <persName xml:id="ZP067-2" xml:lang="he" type="main">הלוי, יצחק</persName>
+                    <persName xml:id="ZP067-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                        <surname>ha-Levi</surname>
+                    </persName>
+                    <persName xml:id="ZP067-4" xml:lang="he">
+                        <forename>יצחק</forename>
+                        <surname>הלוי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM010">Reggio Emilia</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP068" n="Rofe, Isaac Luria" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rofe, Isaac Luria</persName>
+                    <persName xml:id="ZP068-1" xml:lang="en" type="main">Isaac Luria Rofe</persName>
+                    <persName xml:id="ZP068-3" xml:lang="en">
+                        <forename>Isaac Luria</forename>
+                        <surname>Rofe</surname>
+                    </persName>
+                    <persName xml:id="ZP068-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP069" n="Shalom, Isaac" type="correspondent">
+                    <persName xml:lang="en" type="sort">Shalom, Isaac</persName>
+                    <persName xml:id="ZP069-1" xml:lang="en" type="main">Isaac Shalom</persName>
+                    <persName xml:id="ZP069-2" xml:lang="he" type="main">שלום, יצחק</persName>
+                    <persName xml:id="ZP069-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                        <surname>Shalom</surname>
+                    </persName>
+                    <persName xml:id="ZP069-4" xml:lang="he">
+                        <forename>יצחק</forename>
+                        <surname>שלום</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1686">1686</date>
+                        <placeName ref="ZM019">Safed</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP070" n="Vale, Isaac" type="correspondent">
+                    <persName xml:lang="en" type="sort">Vale, Isaac</persName>
+                    <persName xml:id="ZP070-1" xml:lang="en" type="main">Isaac Vale</persName>
+                    <persName xml:id="ZP070-3" xml:lang="en">
+                        <forename>Isaac</forename>
+                        <surname>Vale</surname>
+                    </persName>
+                    <persName xml:id="ZP070-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1668 1677">1668, 1677</date>
+                        <placeName ref="ZM003">Verona</placeName>
+                        <placeName ref="ZM004">Modena</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP071" n="Jacob ben Naftali" type="correspondent">
+                    <persName xml:lang="en" type="sort">Jacob ben Naftali</persName>
+                    <persName xml:id="ZP071-1" xml:lang="en" type="main">Jacob ben
+                        Naftali</persName>
+                    <persName xml:id="ZP071-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                    </persName>
+                    <persName xml:id="ZP071-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP072" n="ha-Levi, Jacob" type="correspondent">
+                    <persName xml:lang="en" type="sort">ha-Levi, Jacob</persName>
+                    <persName xml:id="ZP072-1" xml:lang="en" type="main">Jacob ha-Levi</persName>
+                    <persName xml:id="ZP072-2" xml:lang="he" type="main">הלוי, יעקב</persName>
+                    <persName xml:id="ZP072-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                        <surname>ha-Levi</surname>
+                    </persName>
+                    <persName xml:id="ZP072-4" xml:lang="he">
+                        <forename>יעקב</forename>
+                        <surname>הלוי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1661 1666">1661, 1666</date>
+                        <placeName ref="ZM001">Venice</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP073" n="Segre, Jacob" type="correspondent">
+                    <persName xml:lang="en" type="sort">Segre, Jacob</persName>
+                    <persName xml:id="ZP073-1" xml:lang="en" type="main">Jacob Segre</persName>
+                    <persName xml:id="ZP073-2" xml:lang="he" type="main">סגרי, יעקב</persName>
+                    <persName xml:id="ZP073-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <persName xml:id="ZP073-4" xml:lang="he">
+                        <forename>יעקב</forename>
+                        <surname>סגרי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP074" n="Zahalon, Jacob" type="correspondent">
+                    <persName xml:lang="en" type="sort">Zahalon, Jacob</persName>
+                    <persName xml:id="ZP074-1" xml:lang="en" type="main">Jacob Zahalon</persName>
+                    <persName xml:id="ZP074-2" xml:lang="he" type="main">צהלון, יעקב בן
+                        יצחק</persName>
+                    <persName xml:id="ZP074-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                        <surname>Zahalon</surname>
+                    </persName>
+                    <persName xml:id="ZP074-4" xml:lang="he">
+                        <forename>יעקב</forename>
+                        <surname>צהלון</surname>
+                    </persName>
+                    <birth>
+                        <date>1625</date>
+                    </birth>
+                    <death>
+                        <date>1697</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM021">Ferrara</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi, poet, physician and Talmudist who was
+                        active in Ferrara. He was born in 1630 in and died in
+                        1693 in .</note>
+                    <idno source="isni">0000 0000 6657 8594</idno>
+                    <idno source="viaf">5681160848428408210008</idno>
+                    <idno source="wikidata">Q7029070</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/15151-zahalon#anchor2</idno>
+                </person>
+                <person xml:id="ZP075" n="Zemach, Jacob" type="correspondent">
+                    <persName xml:lang="en" type="sort">Zemach, Jacob</persName>
+                    <persName xml:id="ZP075-1" xml:lang="en" type="main">Jacob Zemach</persName>
+                    <persName xml:id="ZP075-2" xml:lang="he" type="main">צמח, יעקב בן
+                        חיים</persName>
+                    <persName xml:id="ZP075-3" xml:lang="en">
+                        <forename>Jacob</forename>
+                        <surname>Zemach</surname>
+                    </persName>
+                    <persName xml:id="ZP075-4" xml:lang="he">
+                        <forename>יעקב</forename>
+                        <surname>צמח</surname>
+                    </persName>
+                    <birth/>
+                    <death>
+                        <placeName ref="ZM008">Jerusalem</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1658">1658</date>
+                        <placeName ref="ZM019">Safed</placeName>
+                        <placeName ref="#N/A">Damascus</placeName>
+                        <placeName ref="ZM008">Jerusalem</placeName>
+                    </floruit>
+                    <note type="bioSummary">Portuguese kabbalist and physician who was active in
+                        Safed, Damascus, Jerusalem. He was born in ca. 1600 in and died in 1667 in
+                        Jerusalem.</note>
+                    <idno source="isni">0000 0000 7266 662X</idno>
+                    <idno source="viaf">18664254</idno>
+                    <idno source="wikidata">Q6119523</idno>
+                    <idno source="gnd">1859767</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/15236-zemah-jacob-ben-hayyim</idno>
+                </person>
+                <person xml:id="ZP076" n="Finci, Jehiel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Finci, Jehiel</persName>
+                    <persName xml:id="ZP076-1" xml:lang="en" type="main">Jehiel Finci</persName>
+                    <persName xml:id="ZP076-2" xml:lang="he" type="main">פנצי, יחיאל</persName>
+                    <persName xml:id="ZP076-3" xml:lang="en">
+                        <forename>Jehiel</forename>
+                        <surname>Finci</surname>
+                    </persName>
+                    <persName xml:id="ZP076-4" xml:lang="he">
+                        <forename>יחיאל</forename>
+                        <surname>פנצי</surname>
+                    </persName>
+                    <birth/>
+                    <death>
+                        <date>1691</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1672">1672</date>
+                        <placeName ref="ZM032">Florence</placeName>
+                    </floruit>
+                    <idno source="viaf">12162720957361090455</idno>
+                </person>
+                <person xml:id="ZP077" n="Norci, Jehiel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Norci, Jehiel</persName>
+                    <persName xml:id="ZP077-1" xml:lang="en" type="main">Jehiel Norci</persName>
+                    <persName xml:id="ZP077-3" xml:lang="en">
+                        <forename>Jehiel</forename>
+                        <surname>Norci</surname>
+                    </persName>
+                    <persName xml:id="ZP077-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP078" n="Joseph" type="correspondent">
+                    <persName xml:lang="en" type="sort">Joseph</persName>
+                    <persName xml:id="ZP078-1" xml:lang="en" type="main">Joseph</persName>
+                    <persName xml:id="ZP078-2" xml:lang="he" type="main">יוסף</persName>
+                    <persName xml:id="ZP078-3" xml:lang="en">
+                        <forename>Joseph</forename>
+                    </persName>
+                    <persName xml:id="ZP078-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP079" n="Alvalenza, Joseph" type="correspondent">
+                    <persName xml:lang="en" type="sort">Alvalenza, Joseph</persName>
+                    <persName xml:id="ZP079-1" xml:lang="en" type="main">Joseph Alvalenza</persName>
+                    <persName xml:id="ZP079-3" xml:lang="en">
+                        <forename>Joseph</forename>
+                        <surname>Alvalenza</surname>
+                    </persName>
+                    <persName xml:id="ZP079-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP080" n="Riciti, Joseph " type="correspondent">
+                    <persName xml:lang="en" type="sort">Riciti, Joseph</persName>
+                    <persName xml:id="ZP080-1" xml:lang="en" type="main">Joseph ben Eliezer Shalit
+                        Riciti</persName>
+                    <persName xml:id="ZP080-2" xml:lang="he" type="main">ריקיטי, יוסף בן
+                        אליעזר</persName>
+                    <persName xml:id="ZP080-3" xml:lang="en">
+                        <forename>Joseph</forename>
+                        <surname>Riciti</surname>
+                    </persName>
+                    <persName xml:id="ZP080-4" xml:lang="he">
+                        <forename>יוסף</forename>
+                        <surname>ריקיטי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP081" n="Vega, Joseph" type="correspondent">
+                    <persName xml:lang="en" type="sort">Vega, Joseph</persName>
+                    <persName xml:id="ZP081-1" xml:lang="en" type="main">Joseph Vega</persName>
+                    <persName xml:id="ZP081-3" xml:lang="en">
+                        <forename>Joseph</forename>
+                        <surname>Vega</surname>
+                    </persName>
+                    <persName xml:id="ZP081-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP082" n="Firmo, Joshua" type="correspondent">
+                    <persName xml:lang="en" type="sort">Firmo, Joshua</persName>
+                    <persName xml:id="ZP082-1" xml:lang="en" type="main">Joshua Firmo</persName>
+                    <persName xml:id="ZP082-3" xml:lang="en">
+                        <forename>Joshua</forename>
+                        <surname>Firmo</surname>
+                    </persName>
+                    <persName xml:id="ZP082-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1669">1669</date>
+                        <placeName ref="ZM022">Ancona</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP083" n="Judah" type="correspondent">
+                    <persName xml:lang="en" type="sort">Judah</persName>
+                    <persName xml:id="ZP083-1" xml:lang="en" type="main">Judah</persName>
+                    <persName xml:id="ZP083-2" xml:lang="he" type="main">יהודה</persName>
+                    <persName xml:id="ZP083-3" xml:lang="en">
+                        <forename>Judah</forename>
+                    </persName>
+                    <persName xml:id="ZP083-4" xml:lang="he">
+                        <forename>יהודה</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM010">Reggio Emilia</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP084" n="Judah ben Ruben" type="correspondent">
+                    <persName xml:lang="en" type="sort">Judah ben Ruben</persName>
+                    <persName xml:id="ZP084-1" xml:lang="en" type="main">Judah ben Ruben</persName>
+                    <persName xml:id="ZP084-2" xml:lang="he" type="main">יהודה בן ראובן</persName>
+                    <persName xml:id="ZP084-3" xml:lang="en">
+                        <forename>Judah</forename>
+                    </persName>
+                    <persName xml:id="ZP084-4" xml:lang="he">
+                        <forename>יהודה</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP085" n="Menachem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Menachem</persName>
+                    <persName xml:id="ZP085-1" xml:lang="en" type="main">Menachem</persName>
+                    <persName xml:id="ZP085-3" xml:lang="en">
+                        <forename>Menachem</forename>
+                    </persName>
+                    <persName xml:id="ZP085-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1660">1660</date>
+                        <placeName ref="ZM018">Saloniki</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP086" n="Jedidiah, Menachem" type="correspondent">
+                    <persName xml:lang="en" type="sort">Jedidiah, Menachem</persName>
+                    <persName xml:id="ZP086-1" xml:lang="en" type="main">Menachem
+                        Jedidiah</persName>
+                    <persName xml:id="ZP086-2" xml:lang="he" type="main">מנחם, ידידיה</persName>
+                    <persName xml:id="ZP086-3" xml:lang="en">
+                        <forename>Menachem</forename>
+                        <surname>Jedidiah</surname>
+                    </persName>
+                    <persName xml:id="ZP086-4" xml:lang="he">
+                        <forename>ידידיה</forename>
+                        <surname>מנחם</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP087" n="Basil, Menachem Shimson" type="correspondent">
+                    <persName xml:lang="en" type="sort">Basil, Menachem Shimson</persName>
+                    <persName xml:id="ZP087-1" xml:lang="en" type="main">Menachem Shimson
+                        Basil</persName>
+                    <persName xml:id="ZP087-3" xml:lang="en">
+                        <forename>Menachem Shimson</forename>
+                        <surname>Basil</surname>
+                    </persName>
+                    <persName xml:id="ZP087-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP088" n="Bassan, Mordecai" type="correspondent">
+                    <persName xml:lang="en" type="sort">Bassan, Mordecai</persName>
+                    <persName xml:id="ZP088-1" xml:lang="en" type="main">Mordecai Bassan</persName>
+                    <persName xml:id="ZP088-3" xml:lang="en">
+                        <forename>Mordecai</forename>
+                        <surname>Bassan</surname>
+                    </persName>
+                    <persName xml:id="ZP088-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM003">Verona</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP089" n="Ashkenazi, Moses" type="correspondent">
+                    <persName xml:lang="en" type="sort">Ashkenazi, Moses</persName>
+                    <persName xml:id="ZP089-1" xml:lang="en" type="main">Moses Ashkenazi</persName>
+                    <persName xml:id="ZP089-2" xml:lang="he" type="main">אשקנזי, משה</persName>
+                    <persName xml:id="ZP089-3" xml:lang="en">
+                        <forename>Moses</forename>
+                        <surname>Ashkenazi</surname>
+                    </persName>
+                    <persName xml:id="ZP089-4" xml:lang="he">
+                        <forename>משה</forename>
+                        <surname>אשקנזי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP090" n="Moses ben Aaron" type="correspondent">
+                    <persName xml:lang="en" type="sort">Moses ben Aaron</persName>
+                    <persName xml:id="ZP090-1" xml:lang="en" type="main">Moses ben Aaron</persName>
+                    <persName xml:id="ZP090-2" xml:lang="he" type="main">משה בן אהרון</persName>
+                    <persName xml:id="ZP090-3" xml:lang="en">
+                        <forename>Moses</forename>
+                    </persName>
+                    <persName xml:id="ZP090-4" xml:lang="he">
+                        <forename>משה</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP091" n="Liberles, Moses" type="correspondent">
+                    <persName xml:lang="en" type="sort">Liberles, Moses</persName>
+                    <persName xml:id="ZP091-1" xml:lang="en" type="main">Moses Liberles</persName>
+                    <persName xml:id="ZP091-3" xml:lang="en">
+                        <forename>Moses</forename>
+                        <surname>Liberles</surname>
+                    </persName>
+                    <persName xml:id="ZP091-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP092" n="Treves, Moses" type="correspondent">
+                    <persName xml:lang="en" type="sort">Treves, Moses</persName>
+                    <persName xml:id="ZP092-1" xml:lang="en" type="main">Moses Treves</persName>
+                    <persName xml:id="ZP092-3" xml:lang="en">
+                        <forename>Moses</forename>
+                        <surname>Treves</surname>
+                    </persName>
+                    <persName xml:id="ZP092-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP093" n="Segre, Netanel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Segre, Netanel</persName>
+                    <persName xml:id="ZP093-1" xml:lang="en" type="main">Netanel Segre</persName>
+                    <persName xml:id="ZP093-2" xml:lang="he" type="main">סגרי, נתנאל בן אהרן
+                        יעקב</persName>
+                    <persName xml:id="ZP093-3" xml:lang="en">
+                        <forename>Netanel</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <persName xml:id="ZP093-4" xml:lang="he">
+                        <forename>נתנאל</forename>
+                        <surname>סגרי</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="#N/A">Chieri</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="#N/A">Cento</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1678">1678</date>
+                    </floruit>
+                    <idno source="viaf">81145304372678570329</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/13392-segre#anchor13</idno>
+                </person>
+                <person xml:id="ZP094" n="Paltiya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Paltiya</persName>
+                    <persName xml:id="ZP094-1" xml:lang="en" type="main">Paltiya</persName>
+                    <persName xml:id="ZP094-3" xml:lang="en">
+                        <forename>Paltiya</forename>
+                    </persName>
+                    <persName xml:id="ZP094-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP095" n="Monselice, Paltiya" type="correspondent">
+                    <persName xml:lang="en" type="sort">Monselice, Paltiya</persName>
+                    <persName xml:id="ZP095-1" xml:lang="en" type="main">Paltiya
+                        Monselice</persName>
+                    <persName xml:id="ZP095-3" xml:lang="en">
+                        <forename>Paltiya</forename>
+                        <surname>Monselice</surname>
+                    </persName>
+                    <persName xml:id="ZP095-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1677">1677</date>
+                        <placeName ref="ZM021">Ferrara</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP096" n="Efraim" type="correspondent">
+                    <persName xml:lang="en" type="sort">Efraim</persName>
+                    <persName xml:id="ZP096-1" xml:lang="en" type="main">Efraim</persName>
+                    <persName xml:id="ZP096-3" xml:lang="en">
+                        <forename>Efraim</forename>
+                    </persName>
+                    <persName xml:id="ZP096-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP097" n="Efraim of Austria" type="correspondent">
+                    <persName xml:lang="en" type="sort">Efraim of Austria</persName>
+                    <persName xml:id="ZP097-1" xml:lang="en" type="main">Efraim of
+                        Austria</persName>
+                    <persName xml:id="ZP097-3" xml:lang="en">
+                        <forename>Efraim of Austria</forename>
+                    </persName>
+                    <persName xml:id="ZP097-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP098" n="Joel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Joel</persName>
+                    <persName xml:id="ZP098-1" xml:lang="en" type="main">Joel</persName>
+                    <persName xml:id="ZP098-2" xml:lang="he" type="main">יואל</persName>
+                    <persName xml:id="ZP098-3" xml:lang="en">
+                        <forename>Joel</forename>
+                    </persName>
+                    <persName xml:id="ZP098-4" xml:lang="he">
+                        <forename>יואל</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP099" n="Nathan" type="correspondent">
+                    <persName xml:lang="en" type="sort">Nathan</persName>
+                    <persName xml:id="ZP099-1" xml:lang="en" type="main">Nathan</persName>
+                    <persName xml:id="ZP099-2" xml:lang="he" type="main">נתן</persName>
+                    <persName xml:id="ZP099-3" xml:lang="en">
+                        <forename>Nathan</forename>
+                    </persName>
+                    <persName xml:id="ZP099-4" xml:lang="he">
+                        <forename>נתן</forename>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP100" n="Polestro, Shabbetai" type="correspondent">
+                    <persName xml:lang="en" type="sort">Polestro, Shabbetai</persName>
+                    <persName xml:id="ZP100-1" xml:lang="en" type="main">Shabbetai
+                        Polestro</persName>
+                    <persName xml:id="ZP100-3" xml:lang="en">
+                        <forename>Shabbetai</forename>
+                        <surname>Polestro</surname>
+                    </persName>
+                    <persName xml:id="ZP100-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP101" n="Rabbinate of Ferrara" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Ferrara</persName>
+                    <persName xml:id="ZP101-1" xml:lang="en" type="main">Rabbinate of
+                        Ferrara</persName>
+                    <persName xml:id="ZP101-3" xml:lang="en"/>
+                    <persName xml:id="ZP101-4" xml:lang="he"/>
+                    <birth>
+                        <date>1610</date>
+                    </birth>
+                    <death>
+                        <date>1694-08-22</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1666">1666</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP102" n="Rabbinate of Krakow" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Krakow</persName>
+                    <persName xml:id="ZP102-1" xml:lang="en" type="main">Rabbinate of
+                        Krakow</persName>
+                    <persName xml:id="ZP102-3" xml:lang="en"/>
+                    <persName xml:id="ZP102-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP103" n="Rabbinate of Safed" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Safed</persName>
+                    <persName xml:id="ZP103-1" xml:lang="en" type="main">Rabbinate of
+                        Safed</persName>
+                    <persName xml:id="ZP103-3" xml:lang="en"/>
+                    <persName xml:id="ZP103-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP104" n="Rabbinate of Venice" type="correspondent">
+                    <persName xml:lang="en" type="sort">Rabbinate of Venice</persName>
+                    <persName xml:id="ZP104-1" xml:lang="en" type="main">Rabbinate of
+                        Venice</persName>
+                    <persName xml:id="ZP104-3" xml:lang="en"/>
+                    <persName xml:id="ZP104-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                    <idno source="treccani">https://www.treccani.it/enciclopedia/gli-ebrei-e-la-citta_%28altro%29/</idno>
+                </person>
+                <person xml:id="ZP105" n="Copio, Rafael" type="correspondent">
+                    <persName xml:lang="en" type="sort">Copio, Rafael</persName>
+                    <persName xml:id="ZP105-1" xml:lang="en" type="main">Rafael Copio</persName>
+                    <persName xml:id="ZP105-3" xml:lang="en">
+                        <forename>Rafael</forename>
+                        <surname>Copio</surname>
+                    </persName>
+                    <persName xml:id="ZP105-4" xml:lang="he"/>
+                    <birth>
+                        <date>1596</date>
+                    </birth>
+                    <death>
+                        <date>1660-02-10</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP106" n="Sages of the Land of Israel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Sages of the Land of Israel</persName>
+                    <persName xml:id="ZP106-1" xml:lang="en" type="main">Sages of the Land of
+                        Israel</persName>
+                    <persName xml:id="ZP106-3" xml:lang="en"/>
+                    <persName xml:id="ZP106-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP107" n="Dayyan, Samson" type="correspondent">
+                    <persName xml:lang="en" type="sort">Dayyan, Samson</persName>
+                    <persName xml:id="ZP107-1" xml:lang="en" type="main">Samson Dayyan</persName>
+                    <persName xml:id="ZP107-2" xml:lang="he" type="main">דיין, שמשון</persName>
+                    <persName xml:id="ZP107-3" xml:lang="en">
+                        <forename>Samson</forename>
+                        <surname>Dayyan</surname>
+                    </persName>
+                    <persName xml:id="ZP107-4" xml:lang="he">
+                        <forename>שמשון</forename>
+                        <surname>דיין</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP108" n="Garmon, Samuel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Garmon, Samuel</persName>
+                    <persName xml:id="ZP108-1" xml:lang="en" type="main">Samuel Garmon</persName>
+                    <persName xml:id="ZP108-2" xml:lang="he" type="main">גרמון, שמואל</persName>
+                    <persName xml:id="ZP108-3" xml:lang="en">
+                        <forename>Samuel</forename>
+                        <surname>Garmon</surname>
+                    </persName>
+                    <persName xml:id="ZP108-4" xml:lang="he">
+                        <forename>שמואל</forename>
+                        <surname>גרמון</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP109" n="Levi, Saul" type="correspondent">
+                    <persName xml:lang="en" type="sort">Levi, Saul</persName>
+                    <persName xml:id="ZP109-1" xml:lang="en" type="main">Saul Levi</persName>
+                    <persName xml:id="ZP109-2" xml:lang="he" type="main">לוי, שאול</persName>
+                    <persName xml:id="ZP109-3" xml:lang="en">
+                        <forename>Saul</forename>
+                        <surname>Levi</surname>
+                    </persName>
+                    <persName xml:id="ZP109-4" xml:lang="he">
+                        <forename>שאול</forename>
+                        <surname>לוי</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP110" n="Morteira, Saul" type="correspondent">
+                    <persName xml:lang="en" type="sort">Morteira, Saul</persName>
+                    <persName xml:id="ZP110-1" xml:lang="en" type="main">Saul Morteira</persName>
+                    <persName xml:id="ZP110-2" xml:lang="he" type="main">מורטרה, שאול,
+                        הלוי</persName>
+                    <persName xml:id="ZP110-3" xml:lang="en">
+                        <forename>Saul</forename>
+                        <surname>Morteira</surname>
+                    </persName>
+                    <persName xml:id="ZP110-4" xml:lang="he"/>
+                    <birth>
+                        <placeName ref="ZM001">Venice</placeName>
+                        <date>1583</date>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM005">Amsterdam</placeName>
+                        <date>1663-01-06</date>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1650">1650</date>
+                        <placeName ref="ZM005">Amsterdam</placeName>
+                    </floruit>
+                    <note type="bioSummary">Dutch philosopher who was active in Amsterdam. He was
+                        born in 1596 in Venice and died in 1660-02-10 in
+                        Amsterdam.</note>
+                    <idno source="isni">0000 0001 1871 1992</idno>
+                    <idno source="viaf">12376948</idno>
+                    <idno source="wikidata">Q6122291</idno>
+                    <idno source="gnd">130508098</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/11031-morteira-mortera-saul-levi</idno>
+                </person>
+                <person xml:id="ZP111" n="Beer, Shabbetai" type="correspondent">
+                    <persName xml:lang="en" type="sort">Beer, Shabbetai</persName>
+                    <persName xml:id="ZP111-1" xml:lang="en" type="main">Shabbetai Beer</persName>
+                    <persName xml:id="ZP111-3" xml:lang="en">
+                        <forename>Shabbetai</forename>
+                        <surname>Beer</surname>
+                    </persName>
+                    <persName xml:id="ZP111-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1666">1666</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP112" n="Fanzieri, Shabbetai" type="correspondent">
+                    <persName xml:lang="en" type="sort">Fanzieri, Shabbetai</persName>
+                    <persName xml:id="ZP112-1" xml:lang="en" type="main">Shabbetai
+                        Fanzieri</persName>
+                    <persName xml:id="ZP112-3" xml:lang="en">
+                        <forename>Shabbetai</forename>
+                        <surname>Fanzieri</surname>
+                    </persName>
+                    <persName xml:id="ZP112-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1672">1672</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP113" n="Molkho, Shabbetai" type="correspondent">
+                    <persName xml:lang="en" type="sort">Molkho, Shabbetai</persName>
+                    <persName xml:id="ZP113-1" xml:lang="en" type="main">Shabbetai Molkho</persName>
+                    <persName xml:id="ZP113-3" xml:lang="en">
+                        <forename>Shabbetai</forename>
+                        <surname>Molkho</surname>
+                    </persName>
+                    <persName xml:id="ZP113-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP114" n="Modena, Shealtiel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Modena, Shealtiel</persName>
+                    <persName xml:id="ZP114-1" xml:lang="en" type="main">Shealtiel Modena</persName>
+                    <persName xml:id="ZP114-3" xml:lang="en">
+                        <forename>Shealtiel</forename>
+                        <surname>Modena</surname>
+                    </persName>
+                    <persName xml:id="ZP114-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1672">1672</date>
+                    </floruit>
+                </person>
+                <person xml:id="ZP115" n="Luzzatto, Simone" type="correspondent">
+                    <persName xml:lang="en" type="sort">Luzzatto, Simone</persName>
+                    <persName xml:id="ZP115-1" xml:lang="en" type="main">Simone Luzzatto</persName>
+                    <persName xml:id="ZP115-2" xml:lang="he" type="main">לוצטו, שמחה</persName>
+                    <persName xml:id="ZP115-3" xml:lang="en">
+                        <forename>Simone</forename>
+                        <surname>Luzzatto</surname>
+                    </persName>
+                    <persName xml:id="ZP115-4" xml:lang="he">
+                        <forename>שמחה</forename>
+                        <surname>לוצטו</surname>
+                    </persName>
+                    <birth>
+                        <placeName ref="ZM001">Venice</placeName>
+                    </birth>
+                    <death>
+                        <placeName ref="ZM001">Venice</placeName>
+                    </death>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM001">Venice</placeName>
+                    </floruit>
+                    <note type="bioSummary">Italian rabbi and apologist who was active in Venice. He
+                        was born in 1583 in Venice and died in 1663-01-06 in
+                        Venice.</note>
+                    <idno source="isni">0000 0000 6632 2441</idno>
+                    <idno source="viaf">7730412</idno>
+                    <idno source="wikidata">Q508079</idno>
+                    <idno source="gnd">121420930</idno>
+                    <idno source="treccani">https://www.treccani.it/enciclopedia/simone-luzzatto_(Dizionario-Biografico)</idno>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/10203-luzzatto-luzzatti#anchor17</idno>
+                </person>
+                <person xml:id="ZP116" n="Dayyan, Simon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Dayyan, Simon</persName>
+                    <persName xml:id="ZP116-1" xml:lang="en" type="main">Simon Dayyan</persName>
+                    <persName xml:id="ZP116-2" xml:lang="he" type="main">דיין, שמעון</persName>
+                    <persName xml:id="ZP116-3" xml:lang="en">
+                        <forename>Simon</forename>
+                        <surname>Dayyan</surname>
+                    </persName>
+                    <persName xml:id="ZP116-4" xml:lang="he">
+                        <forename>שמעון</forename>
+                        <surname>דיין</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP117" n="Govizo, Simon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Govizo, Simon</persName>
+                    <persName xml:id="ZP117-1" xml:lang="en" type="main">Simon Govizo</persName>
+                    <persName xml:id="ZP117-3" xml:lang="en">
+                        <forename>Simon</forename>
+                        <surname>Govizo</surname>
+                    </persName>
+                    <persName xml:id="ZP117-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+                <person xml:id="ZP118" n="Galeci, Solomon Abraham" type="correspondent">
+                    <persName xml:lang="en" type="sort">Galeci, Solomon Abraham</persName>
+                    <persName xml:id="ZP118-1" xml:lang="en" type="main">Solomon Abraham
+                        Galeci</persName>
+                    <persName xml:id="ZP118-3" xml:lang="en">
+                        <forename>Solomon Abraham</forename>
+                        <surname>Galeci</surname>
+                    </persName>
+                    <persName xml:id="ZP118-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1673">1673</date>
+                        <placeName ref="ZM036">Siena</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP119" n="Saraval, Solomon Ḥay" type="correspondent">
+                    <persName xml:lang="en" type="sort">Saraval, Solomon Ḥay</persName>
+                    <persName xml:id="ZP119-1" xml:lang="en" type="main">Solomon Ḥay
+                        Saraval</persName>
+                    <persName xml:id="ZP119-2" xml:lang="he" type="main">סאראואל, שלמה חי</persName>
+                    <persName xml:id="ZP119-3" xml:lang="en">
+                        <forename>Solomon Ḥay</forename>
+                        <surname>Saraval</surname>
+                    </persName>
+                    <persName xml:id="ZP119-4" xml:lang="he">
+                        <forename>שלמה חי</forename>
+                        <surname>סאראואל</surname>
+                    </persName>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <placeName ref="ZM001">Venice</placeName>
+                    </floruit>
+                    <idno source="jewishEnc">https://jewishencyclopedia.com/articles/13199-saraval#anchor7</idno>
+                </person>
+                <person xml:id="ZP120" n="Roqah, Solomon" type="correspondent">
+                    <persName xml:lang="en" type="sort">Roqah, Solomon</persName>
+                    <persName xml:id="ZP120-1" xml:lang="en" type="main">Solomon Roqah</persName>
+                    <persName xml:id="ZP120-3" xml:lang="en">
+                        <forename>Solomon</forename>
+                        <surname>Roqah</surname>
+                    </persName>
+                    <persName xml:id="ZP120-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters">
+                        <date when="1677">1677</date>
+                        <placeName ref="ZM037">Urbino</placeName>
+                    </floruit>
+                </person>
+                <person xml:id="ZP121" n="Alagim, Uriel" type="correspondent">
+                    <persName xml:lang="en" type="sort">Alagim, Uriel</persName>
+                    <persName xml:id="ZP121-1" xml:lang="en" type="main">Uriel Alagim</persName>
+                    <persName xml:id="ZP121-3" xml:lang="en">
+                        <forename>Uriel</forename>
+                        <surname>Alagim</surname>
+                    </persName>
+                    <persName xml:id="ZP121-4" xml:lang="he"/>
+                    <birth/>
+                    <death/>
+                    <sex>male</sex>
+                    <faith>Judaism</faith>
+                    <floruit evidence="letters"/>
+                </person>
+            <person xml:id="gnd-121514625">
+                <persName type="full">Goethe, Hartmut</persName>
+                <birth when="1923"/>
+                <note>Privatdozent; Schiffsarzt</note>
+            </person>
+        </listPerson>
+   </standOff>
+</TEI>

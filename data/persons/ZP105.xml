@@ -1,0 +1,105 @@
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:functx="http://www.functx.com" xmlns:saxon="http://saxon.sf.net/" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Rafael Copio
+            — <foreign xml:lang="he"/>
+            </title>
+            <title level="m" xml:lang="en">The Corpus of R. Moses Zacuto’s Correspondence
+                        and Lexica of Holy Names: Editions, Tools, and Database</title>
+            <sponsor ref="https://www.uni-halle.de/">
+               <orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg</orgName> (<orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg </orgName>) </sponsor>
+            <sponsor ref="https://www.judaistik.uni-halle.de/">
+               <orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName> (<orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName>) </sponsor>
+            <sponsor ref="https://in.bgu.ac.il/">
+               <orgName xml:lang="he">אוניברסיטת בן-גוריון בנגב</orgName>
+                            (<orgName xml:lang="en">Ben-Gurion University of the Negev in the Negev</orgName>) </sponsor>
+            <funder ref="https://www.dfg.de/">
+               <orgName xml:lang="de">DFG: Deutsche Forschungsgemeinschaft</orgName> (<orgName xml:lang="en">German Science Foundation</orgName>) </funder>
+            <principal ref="#gnecker">Gerold Necker</principal>
+            <principal ref="#yharari">Yuval Harari</principal>
+            <editor xml:id="mmoliere" role="contributor" ref="                         https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/                         https://orcid.org/0000-0002-2168-8655                         http://viaf.org/viaf/65156495392717561393">Maximilian de Molière</editor>
+            <editor role="creator" ref="#mmoliere">Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Data compilation and conversion into TEI-XML format by</resp>
+               <name type="person" ref="#mmoliere">Maximilian de Molière</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original tabular architecture and XSLT script by</resp>
+               <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.6.0-dev"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <ref target="https://zacuto.net">zacuto.net</ref>
+            </authority>
+            <idno type="URI">https://zacuto.net/person/ZP105/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 4.0 International
+                                (CC BY 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2021-11-24+01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the Syriaca.org guidelines. Documentation
+                        available at: <ref target="http://syriaca.org/documentation">http://syriaca.org/documentation</ref>.</p>
+            <interpretation>
+               <p>Approximate dates described in terms of centuries or partial centuries
+                            have been interpreted as documented in <ref target="http://syriaca.org/documentation/dates.html">Syriaca.org
+                                Dates</ref>.</p>
+            </interpretation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="syriaca-headword">
+                  <catDesc>The name used by Syriaca.org for document titles, citation, and
+                                disambiguation. These names have been created according to the
+                                Syriac.org guidelines for headwords: <ref>http://syriaca.org/documentation/headwords.html</ref>.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="he">Hebrew</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft"/>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-ZP105">
+               <persName xml:lang="en" type="main">Rafael Copio</persName>
+               <persName xml:lang="en">
+                  <forename>Rafael</forename>
+                  <surname>Copio</surname>
+               </persName>
+               <persName xml:lang="he"/>
+               <birth>
+                  <date>1596-01-01T00:00Z</date>
+               </birth>
+               <death>
+                  <date>1660-02-10T00:00Z</date>
+               </death>
+               <sex>male</sex>
+               <faith>Judaism</faith>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

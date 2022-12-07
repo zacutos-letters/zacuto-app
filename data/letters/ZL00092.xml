@@ -1,0 +1,176 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00092">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Moses Zacuto to Abraham Rovigo, Venice, 6 Elul 5431 (12 August 1671)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">Z. answers Abraham Rovigo’s request regarding the permissibility of an opening of the heart-ritual (fetiḥat ha-leṿ) to improve his memory. He argues that it is not allowed, giving five reasons and offers an alternative: The secret of the name “LUZ” and a kavvanah.</note>
+				<note type="incipit" xml:lang="he">לבי יגיל בקרבי כי אראה</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="JB165">
+						<msDesc>
+							<msIdentifier>
+								<country>Israel</country>
+								<settlement>Jerusalem</settlement>
+								<repository>Meir Benayahu Library</repository>
+								<idno>K 165</idno>
+								<locus>32a-32b</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>10a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint">Leveen, Autograph Letters, II</bibl>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00092">
+				<correspAction type="sent">
+					<idno>ZL00092</idno>
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM0001">Venice</settlement>
+					<date calendar="hebrew">6 Elul 5431</date>
+					<date when="1671" calendar="gregorian">12 August 1671</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+			<textClass>
+			<catRef scheme="#kabbalah" target="#kawwanot"/>
+			<catRef scheme="#halakha" target="#viands"/>
+			<catRef scheme="#liturgy" target="#shabbat"/>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>חסיד שות׳ה בצמא משפ׳ר מעין החכמה ידידי ודודי איש סודי נר״ו</salute>
+					</opener>
+				</p>
+				<p>לבי יגיל בקרבי <cit>
+                        <quote>כי אראה שמך מעשה אצבעותיך</quote>
+                        <bibl>תהילים ח, ד</bibl>
+                    </cit>
+					<cit>
+                        <quote>נוטפות מור עובר</quote>
+                        <bibl>שיר השירים ה, יג</bibl>
+                    </cit> בהודיעך אלי טוב מצבך כן ירבה, הן על דבר השמות אשר שלחת אלי המסוגלים לפתיחת הלב ושאלת ממני אם יכון לך להשתמש בהם לש״ש, אשיבך בני שאין דעתי נוחה בזה מכמה סבות הא׳ כי איננו הדבר אשר תבקש דזכירה לחוד ופתיחת לב לחוד, הב׳ שכל השמות המיוחדים באכילה יש סכנה בדבר מפני שצריכין גוף נקי בתכלית, הג׳ כי יש באותם השמות משמות שאינם נמחקים וחוששני מעון מחיקת השם ואל תשיבני מהקדמוני׳ שנשתמשו בו כי נר׳ לי שהיו זריזים לבלוע חתיכות חתיכות באופן שלא ימחק שום שם בלעיסת השינים, ד׳ כי דווקא לראשוני׳ שהיה כוחם יפה הותרו ההשבעות ולא לנו יתמי דיתמי, ה׳ כי יש שם שמות שאינם ידועים לנו בשרשם ואולי נפל בהם טעות ויש לחוש לערבוביא אמת ושקר <cit>
+                        <quote>והוא עון פלילי</quote>
+                        <bibl>איוב לא, יא</bibl>
+                    </cit>, לכן הסתפק לך בב׳ הסודות אשר מסרתי לך הא׳ של שם הלוז כי הוא מופלא, והב׳ בכוונות של ר״ה ויה״כ [ראש השנה ויום הכיפורים], ועוד התנהג תמיד בייחוד <cit>
+                        <quote>נוצר חסד לאלפים</quote>
+                        <bibl>שמות לד, ז</bibl>
+                    </cit> הכתוב בייחודים וגם בכונת ויעבור כי תמצית הכונה לבטל כח הדינין הגורמים השכחה ולהאיר ע״ב ממזל נוצר חס״ד במזל ונק״ה דאיהו קס״א ואז תשלב ע״ב וקס״א שעולים זכו״ר ובהם שורש הזכירה,</p>
+				<p>עתה אודיעך כי כבר גמר המעתיק את חידושי <workName>בס׳ יודעי בינה</workName> והיום נתתי לו <workName>ס׳ הכנויים</workName> כי לא הספיק <persName key="ZP00002">כמה״חר בנימין הכהן נר״ו</persName> להעתיקו אבל דע לך כי כונתו להשתלם על דרך הקונטרסי׳ שהעתיק עד הנה אמת כי יהיה לו טורח יותר בהעתקה זו לכונן ולכוין כמה דברים שהם אצלי בערבוב ואותו צויתי לסדרם בסדור נכון והוא ס׳ יקר הערך הלואי שהיה לי זמן להשלימו כחפצי, כי רבו טרדותי כעת מאד <cit>
+                        <quote>ואין לאל ידי</quote>
+                        <bibl>על דרך דברים כח, לב</bibl>
+                    </cit> להפטר מן <placeName>הק״ק הזה</placeName> כי רוצים לעכבני בכח המשפט באמרם כי גזרת המלכות חלה עלי כמו שהוטלה עליהם, ולא <cit>
+                        <quote>ידעתי איך יפול דבר</quote>
+                        <bibl>על דרך רות ג, יח</bibl>
+                    </cit>, פקוד נא בפקודת שלו׳ וברכה את <persName>כמ״ר משה פוליים יצ״ו</persName> באמור אליו שימחול לי שאיני משיבו כעת לחוסר הפנאי אבל אשיבהו למה ששאל ממני בענין תשובתו כי יותר נכון לו לעשות הר׳ תעניות בהפסקות כדי שיושלמו בימי הסליחות וה׳ יהיה בעזרו, ועליך הידיד יטה חסד <cit>
+                        <quote>וישמרך מכל רע</quote>
+                        <bibl>תהילים קכא, ז</bibl>
+                    </cit>
+					<cit>
+                        <quote>יגדילך בתורה ויאדירך</quote>
+                        <bibl>ישעיהו מב, כא</bibl>
+                    </cit> במצות יזכך לבן זכר בעל נשמה קדושה, <cit>
+                        <quote>לטוב לך כל הימים</quote>
+                        <bibl>דברים ו, כד</bibl>
+                    </cit>, </p>
+				<dateline>
+					<p>
+                        <placeName>ויניציא</placeName> ו׳ אלול ס׳ <cit>
+                            <quote>אהבך ה׳ אלקיך</quote>
+                            <bibl>דברים כג, ו</bibl>
+                        </cit> שנת <cit>
+                            <quote>ומלאך פניו הושיע״ם</quote>
+                            <bibl>ישעיהו סג, ט</bibl>
+                        </cit>
+                    </p>
+				</dateline>
+				<closer>
+					<p>
+						<cit>
+							<quote>כאב את בן ירצה</quote>
+							<bibl>משלי ג, יב</bibl>
+						</cit>
+						<persName key="ZP00001">משה בכה״ר מרדכי זכות זלה״ה</persName>
+					</p>
+				</closer>
+				<postscript>
+					<p>אחרי כתבי את הנז״ל בא המעתיק ואמר שאינו יכול להעתיק <workName>ס׳ הכנויים</workName> מפני שאני הייתי רוצה שיסדרם על ס׳ הא״ב בכיוון דהיינו המלות המתחילו׳ א״ב תחלה ואחריהן של א״ג ואח״כ של א״ד וכיוצא והוא אמר שאין <cit>
+                            <quote>לאל ידו לעשות</quote>
+                            <bibl>על דרך בראשית לא, כט ומשלי ג, כז</bibl>
+                        </cit> כן אלא בסדר הא״ב כאשר יבוא אם כך <cit>
+                            <quote>ייטב בעיניך</quote>
+                            <bibl>שמואל א כד, ה</bibl>
+                        </cit> אתננו לו ואם לאו נמתן עד שנמצא איזה מעתיק כהוגן, ופה כמוס החשבון שלו למה שיש לו עליך על העתקת היודעי בינה, וש״ש</p>
+				</postscript>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine> ב״ה ליד הדרת יקרת אדר היקר שהוא עיקר ורישומו ניכר בתורה וגדולה החכם הנעלה <persName key="ZP00003">כמה״ר אברהם בכ׳׳ר מיכאל רוויגו נרו׳</persName> בק״ק <placeName>מודינא</placeName> יע״א</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

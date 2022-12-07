@@ -1,0 +1,150 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"??><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:saxon="http://saxon.sf.net/" xml:id="ZL00447">
+   <teiHeader xmlns="">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Jacob ha-Levi, Moses Treves, Moses Zacuto, Joseph
+                            Alvalenza, Solomon Ḥay Saraval to Rabbinate of Constantinople in
+                            Constantinople<lb/> Venice, 8 Adar II 5426 (15 March 1666) </title>
+            <editor>Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name/>
+               <resp>Conversion to
+                                TEI</resp>
+               <name>Maximilian de Molière</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Moses Zacuto Correspondence
+                                    Project</name>
+               <address>
+                  <name>Seminar für Judaistik/ Jüdische
+                                    Studien</name>
+                  <institution>Martin-Luther Universität
+                                    Halle-Wittenberg</institution>
+                  <street>Großer Berlin
+                                    14</street>
+                  <postCode>06108</postCode>
+                  <placeName>
+                     <country>Germany</country>
+                     <settlement>Halle / Saale</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY
+                                4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="summary"/>
+            <note type="incipit" xml:lang="he">אם בימינו נפלגה הארץ</note>
+         </notesStmt>
+         <sourceDesc>
+            <listWit>
+               <summary>
+                  <bold>Printed Copy:</bold> Tishby (ed.), Tsitsat Nuval
+                                Tsevi, 109-110.. <bold>Text from .</bold>
+               </summary>
+            </listWit>
+            <additional>
+               <listBibl>
+                  <bibl n="firstPrint">Tishby (ed.), Tsitsat Nuval Tsevi,
+                                    109-110.</bibl>
+               </listBibl>
+            </additional>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This edition was created as part of the DFG-funded project "Encyclopedic
+                            Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of
+                            Practical and Theoretical Kabbalah".</p>
+         </projectDesc>
+         <editorialDecl>
+            <punctuation>
+               <p>All punctuation marks in the source manuscript have been
+                                retained and represented using the appropriate Unicode code point.
+                            </p>
+            </punctuation>
+            <interpretation>
+               <p>Names of persons, places and works are marked.
+                                </p>
+               <p>Dates are marked and equivalents in the Gregorian calendar
+                                are given. </p>
+               <p>Quotes and allusions to other texts are marked and
+                                referenced. </p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="Hebrew">
+               <p>Hebrew calendar; depending on the source the
+                                Hebrew date is partly given in months and days and partly in the
+                                sections of the Pentateuch (pericopes) that were read in the week of
+                                the composition.</p>
+            </calendar>
+            <calendar xml:id="Gregorian">
+               <p>Gregorian calendar; computed from the Hebrew
+                                date. If the Hebrew date is given as a pericope in the source, a
+                                range of days is computed.</p>
+            </calendar>
+         </calendarDesc>
+         <!--NAMEN UND ORTE AKTUALISIEREN-->
+         <correspDesc n="ZL00447">
+            <correspAction type="sent">
+               <idno>ZL00447</idno>
+               <persName key=" cert="/>
+               <settlement key="ZM001" cert="high">Venice</settlement>
+               <date calendar="hebrew">8 Adar II 5426</date>
+               <date when="1666" calendar="gregorian">15 March 1666</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ZP038" cert="high">Rabbinate
+                                of Constantinople</persName>
+               <settlement key="ZM014" cert="high">Constantinople</settlement>
+               <!--Poznań, Erets Israel, Meldola, Ragusa, Rome, Poland, Egypt, Livorno, Halab, Ferrara, Izmir, Ancona-->
+            </correspAction>
+            <correspContext> </correspContext>
+         </correspDesc>
+         <langUsage>
+            <language ident="he">Hebrew</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xmlns="" type="letter" xml:lang="he" xml:id="ZL00447">
+      <body>
+         <div>
+            <p>
+               <opener>
+                  <salute>HELLO</salute>
+               </opener>
+            </p>
+            <p>MAIN TEXT</p>
+            <dateline>
+               <p>DATE PLACE</p>
+            </dateline>
+            <closer>
+               <p>
+                  <salute>GOODBYE</salute>
+                  <signed>NAME</signed>
+               </p>
+            </closer>
+            <postscript>
+               <p>POSTSCRIPT</p>
+            </postscript>
+         </div>
+         <div type="address">
+            <p>
+               <pb n="FOLIO"/>
+               <address>
+                  <addrLine>ADDRESS</addrLine>
+                  <addrLine>ADDRESS</addrLine>
+               </address>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

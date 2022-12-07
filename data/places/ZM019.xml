@@ -1,0 +1,106 @@
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:functx="http://www.functx.com" xmlns:saxon="http://saxon.sf.net/" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Safed
+            — <foreign xml:lang="he">צפת</foreign>
+            </title>
+            <title level="m" xml:lang="en">The Corpus of R. Moses Zacuto’s Correspondence
+                        and Lexica of Holy Names: Editions, Tools, and Database</title>
+            <sponsor ref="https://www.uni-halle.de/">
+               <orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg</orgName> (<orgName xml:lang="de">Martin-Luther-Universität Halle-Wittenberg </orgName>) </sponsor>
+            <sponsor ref="https://www.judaistik.uni-halle.de/">
+               <orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName> (<orgName xml:lang="de">Seminar für Judaistik / Jüdische Studien</orgName>) </sponsor>
+            <sponsor ref="https://in.bgu.ac.il/">
+               <orgName xml:lang="he">אוניברסיטת בן-גוריון בנגב</orgName>
+                            (<orgName xml:lang="en">Ben-Gurion University of the Negev in the Negev</orgName>) </sponsor>
+            <funder ref="https://www.dfg.de/">
+               <orgName xml:lang="de">DFG: Deutsche Forschungsgemeinschaft</orgName> (<orgName xml:lang="en">German Science Foundation</orgName>) </funder>
+            <principal ref="#gnecker">Gerold Necker</principal>
+            <principal ref="#yharari">Yuval Harari</principal>
+            <editor xml:id="mmoliere" role="contributor" ref="                         https://www.judaistik.uni-halle.de/mitarbeiter/de-moliere/                         https://orcid.org/0000-0002-2168-8655                         http://viaf.org/viaf/65156495392717561393">Maximilian de Molière</editor>
+            <editor role="creator" ref="#mmoliere">Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Data compilation and conversion into TEI-XML format by</resp>
+               <name type="place" ref="#mmoliere">Maximilian de Molière</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original tabular architecture and XSLT script by</resp>
+               <name type="place" ref="#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.6.0-dev"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <ref target="https://zacuto.net">zacuto.net</ref>
+            </authority>
+            <idno type="URI">https://zacuto.net/place/ZM019/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 4.0 International
+                                (CC BY 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-08+01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the Syriaca.org guidelines. Documentation
+                        available at: <ref target="http://syriaca.org/documentation">http://syriaca.org/documentation</ref>.</p>
+            <interpretation>
+               <p>Approximate dates described in terms of centuries or partial centuries
+                            have been interpreted as documented in <ref target="http://syriaca.org/documentation/dates.html">Syriaca.org
+                                Dates</ref>.</p>
+            </interpretation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="syriaca-headword">
+                  <catDesc>The name used by Syriaca.org for document titles, citation, and
+                                disambiguation. These names have been created according to the
+                                Syriac.org guidelines for headwords: <ref>http://syriaca.org/documentation/headwords.html</ref>.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="he">Hebrew</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft"/>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-ZM019">
+               <placeName xml:lang="en" type="main">Safed</placeName>
+               <placeName xml:lang="he" type="main">צפת</placeName>
+               <location>
+                  <geo>32.965833 35.498333</geo>
+               </location>
+               <country>Ottoman Empire</country>
+               <note>Small city in the Ottoman Empire located by the Nachal Akbara</note>
+               <idno source="kima">377</idno>
+               <idno source="geoNames">293100</idno>
+               <idno source="gnd">4225222-2</idno>
+               <idno source="viaf">243512273</idno>
+               <idno source="wikiData">Q188336</idno>
+               <idno source="britannica">https://www.britannica.com/place/Zefat</idno>
+               <idno source="treccani">https://www.treccani.it/enciclopedia/safed</idno>
+               <idno source="jewishEnc">https://jewishencyclopedia.com/articles/12990-safed</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

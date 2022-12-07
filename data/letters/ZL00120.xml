@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00120">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Moses Zacuto to Abraham Rovigo, Mantua 21 Menaḥem-Av 5436 (31 July 1676)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. Z. explains that a given piece of gazelle parchment is too small for preparing an amulet.</note>
+				<note type="incipit" xml:lang="he">מפני שנות הקוצרה</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>50a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00120">
+				<correspAction type="sent">
+					<idno>ZL00120</idno>
+					<persName key="ZP00001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+					<date calendar="hebrew">21 Menaḥem-Av 5436</date>
+					<date when="1676" calendar="gregorian">31 July 1676</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute> הבן יקיר לי שלו׳</salute>
+					</opener>
+				</p>
+				<p>מפני שנות הקוצר פה הרץ חש להלוך אומר לך בתשובת אגרתך החשובה כי אם ירצה בעיני <persName key="">מע׳ אחי ורעי כמוהרר״י לוי נר״ו</persName> לשלוח הכל בשמו יעשה את רצונו ואשר יחשוב לצד יותר טוב אך שיוסיף מדיליה טעם הקים לי אשר כתב בתחלת תשובתו וזו תהיה ההתחלה יען אין <workName key="">דברי</workName> <persName key="">מהר״ר שמואל דיל ויקיו ז״ל</persName> בדפוס, וגם יוסיף לבאר היטב שאין דעתו בב״ד קבוע דהתם לא אפשר כי דרך איש תובע לבא לב״ד ולומר שיש לו תביעה עם שלו׳ אבל שדעתו כשיבררו הדיינים שאם יד שניהם שוה וכו׳ ובזה יקל <persName key="">לרבני ויניציאה</persName> להשיב יען מה [ש..] נוהג הוא בכח ישיבה וב״ד קבוע, ובשאר יעשה בחכמתו לכתוב <persName key="">למהרר״ש אבוהב נר״ו</persName> ולהחמיר הדבר בעיניו שבזה תלוי כתיבת יד לתלמידים שלא הגיעו להוראה וכיוצא ואם יראה בעיניו להביא על החתום <persName key="">מע׳ רבני מודינא</persName> כולם יעשה מה שירצה בעין חכמתו,</p>
+				<p> וע״ד [על דבר] הק״צ [קלף הצבי] תמהתי על אותו הסופר שאומר שלא יוכל להחזיק באותו קלף כל הקמיע כי הלא בודאי <persName key="">החכם ר׳ יצחק ארובש</persName> כתב בכאן כמה מהם בקלף יותר קטן כי אעפ״י שבהעתק כתובים כמה שמות באותיות גדולות ש[…]ב וכן בתוכו אינו חובה להיות כך בדוקא ודע כי בעל הקלף הורה לי חלק אחת יותר קטן ממה ששלחתי לו וקיים בנפשו שלא יתנהו לשום אדם פחות מב׳ אונגרי ונשבע לי שהוציא עליו יותר מג׳ דופיי דהיינו של הקלף כולו שהיה מצבי קטן וגם שחלק ממנו נשרף לו בתוך הסיד ולכן אינו רוצה לחזור ממה שהבטחתיו ואין עוד כי אם חלוק לה׳ ית׳ יברכך וישמרך ותאושר בארץ החיים ברוב עוז ושלו׳</p>
+				<dateline>
+					<p> <placeName key="">מנטובה</placeName> א״ך טוב למנחם שנת ישענ״ו</p>
+				</dateline>
+				<closer>
+					<p>כאב את בן ירצה <l/> <persName key="">משה בכה״ר מרדכי זכות זלה״ה</persName> </p>
+				</closer>
+				<postscript>
+					<p>
+                        <persName key="">הבחור פרובינצאל</persName> מעתיק והולך את אשר צוית עליו ועוד כמה דברים נחמדים שנתתי לו <l/> וש״ש</p>
+				</postscript>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine>
+                            <pb key="51b"/>Al molto ecc[ellen]te sig[nore] כמהח״ר Abraham f[iglio] Reffael Rovigo נר״ו <l/> Modena</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

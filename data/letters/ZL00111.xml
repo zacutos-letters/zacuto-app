@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00111">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="a">Moses Zacuto to [Abraham Rovigo], [Venice]</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">1. Z. asks Abraham Rovigo for news from the city of Livorno which his student has visited. 2. Rovigo send number of amulets that he acquired, now Z. gives his assessment of the defects in the writing of holy names and identifies “the sage Samiga” as the kabbalist who made them. 3. Because of Moses Shalit’s advanced age, there is no one qualified to mend the amulets now. 4. Z. points out how the amulets’ texts can be mended.</note>
+				<note type="incipit" xml:lang="he">ברוך ה׳ אלקי אברהם</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>34a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00111">
+				<correspAction type="sent">
+					<idno>ZL00111</idno>
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM0001">Venice</settlement>
+					<date calendar="hebrew"/>
+					<date when="" calendar="gregorian"/>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+			<textClass>
+			<catRef scheme="#kabbalah" target="#segullot"/>
+			<catRef scheme="#liturgy" target="#tikkunim"/>
+			<catRef scheme="#life" target="#family"/>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>הבן יקיר לי שלו׳ רב</salute>
+					</opener>
+				</p>
+				<p>ברוך ה׳ אלקי אברהם אשר נחך בדרך אמת להשיבך על מצבך לשלו׳ כן ירבה וכן יפרוז טובו,
+					וחסדו עמך למלאת חפציך חפצי שמים לעבודתו ית׳, הנני עומד ומצפה למתי ה׳ יגי״ע חשק״י
+					לראות ראשית עניני אותם הקונטרסים כי להם תאבתי מאד וגם אתה לא הודעתני מה מצאת
+					בק״ק <placeName>ליוורנו</placeName> באותו <persName>החכם פיניירו נר״ו</persName>
+					מה טיבו בחכמה וכדו[מה] לזה הגד לי הכל כאשר לכל, כי תשמחני בפעלך, עתה עתה ברוך ה׳
+					שלחת לי אלו הקמיעות ושאלת ממני אם הם מעשי ידי לא ידעתי מה ראית בהם כי כן חשבת
+					הלא אותה המשובשת היא תעיד שמימי לא ראיתיה כי ברוך ה׳ גם אנכי ידעתי אותיות שם של
+					מ״ב ושל ע״ב מבלי אחליף ת׳ בט׳ וה׳ בח׳ והאחרת האכולת מֵעָ״ש כל אדם יחזה בה שהיא
+					מעשה <persName key="Samiga">הח׳ סאמיגה ז״ל</persName> אמת כי סדרה <add place="">ראיתי</add> כמה פעמים בידו והנאני
+					כי מלא שמות נוראים ומופלאים. ולכן אודיעך מה חסר בה כדי שאם ימצא מי שיוכל עשוה
+					בקדושה ובטהרת טבילה ותענית והתבודדות כל היום ההוא כי בכאן לא יש שום סופר כהוגן
+					יען <persName key="Shalit">כמוהר״ר משה שליט נר״ו</persName> זקן ואינו
+					רואה כהוגן, הנה בצד ימין של הקמיע חסר בשורה החצונה שיש בה ויהי נועם כי אתה ה׳
+					מחסי עליון שמת מעונך, יראל, לא תאונה אליך רעה, ובשורה הפנימית ממנו שיש בה שמות
+					באותיות גדולות חסרים אלה שמות לזג תקן עשו שקת [ר]וי פאר ליו אתש וכדי שתבין סדר
+					השם אגלהו לך דע שתחלתו משמאל הקמיע ומתחיל בשם מאו יצי עד סופו וראשו הוא פסוק מי
+					כמכה ואמצע צוה לעשות הקמיע של <persName key="Ari">הארי זלה״ה</persName> וישימוהו בתוך זאת
+					הגדולה, ובזה אקצר כי אין לי פנאי להאריך ואתה שלו׳ וביתך שלו׳</p>
+				<closer>
+					<p>
+                        <cit>
+                            <quote>כאב את בן ירצה</quote>
+                            <bibl>משלי ג, י״ב</bibl>
+                        </cit> <l/>
+						<persName ref="ZP001">משה בכמ״ר מרדכי זכות</persName> זלה״ה
+                    </p>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

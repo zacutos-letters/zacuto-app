@@ -1,0 +1,155 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng"  type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00121">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="a">Moses Zacuto to Abraham Rovigo, Mantua, P. Lekh-Lekha 5437 (17-23 October 1676)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">Rovigo’s sister suspects her husband of frequenting prostitutes and makes his life miserable. Rovigo’s brother cannot comfort his brother-in-law. Zacuto asks Rovigo to write letter to his sister in the “Christian tongue” enabling him to talk to her. To prepare for the case that this fails, Z. suggests to enclose an additional letter in which the family berates the sister for her behavior.</note>
+				<note type="incipit" xml:lang="he">יאבה ה׳ שלוח עליך</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>52a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00121">
+				<correspAction type="sent">
+					<idno>ZL00121</idno>
+					<persName key="ZP00001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+					<date calendar="hebrew">P. Lech-Lecha 5437</date>
+					<date when="1676" calendar="gregorian">11-17 October 1676</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<p>
+					<opener>
+						<salute>הבן יקיר לי שלו׳ רב</salute>
+					</opener>
+				</p>
+				<p>יאבה ה׳ שלוח עליך ועל כל אשר לך הצלחות מאסמיו וברכות מרום שמיו ותזכה לזמני ששון <cit>
+                        <quote>ומועדי רגל</quote>
+                        <bibl>איוב יב, ה</bibl>
+                    </cit>, <cit>
+                        <quote>הבאים לקראתנו</quote>
+                        <bibl>פסחים י, ו</bibl>
+                    </cit> לשלו׳ ידוע באמת כי אין עדותיך שכ״חה לי ו[אם] לא מהרתי להשיב לדבריך הנעימי׳ היה מרוב עסקי הימים טובים שעברו וגם כי <persName key="">נכדי יצחק ה״י</persName> לא היה במצב הבריאות אבל עתה ברוך שמו הגדול הולך וטוב הנה הב׳ כפולות אשר שלחת לידי ע״י <persName key="ZP00050">ה״ר משה נורצי יצ״ו</persName> קבלתי אותן והנה הן בידי על פי מה שצויתני, עשה לי חסד לראות […] <workName xmlns="">טורי זהב</workName> י״ד סי׳ שע״א <add place="above">ושע״ב</add> על ענין סוף טומאה לצאת אם מסכים למ״ש בעלֹ שפתיכהן סי׳ שע״ב עמ״ש [עיין מה שכתוב] הגהה שם בדין כאן השוכב בבית שמת בו מת שכתב הש״כ [השפתי כהן] דסוף טומאה לצאת היא מדרבנן וכן הוא דעתי בראיות גמורות, ועתה עתה ברוך ה׳ ראה נא אם <workName xmlns="">הטורי זהב</workName> נוגע בדבר זה אם ל[א], וכן תעשה אם יש לך עוד ספר אחר מאלו המחודשי׳ חפוש בכולם ושלח לי אם יש איזה חידוש בענין כי אחשבהו לחסד לי, האמנם דבר שלישי אני שולח אליך והוא מכריע על הכל מצות הבאת שלו׳ בין איש לאשתו כי הנני חושב שכבר ידעת כמה קטטות ההוות בין <persName key="">אחותך</persName> מב״ת ובין <persName key="ZP00051">כמוה״ר יוסף יהושוע</persName> בעלה ושורש א׳ לכולם והוא שהיא חושדתו מדי פעם בפעם לרועה זונות ובהא סלקא ובהא נחתא יומם ולילה ועל ענין זה מחרפתו ומגדפתו עד אשר פעמים רבות בא אלי בזעף גדול ועינים דומעות לאמר שנלאה נשוא ואין לו עוד כח לסבול חיי צער כאלה, וכ״פ בא לביתי בימי המועד שעבר א׳ בג׳ שעות האלה וא׳ בשחר יום אחד <cit>
+                        <quote>קודם הנץ החמה</quote>
+                        <bibl>תענית ג, ט</bibl>
+                    </cit>, ואם צועק וקובל עליה לפני <persName key="ZP00049">כבוד אחיך כמהח״ר אלחנן יצ״ו</persName> הוא משיבו בדברי שחוק וטיול ואומר לו לא תחוש לדבריה כי אתה גבר והיא אשה ודברים כאלה אשר לא יישבו לבו, והנה אתמול ר״ח שני כבדו עלי דבריו כי קפץ ונשבע שהיה הולך בו ביום לנחלותיו ושאחת משתים לא ימנע ממנה או להשאר שמה ימים רבים או <cit>
+                        <quote>לגלות רעתו בקהל</quote>
+                        <bibl>ע״ ד משלי כו, כו</bibl>
+                    </cit> ובסוף הוסיף שבלי ספק ישלחוה מעליו כי <cit>
+                        <quote>כשל כח הסבל</quote>
+                        <bibl>נחמיה ד, ד</bibl>
+                    </cit>, ואני בכל כחי הייתי מליץ בעד כבוד <persName key="">אחותך</persName> מב״ת באמרי אליו דברים קשים ונחים ושמרוב אהבתה אותו נכנסה בה <cit>
+                        <quote>רוח קנאה</quote>
+                        <bibl>במדבר ה, יד</bibl>
+                    </cit> ושיקבל הכל לכפרת עוניו הראשוני׳ ואפי׳ שהיה כדבריו <cit>
+                        <quote>גרמא דנפל בחולקיה ליגרריה</quote>
+                        <bibl/>
+                    </cit> ושאולי איזו מרה שחורה ועצבות היתה גוברת עליה ושיבקש לרפאתה ממנה וכאלה וכאלה הרבתי לו דברים עד שהוא חלה פני במטו כבעו שאלך אנכי לביתו לדבר אליה ולהסיר אותו החשד מלבה אולי אוכל נקה אותה מאותו הרוגז והעצבון, אך סבותי בלבי לעשותו בכל עוז ובכל תוקף שאוכל אשר לכן עלה בדעתי לגלות אזנך על הדבר הרע הזה ולהעירך שתכתוב לי מכתב ידיך בלשון נוצרי ותבקש ממני בשמך ובשם הבכורה והיקרה מרת <persName key="">אמך</persName> תמ״א ובשם <persName key="ZP00049">אחיך</persName> ללכת אצלה ולדבר אליה מה שיצטרך בזה, ועוד תשלח כתב כמוס בתוך שלא שלוח אליה ותצווני בשם כולכם לתתו [פנ?]ידי לידה ובו תגערו בה בכל אשר יראו בעיניכם אבל לא תדע היא שאנכי כותב אליכם בשום אופן, אז אוכל להכנס עמה בדברים ואתחזק להוציא דעתה מן החשד הגדול הזה הבוער בקרבה תמיד, ובאמת מיום בואי הנה לא שמעתי משום אדם שיוציא עליו הלעז הזה <cit>
+                        <quote>לא מניה ולא מקצתו</quote>
+                        <bibl>בבלי, סוטה ה ע״א</bibl>
+                    </cit>, זהו הנר׳ לי שנכון לעשות <cit>
+                        <quote>כולי האי ואולי</quote>
+                        <bibl>בבלי, חגיגה ד ע״ב</bibl>
+                    </cit> תשמע ותאבה לדברינו <cit>
+                        <quote>לטוב להם כל הימים</quote>
+                        <bibl>ע״ד דברים ו, כד</bibl>
+                    </cit>, ולכן מהר חיש לעשות המוטל עליכם ואני אעשה את שלי וה׳ ית׳ יתווך שלו׳ ביניהם, ועליך ישיש להאיץ אורך ויעלך בתורה ובגדולה על בני דורך וכל רע לא יגורך והיה<hi rend="italic"/> רק שלו׳ במגוריך,</p>
+				<dateline>
+					<p>
+                        <placeName key="ZM0002">מנטובה</placeName> סדר ושנת <cit>
+                            <quote>והיתה לאו״ת ברית</quote>
+                            <bibl>בראשית יז, יא</bibl>
+                        </cit>
+                    </p>
+				</dateline>
+				<closer>
+					<p>
+						<cit>
+							<quote>כאב את בן ירצה</quote>
+							<bibl>משלי ג, יב</bibl>
+						</cit>
+						<persName key="ZP00001">משה בכה״ר זכות זלה״ה</persName>
+					</p>
+				</closer>
+				<postscript>
+					<p>פקוד נא בפקודת ר״ש אל מעלת אחינו [ ] <persName key="ZP00005">כמוהר״רי הלוי נר״ו</persName>, ואל <persName key="">מעלת הח׳ כמה״ר יוסף ריקיטי נר״ו</persName> ואל <persName key="">מע׳ הח׳ כמה״ר אליה אוזיליו נר״ו</persName>
+                    </p>
+				</postscript>
+			</div>
+			<div type="address">
+				<p>
+					<address>
+						<addrLine>
+							<foreign xmlns="" xml:lang="it">Al molto ecc[ellen]te sig[nore]</foreign>
+							<persName key="ZP00003">כמהח״ר <foreign xmlns="" xml:lang="it">Abraham f[iglio] Refael Rovig</foreign>o נר״ו</persName>
+							<br/>
+							<foreign xmlns="" xml:lang="it">
+								<placeName xmlns="http://www.tei-c.org/ns/1.0" key="ZM0002">Modena</placeName>
+							</foreign>
+						</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

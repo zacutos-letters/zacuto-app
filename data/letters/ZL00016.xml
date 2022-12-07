@@ -1,0 +1,193 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"??><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:saxon="http://saxon.sf.net/" xml:id="ZL00016">
+   <teiHeader xmlns="">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Israel Lenghi to Moses Zacuto<lb/> P. Re'eh [5437] (22-28
+                            August 1677) </title>
+            <editor>Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Maximilian de
+                                Molière</name>
+               <resp>Conversion to TEI</resp>
+               <name>Maximilian de
+                                Molière</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Moses Zacuto Correspondence
+                                    Project</name>
+               <address>
+                  <name>Seminar für Judaistik/ Jüdische
+                                    Studien</name>
+                  <institution>Martin-Luther Universität
+                                    Halle-Wittenberg</institution>
+                  <street>Großer Berlin
+                                    14</street>
+                  <postCode>06108</postCode>
+                  <placeName>
+                     <country>Germany</country>
+                     <settlement>Halle / Saale</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY
+                                4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="summary">Israel Lengi inquires if prayers are postponed when
+                            Shabbat falls on a holiday. Midnight prayers; if the 17 Tammuz on
+                            Shabbat begins, should resurrection be blessed? Midnight prayers on the
+                            night of Av. 9; will 13 divine attributes be blessed? spoken before
+                            immersion in the morning watch on the night of Shavuot?</note>
+            <note type="incipit" xml:lang="he">אורו עיני וכל מעייני</note>
+         </notesStmt>
+         <sourceDesc>
+            <listWit>
+               <summary>
+                  <bold>Copy Scribe:</bold>
+                  <label>N3761</label> New York, JTS 3761, f. 8a. <label>W66</label>
+                                Warsaw, Ringelblum, f. [3a].<bold>Printed Copy:</bold>
+                  <emph>Iggerot ha-ReMeZ</emph>, Livorno 1780 9b (No. 15a). <bold>Text
+                                    from W66.</bold> Variants from L1780. </summary>
+               <witness xml:id="N3761">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>United States</country>
+                        <settlement>New
+                                            York</settlement>
+                        <repository>Jewish Theological
+                                            Seminary</repository>
+                        <idno>3761</idno>
+                        <locus>8a</locus>
+                        <altIdentifier type="IMHM">F 29566</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="W66">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Poland</country>
+                        <settlement>Warsaw</settlement>
+                        <repository>Library
+                                            of the Emanuel Ringelblum Jewish Historical
+                                            Institute</repository>
+                        <idno>66</idno>
+                        <locus>[3a]</locus>
+                        <altIdentifier type="IMHM">F 11604</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L1780">
+                  <bibl>
+                     <author>Moses Zacuto</author>
+                     <title>Iggerot ha-ReMeZ</title>. <pubPlace>Livorno</pubPlace>
+                     <date>1780</date>
+                  </bibl>
+                  <locus>9b (No. 15a)</locus>
+               </witness>
+            </listWit>
+            <additional>
+               <listBibl>
+                  <bibl n="firstPrint"/>
+               </listBibl>
+            </additional>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This edition was created as part of the DFG-funded project "Encyclopedic
+                            Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of
+                            Practical and Theoretical Kabbalah".</p>
+         </projectDesc>
+         <editorialDecl>
+            <punctuation>
+               <p>All punctuation marks in the source manuscript have been
+                                retained and represented using the appropriate Unicode code point.
+                            </p>
+            </punctuation>
+            <interpretation>
+               <p>Names of persons, places and works are marked.
+                                </p>
+               <p>Dates are marked and equivalents in the Gregorian calendar
+                                are given. </p>
+               <p>Quotes and allusions to other texts are marked and
+                                referenced. </p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="Hebrew">
+               <p>Hebrew calendar; depending on the source the
+                                Hebrew date is partly given in months and days and partly in the
+                                sections of the Pentateuch (pericopes) that were read in the week of
+                                the composition.</p>
+            </calendar>
+            <calendar xml:id="Gregorian">
+               <p>Gregorian calendar; computed from the Hebrew
+                                date. If the Hebrew date is given as a pericope in the source, a
+                                range of days is computed.</p>
+            </calendar>
+         </calendarDesc>
+         <!--NAMEN UND ORTE AKTUALISIEREN-->
+         <correspDesc n="ZL00016">
+            <correspAction type="sent">
+               <idno>ZL00016</idno>
+               <persName key="ZP011" cert="high">Israel Lenghi</persName>
+               <date calendar="hebrew">P. Re'eh
+                                [5437]</date>
+               <date when="1677" calendar="gregorian">22-28 August
+                                1677</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ZP001" cert="high">Moses
+                                Zacuto</persName>
+               <!--Poznań, Erets Israel, Meldola, Ragusa, Rome, Poland, Egypt, Livorno, Halab, Ferrara, Izmir, Ancona-->
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="ZL00017">Next letter ZL00017.</ref>
+            </correspContext>
+         </correspDesc>
+         <langUsage>
+            <language ident="he">Hebrew</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xmlns="" type="letter" xml:lang="he" xml:id="ZL00016">
+      <body>
+         <div>
+            <p>
+               <opener>
+                  <salute>HELLO</salute>
+               </opener>
+            </p>
+            <p>MAIN TEXT</p>
+            <dateline>
+               <p>DATE PLACE</p>
+            </dateline>
+            <closer>
+               <p>
+                  <salute>GOODBYE</salute>
+                  <signed>NAME</signed>
+               </p>
+            </closer>
+            <postscript>
+               <p>POSTSCRIPT</p>
+            </postscript>
+         </div>
+         <div type="address">
+            <p>
+               <pb n="FOLIO"/>
+               <address>
+                  <addrLine>ADDRESS</addrLine>
+                  <addrLine>ADDRESS</addrLine>
+               </address>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

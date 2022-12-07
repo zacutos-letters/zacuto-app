@@ -1,0 +1,229 @@
+<?teipublisher template="N3761-L1780.html" odd="zacuto-letters.odd" view="single"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="ZacutoC.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00026">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Benjamin ha-Kohen to Moses Zacuto<lb/> Alessandria · P. Lekh Lekha 5431	(19-25 October 1670)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Seminar für Judaistik/ Jüdische Studien</name>
+					<address>
+						<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+						<street>Großer Berlin 14</street>
+						<postCode>06108</postCode>
+						<placeName>
+							<country>Germany</country>
+							<settlement>Halle / Saale</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary">Response of Benjamin ha-Kohen to ep. ZL00025.</note>
+				<note type="incipit" xml:lang="he">אותיות פורחות באויר החכמה</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+				<summary>
+                        <bold>Copy Scribe</bold> New York, JTS 3761, ff. 11a-11b. 	<bold>Revision</bold> New York, JTS 3836, f. 4b. 		<bold>Printed Copy</bold> Livorno, p. 13a (No. 18b).</summary>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint">Livorno_18b</bibl>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL026">
+				<correspAction type="sent">
+					<idno>ZL00026</idno>
+					<persName key="ZP002">Benjamin ha-Kohen</persName>
+					<settlement key="ZM011">Alessandria</settlement>
+					<date calendar="hebrew">5431</date>
+					<date when="1670" calendar="gregorian">1670</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM001">Venice</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he">Hebrew</language>
+			</langUsage>
+			<textClass>
+			<catRef scheme="#kabbalah" target="#zohar"/>
+			<catRef scheme="#halakha" target="#mishnah"/>
+			<catRef scheme="#life" target="#rabbinate"/>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he" xml:id="ZL0026">
+		<front>
+			<div type="abstract"/>
+		</front>
+		<body>
+			<div type="letter">
+				<p>
+					<opener>
+						<app>
+							<lem/>
+							<rdg wit="#N3761 #L1780">תשובה</rdg>
+						</app>
+						<salute>
+                            <cit>
+                                <quote>פני משה כפני חמה</quote>
+                                <bibl>בבא בתרא עה</bibl>
+                            </cit>, יודע רבונו <app>
+                                <lem wit="#N3761">ומכוין</lem>
+                                <rdg wit="#L1780">ומתכוין</rdg>
+                            </app> לראות בשיעור קומה, <cit>
+                                <quote>ירום ונשא וגבה מאד</quote>
+                                <bibl>ישעיהו נב, יג</bibl>
+                            </cit>
+							<app>
+                                <lem wit="#N3761">עאכ״כ</lem>
+                                <rdg wit="#L1780">על אחת כמה וכמה</rdg>
+                            </app>
+                        </salute>
+					</opener>
+				</p>
+				<p> אותיות פורחות באויר החכמה, <cit>
+                        <quote>כתובות באצבע <app>
+                                <lem wit="#N3761">האלקים</lem>
+                                <rdg wit="#L1780">איש האלהים</rdg>
+                            </app>
+                        </quote><persName ref="ZP001">
+</persName>                        <bibl>שמות לא, יח ודברים ט, י</bibl>
+               
+                    </cit>נדמה, קבועות בטורי זהב לשם שבו ואחלמה, האירו לנגד עיני הנרדמות בשינה ותנומה, הן הנה היו למשיב נפשי העגומה, <cit>
+                        <quote>ואיפת רצון זעומה</quote>
+                        <bibl>מיכה ו, י</bibl>
+                    </cit>, נאלמתי דומיה <cit>
+  </cit> מי יבא אחרי המלך רם הקומה, המגביהי לשבת במעלה רמה, ומשפילי לראות במעבה האדמה, הבוקע חלוני רקיע להוציא לאור כל תעלומה, הצופה נתיבות פליאות חכמה, הפותח שערי בינה אל כל הנשמה, כמה מעלות עולות בקנה <app>
+                        <lem wit="#N3761">רצוץ</lem>
+                        <rdg wit="#L1780">רצו״ן</rdg>
+                    </app> אך עסו״ק לשתות בצמא, <cit>
+                        <quote>דברי פי חכם חן</quote>
+                        <bibl>קהלת י, יב</bibl>
+                    </cit> אדירי איומה, <cit>
+                        <quote>אכן שעיפי ישיבוני</quote>
+                        <bibl>איוב כ, ב</bibl>
+                    </cit> אחור באימה, <cit>
+                        <quote>השמר לך פן תהיה</quote>
+                        <bibl>דברים טז, ט</bibl>
+                    </cit> לבוז ללעג וכלימה, כי <cit>
+                        <quote>לא ישיגו ארחות</quote>
+                        <bibl>משלי ב, יט</bibl>
+                    </cit>
+					<app>
+                        <lem wit="#N3761">סכלותך</lem>
+                        <rdg wit="#L1780">שכלותי</rdg>
+                    </app> דעת ומזימה, הלא טוב לך <cit>
+                        <quote>שים יד על פה</quote>
+                        <bibl>על דרך איוב כא, ה</bibl>
+                    </cit> משא דומה, האמנם <cit>
+                        <quote>אחרי ראותי את פני</quote>
+                        <bibl path="letters/aux/Genesis.xml" xml-id="Genesis-46-30" odd="zacuto-sources">על דרך בראשית מו, ל</bibl>
+                    </cit> האדון במגילת ספר אמירה נעימה, האירו ברקי עבי חשבתי ויעירני משנת תרדמה, <cit>
+                        <quote>ויורני ויאמר לי</quote>
+                        <bibl>משלי ד, ד</bibl>
+                    </cit> הנה ארש״י לפניך <cit>
+                        <quote>פקח עיניך ושבע</quote>
+                        <bibl>משלי כ, יג</bibl>
+                    </cit> לחמה, אמרתי אני בלבי זו היא דרך ישרה אשר מעולם נפשי זממה, לא אחמיץ את המצוה <cit>
+                        <quote>מצות עשה שהזמן</quote>
+                        <bibl>קידושין א, ז</bibl>
+                    </cit> גרמא, <cit>
+                        <quote>ארוצה עד איש האלקים</quote>
+                        <bibl> מלכים ב ד, כב</bibl>
+                    </cit>
+					<cit>
+                        <quote>ואקחה לי תרומה, מאת כל איש אשר ידבנו לבו</quote>
+                        <bibl>שמות כה, ב</bibl>
+                    </cit> ודעתו השלימה, להעמידני על נכון בתורת ה׳ תמימה, אז ארוה צמאוני מדשן ביתו ומטוב טעמה, ומנחלי עדניו אשקה את ארצי הנשמה, כי ככה ייטב לי קימהבעיני כבוד אבי ליתן <pb edRef="#N3761" n="11b"/> לי עצמה, ליכנס בכי טוב ולראות בנחמה, יען <app>
+                        <lem wit="#N3761">שליחות הכתיבה</lem>
+                        <rdg wit="#L1780">שלימות כתיבה</rdg>
+                    </app> לא יספיק עדיין ליתן <app>
+                        <lem wit="#N3761">לי קימה</lem>
+                        <rdg wit="#L1780">לקיטה</rdg>
+                    </app>, כי רב ממנו הדרך בטורח רב ומהומה, <cit>
+                        <quote>הפעם אודה את ה׳</quote>
+                        <bibl path="letters/aux/Genesis.xml" xml-id="Genesis-29-35" odd="zacuto-sources">בראשית כט, לה</bibl>
+                    </cit> כי <app>
+                        <lem wit="#N3761">מאתו</lem>
+                        <rdg wit="#L1780">מאתי</rdg>
+                    </app> היתה שומה, להעמיד לנו תקומה, כי <cit>
+                        <quote>לא הסתיר פני מעכ״ת ממנו</quote>
+                        <bibl>על דרך תהלים כב, כה</bibl>
+                    </cit> כמלא נימא, <cit>
+                        <quote>ולא הלך כפעם בפעם</quote>
+                        <bibl>במדבר כד, א</bibl>
+                    </cit> אל העיר אשר ה׳ שמה, ומי לנו גדול <app>
+                        <lem wit="#N3761">ממש״ה</lem>
+                        <rdg wit="#L1780">כמש״ה</rdg>
+                    </app>
+					<cit>
+                        <quote>לעמוד בפרץ ולהשיב חימה</quote>
+                        <bibl>על דרך תהלים קו, כג</bibl>
+                    </cit>, הלא מבלעדי זכות״ו ונחנו מה, אוחילה לאל <cit>
+                        <quote>תולה ארץ על בלימה</quote>
+                        <bibl>איוב כו, ז</bibl>
+                    </cit>, ימלא שאלתי במהרה <cit>
+                        <quote>ולא <app>
+                                <lem wit="#N3761">אוסיף</lem>
+                                <rdg wit="#L1780">יוסיף</rdg>
+                            </app> עצב עמה</quote>
+                        <bibl>משלי י, כב</bibl>
+                    </cit>, ואל מעכ״ת יאריך ימיו בטוב ושנותיו בנעימה, <cit>
+                        <quote>עד נבא אל מקדשי אל בבנין</quote>
+                        <bibl>תהלים עג, ׳ז</bibl>
+                    </cit> ירושלימה, יפוצו מעינותיו חוצה <cit>
+                        <quote>צפונה ונגבה וקדמה וימה</quote>
+                        <bibl path="letters/aux/Genesis.xml" xml-id="Genesis-13-14" odd="zacuto-sources">בראשית יג, יד</bibl>
+                    </cit>,</p>
+				<p>
+					<dateline>
+                        <app>
+                            <lem wit="#N3761">
+                                <placeName key="ZM011">אליסנדרייה</placeName> בס׳</lem>
+                            <rdg wit="#L1780">
+                                <placeName key="ZM011">אליכסנדריאה</placeName> סדר</rdg>
+                        </app>
+						<cit>
+                            <quote>ונברכו בך כל משפחות האדמה</quote>
+                            <bibl path="letters/aux/Genesis.xml" xml-id="Genesis-12-3" odd="zacuto-sources">בראשית יב, ג ובראשית כח, יד</bibl>
+                        </cit>,</dateline>
+					<closer>אדם להבל דמה, עפר ואפר תולעת ורימה, <persName key="ZP002">בנימין הכהן</persName>,</closer>
+				</p>
+				<p>
+					<address>
+						<addrLine>הרי זו בכי יותן ליד רוממה, לנחל נובע מקור חכמה, והוא יושב בניות ברמה, ה״ה החכם הכולל המקובל <app>
+                                <lem wit="#N3761">האלקי</lem>
+                                <rdg wit="#L1780">האלהי</rdg>
+                            </app> כמוהר״ר משה<app>
+                                    <lem wit="#N3761"/>
+                                    <rdg wit="#L1780">בכמ״ר מרדכי</rdg>
+                                </app> <persName key="ZP001">זכותו</persName>:</addrLine>
+					</address>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

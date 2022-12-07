@@ -1,0 +1,717 @@
+<?teipublisher template="N3761-L1780.html" odd="zacuto-letters.odd" view="single"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../Zacuto-Projekt/XML%20Letters/TEI-Letters/CSS/ZacutoC.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00030">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benjamin ha-Kohen to Moses Zacuto<lb/> P.
+                            Nitsavim 5436 (30 August-5 September 1676) </title>
+            <editor>Maximilian de Molière</editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Maximilian de
+                                Molière</name>
+               <resp>Conversion to TEI</resp>
+               <name>Maximilian de
+                                Molière</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Moses Zacuto Correspondence
+                                    Project</name>
+               <address>
+                  <name>Seminar für Judaistik/ Jüdische
+                                    Studien</name>
+                  <institution>Martin-Luther Universität
+                                    Halle-Wittenberg</institution>
+                  <street>Großer Berlin
+                                    14</street>
+                  <postCode>06108</postCode>
+                  <placeName key="ZM011">
+                     <country>Germany</country>
+                     <settlement>Halle / Saale</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY
+                                4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+				<note type="summary">Questions concerning: Adam Kadmon's nose, the 4000 in his mouth and the four utterances, the
+					lights from the navel and the origin of Adam Kadmon, the rise of the lights of Adam Kadmon and return, and
+					other matters.</note>
+				<note type="incipit" xml:lang="he">תוחלת ממושכה היתה עלי</note>
+			</notesStmt>
+         <sourceDesc>
+            <listWit>
+               <summary>
+						<bold>Autograph:</bold>
+						<label>L9165</label> London BL, Or. 9165, ff. 79a-79b.<bold>Copy Scribe:</bold>
+						<label>N3761</label> New York, JTS 3761, ff. 12b-13b. <label>W66</label> Warsaw, Ringelblum, ff. 30a-b.<bold>Printed
+							Copy:</bold>
+						<label>L1780</label> Iggerot ha-Remez, Livorno 1780, pp. 14b-15b (No. 21). <bold>Text from L9165. Variants from L1780, N3761, and W66.</bold>
+					</summary>
+               <witness xml:id="L9165">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>United
+                                            Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British
+                                            Library</repository>
+                        <idno>Or.
+                                            9165</idno>
+                        <locus>79a-79b</locus>
+                        <altIdentifier type="IMHM">F 6601</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="N3761">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>United States</country>
+                        <settlement>New
+                                            York</settlement>
+                        <repository>Jewish Theological
+                                            Seminary</repository>
+                        <idno>3761</idno>
+                        <locus>12b-13b</locus>
+                        <altIdentifier type="IMHM">F 29566</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="W66">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Poland</country>
+                        <settlement>Warsaw</settlement>
+                        <repository>Library
+                                            of the Emanuel Ringelblum Jewish Historical
+                                            Institute</repository>
+                        <idno>66</idno>
+                        <locus>30a-b</locus>
+                        <altIdentifier type="IMHM">F 11604</altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L1780">
+                  <bibl>
+                     <author>Moses Zacuto</author>
+                     <title>Iggerot ha-ReMeZ</title>. <pubPlace>Livorno</pubPlace>
+                     <date>1780</date>
+                  </bibl>
+                  <locus>14b-15b (No.
+                                21)</locus>
+               </witness>
+            </listWit>
+            <additional>
+               <listBibl>
+                  <bibl n="firstPrint"/>
+               </listBibl>
+            </additional>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This edition was created as part of the DFG-funded project "Encyclopedic
+                            Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of
+                            Practical and Theoretical Kabbalah".</p>
+         </projectDesc>
+         <editorialDecl>
+            <punctuation>
+               <p>All punctuation marks in the source manuscript have been
+                                retained and represented using the appropriate Unicode code point.
+                            </p>
+            </punctuation>
+            <interpretation>
+               <p>Names of persons, places and works are marked.
+                                </p>
+               <p>Dates are marked and equivalents in the Gregorian calendar
+                                are given. </p>
+               <p>Quotes and allusions to other texts are marked and
+                                referenced. </p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="Hebrew">
+               <p>Hebrew calendar; depending on the source the
+                                Hebrew date is partly given in months and days and partly in the
+                                sections of the Pentateuch (pericopes) that were read in the week of
+                                the composition.</p>
+            </calendar>
+            <calendar xml:id="Gregorian">
+               <p>Gregorian calendar; computed from the Hebrew
+                                date. If the Hebrew date is given as a pericope in the source, a
+                                range of days is computed.</p>
+            </calendar>
+         </calendarDesc>
+         <!--NAMEN UND ORTE AKTUALISIEREN-->
+         <correspDesc n="ZL00030">
+            <correspAction type="sent">
+               <idno>ZL00030</idno>
+               <persName key="ZP002" cert="high">Benjamin ha-Kohen</persName>
+               <date calendar="hebrew">P.
+                                Nitsavim 5436 </date>
+               <date when="1676" calendar="gregorian">30
+                                August-5 September 1676</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="ZP001" cert="high">Moses
+                                Zacuto</persName>
+               <settlement key="ZM002" cert="medium">Mantua</settlement>
+               <!--Poznań, Erets Israel, Meldola, Ragusa, Rome, Poland, Egypt, Livorno, Halab, Ferrara, Izmir, Ancona-->
+            </correspAction>
+            <correspContext> </correspContext>
+         </correspDesc>
+         <langUsage>
+            <language ident="he">Hebrew</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text type="letter" xml:lang="he" xml:id="ZL00030">
+      <body>
+			<div type="letter">
+				<p>
+                    <opener>
+                        <salute> <cit><quote>נר ישראל</quote><bibl>TEST</bibl></cit> והדרו, מיוחד בדורו, לא יכבה בלילה נר״ו, והלכו <app xml:id="0">
+								<lem wit="#L9165">עמי׳</lem>
+								<rdg wit="#W66 #L1780">עמים</rdg>
+								<rdg wit="#N3761">עמי׳</rdg>
+							</app> לאורו מ״ו <app xml:id="1">
+								<lem wit="#L9165 #L1780">שלום</lem>
+								<rdg wit="#W66 #N3761">שלו׳</rdg>
+								
+							</app>
+                        </salute>
+                    </opener>
+				</p>
+				<p>
+					<app xml:id="2">
+						<lem wit="#L9165">תוחלת</lem>
+						<rdg wit="#W66 #L1780">תוחלת</rdg>
+						<rdg wit="#N3761">לא תוחלת</rdg>
+					</app> ממושכה, היתה עלי כל הימים אשר לא עלתה ארוכה, <app xml:id="3">
+						<lem wit="#L9165">למחל״ה</lem>
+						<rdg wit="#W66 #N3761">למח״לה</rdg>
+						<rdg wit="#L1780">למחל״ה</rdg>
+					</app> נוה״ה כי <app xml:id="4">
+						<lem wit="#L9165">הגלה</lem>
+						<rdg wit="#W66 #N3761">הג״לה</rdg>
+						<rdg wit="#L1780">הגל״ה</rdg>
+					</app> יקרי, ואבד שברי, מבלי באי למועד מועדים, אותיות ומה מאד וכלם מחמדים, וידי <app xml:id="5">
+						<lem wit="#L9165">מש״ה</lem>
+						<rdg>משה</rdg>
+						<rdg wit="#L1780 #N3761">מש״ה</rdg>
+					</app> כבדים מהוריד <app xml:id="6">
+						<lem wit="#L9165">של</lem>
+						<rdg wit="#L1780 #W66 #N3761">טל</rdg>
+					</app> אורו בדרך רחוקה להשביע נפש שוקקה, חשיקה ודבקה בנפש יקרה, אשר כל העולם <cit><quote>נהנה</quote><bibl>test</bibl></cit> לאורה, ויהי היום באה תשוקתי, ויעירני משנתי,
+					באגרת, <app xml:id="7">
+						<lem wit="#L9165">קטנה</lem>
+						<rdg wit="#W66 #N3761">קטנה</rdg>
+						<rdg wit="#L1780">קנאה</rdg>
+					</app>, יפה כלבנה, בה שמח לבי ויגל כבודי להחזיק את ידי, כי אבטח לאלקי <app xml:id="9">
+						<lem wit="#L9165">בהוד״י</lem>
+						<rdg wit="#W66">בהוד״י</rdg>
+						<rdg wit="#L1780">בהו״די</rdg>
+						<rdg wit="#N3761">בהודי</rdg>
+					</app> ימלא את שאלתי, לקרב <app xml:id="10">
+						<lem wit="#L9165">את</lem>
+						<rdg wit="#W66 #N3761">את</rdg>
+						<rdg wit="#L1780">דברי הרב אל</rdg>
+					</app> מקום שבתי, אל המקום אשר יבחר להדרת מנוחתו, שם אזכה לשרתו ואשתה בצמא מתורתו, ומה מאד קשה עלי כי יבצר ממני הדרך אשר עלתה תחלה
+					במחשבה, היא היתה <app>
+						<lem wit="#L9165">לי</lem>
+						<rdg wit="#W66 #L1780">לי</rdg>
+						<rdg wit="#N3761"/>
+					</app> לסבה, כי אמרתי נכון הדבר בלי עכבה, לעשות פרי תנובה, בקהלה רבה וחשובה, אשר נפשם כל הימים תאיבה לברור להם מנה יפה <app>
+						<lem wit="#L9165">וחשובה</lem>
+						<rdg wit="#W66 #L1780">וחשובה</rdg>
+						<rdg wit="#N3761">וחטיבה</rdg>
+					</app>
+				</p>
+				<p>
+					<app xml:id="11">
+						<lem wit="#L9165 #N3761 #W66">ועתה מה נעשה, אם ככה ייטב בעיני אבינו שבשמים, המקציף עבדים על אדוניהם, לעשות רצון יראיו ומזימותיהם, ולהעמיד
+							לעד צדקתם, להראות נפלאות מתורתם, צר לי מאד על תמידין ומוספין הנוספין על תחלואי אשתו תמ״א, ואני בעניי אוחילה לאל ירפאה,
+							ויעצימה, ויאמר די למחלותיה, ולמעכ״ת יתן עוז ותעצומות, להוציא פריו לענפה, ועליהו לתרופה, </lem>
+						<!--<rdg wit="#W66">ועתה מה נעשה, אם ככה ייטב בעיני אבינו שבשמים, המקציף עבדים על אדוניהם, לעשות רצון יריאיו ומזימותיהם, ולהעמיד
+							לעד צדקתם, להראות נפלאות מתורתם, צר לי מאד על תמידין ומוספין הנוספים על תחלואי אשתו תמ״א, ואני בעניי אוחילה לאל ירפאה
+							ויעצימה, ויאמר די למחלותיה, ולמעכ״ת יתן עוז ותעצומות, להוציא פריו לענפה, ועליהו לתרופה, </rdg>
+						<rdg wit="#N3761">ועתה מה נעשה, אם ככה ייטב בעיני אבינו שבשמים שמקציף עבדים על אדוניהם, לעשות רצון יראיו ומזרצון יראיו ימותיהם
+							ולהעמיד לעד צדקתם, להראות נפלאות מתורתם, צר לי מאד על תמידין ומוספין הנוספים על תחלואי אשתו תמא ואני בעניי אוחילה לאל
+							ירפאה ויעצימה, ויאמ׳ די למחלותיה ולמעכ״ת יתן עוז ותעצומות, להוציאמדי יום פריו לענפה, ועליהו לתרופה, </rdg>-->
+							<rdg wit="#L1780"/>
+					</app>
+				</p>
+				<p>
+				ואל אהובי הנעלה אכתוב <app>
+					<lem wit="#L9165">למאנטו״ב</lem>
+					<rdg wit="#W66">למנטוב״ה</rdg>
+					<rdg wit="#L1780 #N3761">למנטובה</rdg>
+				</app> דברי מעכ״ת כי זה ימים שכבר נסע לדרכו, והנה גם בפעם הזאת לא אוכל להתאפק, <app>
+					<lem wit="#L9165">מלהיות</lem>
+					<rdg wit="#W66 #N3761">מלהיות</rdg>
+					<rdg wit="#L1780"/>
+				</app> עליו לטורח בדברים אשר נפלאו ממני, כי בעוונותי רבו כמו רבו ההרגשים המתהוים עלי מדי יום 
+					
+					<app>
+						<lem wit="#L9165">ביום בקראי בדברי הר״ב, ולמי</lem>
+						<rdg wit="#W66">ביום בקראי בדברי הרב, ולמי</rdg>
+						<rdg wit="#L1780">ביום בקראי דברי הרב ולמבלימוד י</rdg>
+						<rdg wit="#N3761">במעכ״ת פתח לי יומו, מכתבי הרב ולמי</rdg>
+					</app>אנוסה לעזרה, אחרי אשר מעכ״ת <app>
+					<lem wit="#L9165">פתח</lem>
+					<rdg wit="#W66 #N3761">פתח</rdg>
+					<rdg wit="#L1780">פתת</rdg>
+				</app> לי פתח בלימוד <app>
+					<lem wit="#L9165">התורה</lem>
+					<rdg wit="#W66">התורה</rdg> <rdg wit="#N3761 #L1780">תורה</rdg>
+				</app>, כדין וכשורה, האמנם חסורי מחסרא, יען כי הלא ידי קצרה, <app>
+					<lem wit="#L9165">די</lem>
+					<rdg wit="#W66 #L1780">די</rdg>
+					<rdg wit="#N3761"/>
+				</app> השיב להם תשובות נכוחות בידים מוכיחות, ולעשות להם סמוכות, הנה <app>
+					<lem wit="#L9165">בס</lem>
+					<rdg wit="#W66 #N3761">בס</rdg>
+					<rdg wit="#L1780">אספר׳</rdg>
+				</app> אוצרות חיים דרוש א״ק באורות היוצאי׳ מהחוטם <app>
+					<lem wit="#L9165">ז״ל</lem>
+					<rdg wit="#W66">זה לשונתיו</rdg>
+					<rdg wit="#L1780 #N3761">זה לשונו</rdg>
+				</app> והנה אות <app>
+					<lem wit="#L9165">הר׳</lem>
+					<rdg wit="#W66">הו׳</rdg>
+					<rdg wit="#L1780">ה״י</rdg>
+					<rdg wit="#N3761">ה׳</rdg>
+				</app> הזו כבר ביארנו לעיל שאינה נפסקת אבל יש הוראה אחרת אליה והוא כי כאשר <app>
+					<lem wit="#L9165">תקח ה״ה</lem>
+					<rdg wit="#W66 #L1780">תקח ה״ה</rdg>
+					<rdg wit="#N3761">תיקח הה</rdg>
+				</app> שבאזן ימין שמספרה י׳ <app>
+					<lem wit="#L9165">כנ״ל</lem>
+					<rdg wit="#W66 #N3761">כנ״ל</rdg>
+					<rdg wit="#L1780">בנ״ל</rdg>
+				</app> והרי היא בחי׳ י׳ אחת וכו׳ עד <app>
+					<lem wit="#L9165">סוף</lem>
+					<rdg wit="#W66 #N3761">סוף</rdg>
+					<rdg wit="#L1780">חוף</rdg>
+				</app> ציור כל הד׳ <choice><abbr>אלפי׳</abbr><expan>אלפים</expan></choice>, ואח״כ באורות היוצאים מהפה המתחלקים לד׳ <app>
+					<lem wit="#L9165">בחי׳</lem>
+					<rdg wit="#W66 #N3761">בחי׳</rdg>
+					<rdg wit="#L1780">בחינות</rdg>
+				</app> אור מקיף ופנימי וכלי חיצון ופנימי אמר וז״ל, ואלו הד׳ <app>
+					<lem wit="#L9165">בחינ׳</lem>
+					<rdg wit="#W66 #N3761">בחי׳</rdg>
+					<rdg wit="#L1780">בחינות</rdg>
+				</app> הם <app>
+					<lem wit="#L9165">בחי׳</lem>
+					<rdg wit="#W66 #N3761">בחי׳</rdg>
+					<rdg wit="#L1780">בתי׳</rdg>
+				</app> גלוי <app>
+					<lem wit="#L9165">אותם</lem>
+					<rdg wit="#W66 #L1780 #N3761">אותן</rdg>
+				</app> הד׳ אלפי״<app>
+					<lem wit="#L9165">ן הנז״ל</lem>
+					<rdg wit="#W66">הנז״ל</rdg>
+					<rdg wit="#L1780 #N3761">כנז״ל</rdg>
+				</app> שהיו בחוטם וכו׳, והנה <app>
+					<lem wit="#L9165">ה״ב</lem>
+					<rdg wit="#W66">ה״בֵ</rdg>
+					<rdg wit="#L1780 #N3761">הב</rdg>
+				</app> אלפין שציורן <app>
+					<lem wit="#L9165">דו״י</lem>
+					<rdg wit="#W66">יד״י</rdg>
+					<rdg wit="#L1780 #N3761">יו״י</rdg>
+				</app> הם אור פנימי ומקיף. ושני אלפין שציורן יו״ד הם בחי׳ הלים פנימי וחיצון וכו׳ כי מן <app>
+					<lem wit="#L9165">אזן</lem>
+					<rdg wit="#W66">אזן</rdg>
+					<rdg wit="#L1780 #N3761">אוזן</rdg>
+				</app> ימין נמשך האור ויצא דרך הפה <app>
+					<lem wit="#L9165">בסוד</lem>
+					<rdg wit="#W66 #L1780">בסוד</rdg>
+					<rdg wit="#N3761">בסו</rdg>
+				</app> אור מקיף ומחוטם ימין נמשך אור פנימי ומן <app>
+					<lem wit="#L9165">אזן</lem>
+					<rdg wit="#W66 #N3761">אזן</rdg>
+					<rdg wit="#L1780">אוזן</rdg>
+				</app> שמאל נמשך ונעשה חיצוניות הכלי ומחוטם שמאל פנימיותו וכו׳, וקשה עלי אזן וחוטם אלו איך <app>
+					<lem wit="#L9165">נוכל</lem>
+					<rdg wit="#W66 #N3761">נוכל</rdg>
+					<rdg wit="#L1780">יוכל</rdg>
+				</app> להשוות <choice><abbr>בחי׳</abbr><expan>בחינות</expan></choice> זו <app>
+					<lem wit="#L9165">שאמר</lem>
+					<rdg wit="#W66 #L1780">שאמר</rdg>
+					<rdg wit="#N3761">שאמ׳בהבנת דברים </rdg>
+				</app> כי האורות נעשו מאוזן וחוטם ימין והכלי משמאל, עם מה שהקדים בציור האלפין, שהרי האלפין בציור יו״ד נעשית <app>
+					<lem wit="#L9165">א׳ מהן</lem>
+					<rdg wit="#W66 #N3761">א׳ מהם</rdg>
+					<rdg wit="#L1780">אחד מהן</rdg>
+				</app> מאוזן <app>
+					<lem wit="#L9165">וחוטם</lem>
+					<rdg wit="#W66">וחטם ימין וה״בֵ מאזן וחטם</rdg>
+					<rdg wit="#L1780">וחוטם ימין והב׳ מאזן וחוטם</rdg>
+					<rdg wit="#N3761">וחטם ימין והב׳ מקמ״חאזן וחטם</rdg>
+				</app> שמאל ומהם נעשו הכלים, וא״כ איך <app>
+					<lem wit="#L9165">אמר</lem>
+					<rdg wit="#W66 #L1780">אמר</rdg>
+					<rdg wit="#N3761">אשר</rdg>
+				</app> שהכלים הם <choice><abbr>מבחי׳</abbr><expan>מבחינות</expan></choice> אוזן וחוטם שמאלי בלבד וכן <app>
+					<lem wit="#L9165">ב״ב</lem>
+					<rdg wit="#W66">ב״בֵ</rdg>
+					<rdg wit="#L1780">בב</rdg>
+					<rdg wit="#N3761">בד</rdg>
+				</app> ציורי יו״י <app>
+					<lem wit="#L9165">ג״ם</lem>
+					<rdg wit="#W66 #L1780 #N3761">גם</rdg>
+				</app> הם <app>
+					<lem wit="#L9165">נעשים</lem>
+					<rdg wit="#W66">נעשים</rdg>
+					<rdg wit="#L1780"/>
+					<rdg wit="#N3761">נעשי</rdg>
+				</app> מימין ומשמאל ואיך <app>
+					<lem wit="#L9165">אמר</lem>
+					<rdg wit="#W66 #L1780">אמר</rdg>
+					<rdg wit="#N3761">אמ</rdg>
+				</app> שהאורות אשר כנגדם הם מצד ימין בלבד <app>
+					<lem wit="#L9165">ועוד אמר</lem>
+					<rdg wit="#W66 #L1780">ועוד אמר</rdg>
+					<rdg wit="#N3761">ועו׳ אמ</rdg>
+				</app> אחר זה ז״ל והנה אותם הד׳ אלפין שציירנו לעיל בחוטם הם <app>
+					<lem wit="#L9165">הנכנס׳</lem>
+					<rdg wit="#W66 #L1780">הנכנסים</rdg>
+					<rdg wit="#N3761">הנכנסי׳</rdg>
+				</app> בפה והם נעשי׳ שם ד׳ הכלי׳ והנה <lem wit="#L9165">ד״פ הכ״ל ג״י</lem>
+				<rdg wit="#W66">ד׳ פ׳ הכל גי</rdg>
+				<rdg wit="#L1780">דפ׳ הבל גי</rdg>
+				<rdg wit="#N3761">ד׳ פ׳ הב״ל בגי</rdg> האזן בסופו קמ״ח וכו׳, והרי תחלה <app>
+					<lem wit="#L9165">אמר</lem>
+					<rdg wit="#W66 #L1780">אמר</rdg>
+					<rdg wit="#N3761">אמ׳</rdg>
+				</app> שהם ב׳ <app>
+					<lem wit="#L9165">דבורי</lem>
+					<rdg wit="#W66">הכלים</rdg>
+					<rdg wit="#L1780 #N3761">הבלים</rdg>
+				</app> וב׳ <app>
+					<lem wit="#L9165">הכלים</lem>
+					<rdg wit="#W66 #L1780">דבורים</rdg>
+					<rdg wit="#N3761">דב׳</rdg>
+				</app> בלבד: עוד שם בהתפשטות <app>
+					<lem wit="#L9165">הנקודי</lem>
+					<rdg wit="#W66">עולם הקודים</rdg>
+					<rdg wit="#L1780">עולם הנקודים</rdg>
+					<rdg wit="#N3761">עולם הניקודי׳</rdg>
+				</app> ז״ל <app>
+					<lem wit="#L9165">עולם</lem>
+					<rdg wit="#W66 #L1780 #N3761"/>
+				</app> והנה <app>
+					<lem wit="#L9165">שני</lem>
+					<rdg wit="#W66 #N3761">שני</rdg>
+					<rdg wit="#L1780">ב</rdg>
+				</app> מיני או<choice><abbr>רות יו</abbr><expan>יוצאים</expan></choice>צאי׳ מתוך הגוף <app>
+					<lem wit="#L9165">של</lem>
+					<rdg wit="#W66 #N3761">של</rdg>
+					<rdg wit="#L1780">על</rdg>
+				</app> א״ק והם הא׳ מן הטיבור <app>
+					<lem wit="#L9165">וה״ב</lem>
+					<rdg wit="#W66">והבֵ</rdg>
+					<rdg wit="#L1780 #N3761">והב</rdg>
+				</app> מפי היסוד ויוצאים דרך שם <app>
+					<lem wit="#L9165">ב׳</lem>
+					<rdg wit="#W66 #N3761">שני</rdg>
+					<rdg wit="#L1780">ב׳</rdg>
+				</app> הכלים וכפי הראוי היה שיהיו ג׳ הכלים כנגד הג׳ עליונות שקבלו מאורות אח״כ למעלה, אבל לפי שחסר אור האוזן מן או״א לכן ג״כ חסר בחי׳
+				ההבל מה שהוא כנגד האוזן ולא יצאו רק <app>
+					<lem wit="#L9165">ב׳</lem>
+					<rdg wit="#W66 #N3761">שני</rdg>
+					<rdg wit="#L1780">ב׳</rdg>
+				</app> הבלים שהם כנגד החוטם והפה לבד אשר מהם <app>
+					<lem wit="#L9165">קבלו</lem>
+					<rdg wit="#W66 #L1780">קבלו</rdg>
+					<rdg wit="#N3761">קבלי</rdg>
+				</app> או״א למעלה וגם <app>
+					<lem wit="#L9165">כן</lem>
+					<rdg wit="#W66 #L1780 #N3761">כאן</rdg>
+				</app> למטה מקבלים <app>
+					<lem wit="#L9165">מהם וכו׳</lem>
+					<rdg wit="#W66 #N3761">מהם וכו</rdg>
+					<rdg wit="#L1780">מהן וגו׳</rdg>
+				</app>, וקשה לי שהרי לעיל בדף קודם <app>
+					<lem wit="#L9165">זה אמר</lem>
+					<rdg wit="#W66">זה אמר</rdg>
+					<rdg wit="#L1780">וה׳. אמר</rdg>
+					<rdg wit="#N3761">זה אמ׳</rdg>
+				</app> שהכתר קבל מאור האוזן. וא״כ היה צריך להיות <app>
+					<lem wit="#L9165">הכל</lem>
+					<rdg wit="#W66">הכל</rdg>
+					<rdg wit="#L1780 #N3761">הבל</rdg>
+				</app> א׳ כנגד <app>
+					<lem wit="#L9165">הכתר</lem>
+					<rdg wit="#W66 #L1780">הכתר</rdg>
+					<rdg wit="#N3761">הכת׳</rdg>
+				</app> בלבד, והטעם כנגד או״א ואעפ״י שקבל <app>
+					<lem wit="#L9165">הארת</lem>
+					<rdg wit="#W66 #N3761">הארת</rdg>
+					<rdg wit="#L1780">הארח</rdg>
+				</app> האוזן בסופו עכ״ז הוא <app>
+					<lem wit="#L9165">מהאוזן</lem>
+					<rdg wit="#W66">מהאזן</rdg>
+					<rdg wit="#L1780">והאזן</rdg>
+					<rdg wit="#N3761">מהאוזן</rdg>
+				</app> עצמו ואם <app>
+					<lem wit="#L9165">נאמר</lem>
+					<rdg wit="#W66 #L1780">נאמר</rdg> העקודים <rdg wit="#N3761">נאמ׳</rdg>
+				</app> שכוונתו היא ששני הבלים אלו הם <app>
+					<lem wit="#L9165">א׳ כנגד</lem>
+					<rdg wit="#W66 #L1780">א׳ כנגד</rdg>
+					<rdg wit="#N3761">כנג׳</rdg>
+				</app> הכתר <app>
+					<lem wit="#L9165">והב׳</lem>
+					<rdg wit="#W66">ובשני</rdg>
+					<rdg wit="#L1780 #N3761">והשני</rdg>
+				</app> לאו״א <app>
+					<lem wit="#L9165">במ״ש</lem>
+					<rdg wit="#W66 #L1780">במ״ש</rdg>
+					<rdg wit="#N3761">כמ״ש</rdg>
+				</app> לקמן בניקוד השורק שהוא ההבל היוצא <app>
+					<lem wit="#L9165"/>
+					<rdg wit="#W66 #L1780 #N3761">מן</rdg>
+				</app> מהיסוד ונחלק לשנים אל או״א יע״ש אין הלשון הראשון סובלהו שהרי <app>
+					<lem wit="#L9165">אמר</lem>
+					<rdg wit="#W66 #N3761">אמ׳</rdg>
+					<rdg wit="#L1780">אמר</rdg>
+				</app> בפי׳ <app>
+					<lem wit="#L9165">לבן</lem>
+					<rdg wit="#W66 #L1780 #N3761">לכן</rdg>
+				</app>
+				<app>
+					<lem wit="#L9165">ג״ב</lem>
+					<rdg wit="#W66 #L1780 #N3761">ג״כ</rdg>
+				</app> חסר בחי׳ ההבל מה שהוא <app>
+					<lem wit="#L9165">כנגד</lem>
+					<rdg wit="#W66 #L1780">כנגד</rdg>
+					<rdg wit="#N3761">כנג׳</rdg>
+				</app> האוזן, ועם זה יקשה דיוקא דרישא אדסיפא שמלעיל <app>
+					<lem wit="#L9165">נראה</lem>
+					<rdg wit="#W66 #L1780">נר׳</rdg>
+					<rdg wit="#N3761">נרא</rdg>
+				</app> היות <app>
+					<lem wit="#L9165">או״א</lem>
+					<rdg wit="#W66 #N3761">או״א</rdg>
+					<rdg wit="#L1780"/>
+				</app> שניהם נחלקים <app>
+					<lem wit="#L9165">לב׳</lem>
+					<rdg wit="#W66 #L1780 #N3761">לשני׳</rdg>
+				</app> הבלים וכאן <app>
+					<lem wit="#L9165">אמר</lem>
+					<rdg wit="#W66 #L1780">אמר</rdg>
+					<rdg wit="#N3761">אמ׳</rdg>
+				</app> ששניהם מקבלים מהבל היסו׳ גם <app>
+					<lem wit="#L9165">בס׳</lem>
+					<rdg wit="#W66 #L1780">בס׳</rdg>
+					<rdg wit="#N3761">בספ׳</rdg>
+				</app> אדם יש<del>ר 
+					בהשתלשל
+					
+				</del> בהשתלשלות י״ס דרך <app>
+					<lem wit="#L9165">עגולים</lem>
+					<rdg wit="#W66 #L1780">עגולים</rdg>
+					<rdg wit="#N3761">עיגולי׳</rdg>
+				</app> אחר שני הענפים <app>
+					<lem wit="#L9165">כתוב</lem>
+					<rdg wit="#W66 #L1780">כתוב</rdg>
+					<rdg wit="#N3761">כתו׳</rdg>
+				</app> לאמר דע כי ד׳ בחי׳ <app>
+					<lem wit="#L9165"/>
+					<rdg wit="#W66 #L1780"/>
+					<rdg wit="#N3761">בגלגלי</rdg>
+				</app> כוללי׳ כל העולמות והם <app>
+					<lem wit="#L9165">עסמ״ב״ב</lem>
+					<rdg wit="#W66 #N3761">ע״ס מ</rdg>
+					<rdg wit="#L1780">ע״ב מ״ב</rdg>
+				</app> וכו׳ מכל המאמר ההוא <app>
+					<lem wit="#L9165">נראה</lem>
+					<rdg wit="#W66 #L1780">נראה</rdg>
+					<rdg wit="#N3761">נרא׳</rdg>
+				</app> סתירות עצומות למה שכתוב באוצרות חיים בדירוש יציאת <app>
+					<lem wit="#L9165">הנקודי׳</lem>
+					<rdg wit="#W66 #L1780">הנקודים</rdg>
+					<rdg wit="#N3761">הניקודי</rdg>
+				</app> כי כאן <app>
+					<lem wit="#L9165">נראה</lem>
+					<rdg wit="#W66">נר׳</rdg>
+					<rdg wit="#L1780">נראה</rdg>
+					<rdg wit="#N3761">נרא׳</rdg>
+				</app> שהאורות שעלו למעלה מהפרס״ <app>
+					<lem wit="#L9165">א</lem>
+					<rdg wit="#W66 #L1780">א</rdg>
+					<rdg wit="#N3761"/>
+				</app> דהיינו מ״ה <app>
+					<lem wit="#L9165">וכן</lem>
+					<rdg wit="#W66 #L1780">וכן</rdg>
+					<rdg wit="#N3761">וכ״ן</rdg>
+				</app> הפנימיי׳ להעלות מ״ן <app>
+					<lem wit="#L9165">הם</lem>
+					<rdg wit="#W66 #L1780 #N3761">הן</rdg>
+				</app> הם שחזרו ובאו ונתפשטו למטה מהטיבור אחרי <app>
+					<lem wit="#L9165">צאת בן</lem>
+					<rdg wit="#W66 #L1780">צאת ב״ן</rdg>
+					<rdg wit="#N3761">זאת ב״ן</rdg>
+				</app> דחיצוניות מן העינים כנז׳ שם, והנה באוצרות חיים קרא לו שם חדש לאור הזה היורד <app>
+					<lem wit="#L9165">ואמר</lem>
+					<rdg wit="#W66 #L1780">ואמר</rdg>
+					<rdg wit="#N3761">ואמ׳</rdg>
+				</app> ז״ל ואז ע״י <app>
+					<lem wit="#L9165">מ״ן אלו העולו׳</lem>
+					<rdg wit="#W66">מן האלו העולים</rdg>
+					<rdg wit="#L1780 #N3761">מ״ן האלו העולים</rdg>
+				</app> נזדווגו שם ע״ב <app>
+					<lem wit="#L9165">שבגלגולתא</lem>
+					<rdg wit="#W66">בגולגלתא</rdg>
+					<rdg wit="#L1780 #N3761">דגולגלתא</rdg>
+				</app> וכו׳ ואז נמשך אור חדש מלמעלה מן הזווג הזה ובקע וירד דרך הפרסא <app>
+					<lem wit="#L9165"/>
+					<rdg wit="#W66 #L1780"/>
+					<rdg wit="#N3761">א׳</rdg>
+				</app> מן הטיבור ולמטה, אמנם האור הראשון שהיה בתחלה למטה ועלה למעלה שוב לא ירד וכו׳ ועם כי יכולין אנו <app>
+					<lem wit="#L9165">לומר</lem>
+					<rdg wit="#W66 #L1780">לומר</rdg>
+					<rdg wit="#N3761">לומ׳</rdg>
+				</app> כי האור שעלה למ״ן נתוספה לו הארה חדשה ביותר ולזאת קרא בשם אור חדש עכ״ז לא שוה לי תשובה זו עד יצא הדבר מפי המל״ך הראוי לסמוך <app>
+					<lem wit="#L9165">עליו</lem>
+					<rdg wit="#W66 #L1780">עליו</rdg>
+					<rdg wit="#N3761">עלי</rdg>
+				</app> בדברי׳ <app>
+					<lem wit="#L9165">שהם</lem>
+					<rdg wit="#W66 #N3761">שהם</rdg>
+					<rdg wit="#L1780">שרם</rdg>
+				</app> כבשונו של עולם ועם זה לא אחשה מלהעלות לפני שלחנו הטהור דברים אשר עלו על <app>
+					<lem wit="#L9165">לבי</lem>
+					<rdg wit="#W66 #N3761">לבי</rdg>
+					<rdg wit="#L1780">לבו</rdg>
+				</app>, אף כי יראתי לדבר במקום גבוה מעל גבוה, והוא לתת טעם אל האמור באדם ישר בראש המאמר הנ״ל <app>
+					<lem wit="#L9165">זה לשוא</lem>
+					<rdg wit="#W66 #L1780 #N3761">ז״ל</rdg>
+				</app> : גם דע כי <app>
+					<lem wit="#L9165">ע״כ</lem>
+					<rdg wit="#W66">ע״כ</rdg>
+					<rdg wit="#L1780 #N3761">ע״ב</rdg>
+				</app> הוא <app>
+					<lem wit="#L9165">הכתר</lem>
+					<rdg wit="#W66 #L1780">הכתר</rdg>
+					<rdg wit="#N3761">הכת׳</rdg>
+				</app> והטעמים וס״ג חכמה ונקודות ומ״ה בינה ותגין <app>
+					<lem wit="#L9165">וב״ן</lem>
+					<rdg wit="#W66 #N3761">ובן</rdg>
+					<rdg wit="#L1780">וב״ן</rdg>
+				</app> ז׳ תחתונות והוא אותיות. וזה הפך מה שאנו רואים בכל מקום ע״ב <app>
+					<lem wit="#L9165">בחכמ״ה</lem>
+					<rdg wit="#W66 #L1780 #N3761"/>
+				</app> וס״ג <app>
+					<lem wit="#L9165">בבינ״ה</lem>
+					<rdg wit="#W66 #L1780 #N3761"/>
+				</app> אם לא בקבלת שבת שהוא כמו האמור כאן, ונלע״ד כי <app>
+					<lem wit="#L9165">הסדר</lem>
+					<rdg wit="#W66 #L1780">הסדר</rdg>
+					<rdg wit="#N3761">הס׳</rdg>
+				</app> היה כך בא״ק וכל העולמות עד <app>
+					<lem wit="#L9165">העקודי׳</lem>
+					<rdg wit="#W66 #L1780">העקודים</rdg>
+					<rdg wit="#N3761">הניקודי׳</rdg>
+				</app> אך להיות שבעולם <app>
+					<lem wit="#L9165">העקודים</lem>
+					<rdg wit="#W66 #L1780">העקודים</rdg>
+					<rdg wit="#N3761">הניקודי׳</rdg>
+				</app> בעת חזרת האורות <app>
+					<lem wit="#L9165">לאחר</lem>
+					<rdg wit="#W66 #N3761">לאחר</rdg>
+					<rdg wit="#L1780">לאתר</rdg>
+				</app> שעלו במאצילם, ירדה החכמה בכלי <app>
+					<lem wit="#L9165">הכתר</lem>
+					<rdg wit="#W66">הכתר</rdg>
+					<rdg wit="#L1780 #N3761">בכתר</rdg>
+				</app> והבינה במקום החכמה וכן עד״ז השאר לכן נשתנו שמותם <app>
+					<lem wit="#L9165">והיו</lem>
+					<rdg wit="#W66 #N3761">והיו</rdg>
+					<rdg wit="#L1780">וחיו</rdg>
+				</app> ע״ב בחכמה כי קנתה עתה מחדש השם הזה להיותה בכלי הכתר <app>
+					<lem wit="#L9165">וכן</lem>
+					<rdg wit="#W66 #N3761">וכן</rdg>
+					<rdg wit="#L1780">ובן</rdg>
+				</app> הבינה בחכמה ומשם ולמטה ג״כ להיות כי הנקודים המשיכו אור לכליהם מן <app>
+					<lem wit="#L9165">העקודי׳ כנז׳</lem>
+					<rdg wit="#W66 #L1780">העקודים כנז׳</rdg> ככה <rdg wit="#N3761">הניקודי׳ כנז׳</rdg>
+				</app> שם, ולכן לעולם אנו רואי׳ כי <app>
+					<lem wit="#L9165">ע״כ</lem>
+					<rdg wit="#W66">ע״בֵ</rdg>
+					<rdg wit="#L1780 #N3761">ע״ב</rdg>
+				</app>
+				<app>
+					<lem wit="#L9165">בחכמ״ה</lem>
+					<rdg wit="#W66 #L1780 #N3761"/>
+				</app> וכו׳. שלשה המה נפלאו ממני מלבד אשר עוברים <app>
+					<lem wit="#L9165">ושבים</lem>
+					<rdg wit="#W66 #N3761">ושבי׳</rdg>
+					<rdg wit="#L1780">ושבים</rdg>
+				</app> מבלי אפשר להעלות הכל על ספר, ועל אלה יבא דבר מעכ״ת אם ככה ומלאה בעיניו ובהם אזכה אני <app>
+					<lem wit="#L9165">בשלי</lem>
+					<rdg wit="#W66 #L1780">בשלי</rdg>
+					<rdg wit="#N3761">בשלו</rdg>
+				</app> אזכה אחרים עמי המתאוים שכון בחצרות ה׳ על התורה ועל העבודה, כי רבים אשר אתנו משתוקקים <app>
+					<lem wit="#L9165">וחפצים</lem>
+					<rdg wit="#W66">וחפצים</rdg>
+					<rdg wit="#L1780">וחפיצים</rdg>
+					<rdg wit="#N3761">וחפצי׳</rdg>
+				</app> לרוות צמאונם בדברים הנאמרים באמת, ואין אתנו יודע <app>
+					<lem wit="#L9165">על</lem>
+					<rdg wit="#W66 #L1780 #N3761">עד</rdg>
+				</app> מה להשיב להם תשובה לא כן במקומות אשר בעיניהם רואים ובאזניהם שומעים דברי פי חכם חן <app>
+					<lem wit="#L9165">ועדיין שח</lem>
+					<rdg wit="#W66">ועדיין טח</rdg>
+					<rdg wit="#L1780">דעדיין טח</rdg>
+					<rdg wit="#N3761">ועדין טח</rdg>
+				</app> מראות עיני שכלם ולבם <app>
+					<lem wit="#L9165">כל</lem>
+					<rdg wit="#W66">כל</rdg>
+					<rdg wit="#L1780 #N3761">בל</rdg>
+				</app> עמם להבין משל ומליצה דברי חכמים מחוכמים, הן אלה קצות דרכי אל הנסתרות מעיני כל חי, עד ישקיף וירא בדוחק השעה, וישלח מעלינו הרעה,
+				ומלאה הארץ דעה , אז נגילה ונשמחה בישועתו, ויאיר עינינו באור תורתו, יעלזו חסידי׳ בכבוד וישמעו דבריהם, גם מעכ״ת <app>
+					<lem wit="#L9165">כא׳</lem>
+					<rdg wit="#W66 #L1780">כאחד</rdg>
+					<rdg wit="#N3761">כא׳</rdg>
+				</app> מהם, יעלה ויבא במרומי ההצלחות וישביעהו שובע שמחות, ויגדל כסא תפארתו ולי אני עבדו, הדום לרגלי׳ כבודו, יסמוך מהודו עלי ויצוני
+				לרוץ דרך עבודתו והיה זה <app>
+					<lem wit="#L9165">שלום <placeName key="ZM011">אליסאנרר״י</placeName> א׳ בשבת ס׳ <cit>
+							<quote>וישמיענו אותה ונעשנה</quote>
+							<bibl>דברים ל, יב.</bibl>
+						</cit> התל״א לפ״ק</lem>
+					<rdg wit="#W66 #N3761">שלו׳</rdg>
+					<rdg wit="#L1780">שלום</rdg>
+				</app>
+				</p>
+				<p>
+					<app>
+						<lem wit="#L9165">אין זה תוספת כי אם עיקר לחלות את פני מעכ״ת אם העלה על ספר חידושים על השופר ולולב כאשר היה עם לבבו לצוות את
+							א׳ מאשר יראה בעיניו להעתיקם בעדי ועלי לשלם שכר טרחו כאשר אעשה מכל אשר יזכני מעכ״ת ותהי משכורתו שלימה מעם י״ה אלקי
+							ישראל</lem>
+						<rdg wit="#W66">אין זה תוספת כי אם עיקר, לחלות את פני מעכ״ת אם העלה על ספר חידושים על השופר ולולב כאשר היה עם לבבו לצוות את א׳
+							אשר יראה בעיניו להעתיקם בעדי ועלי לשלם שכר טרחו כאשר, אעשה מכל אשר יזכני מעכ״ת ותהי משכורתו שלימה מעם ה׳ אלקי ישראל</rdg>
+						<rdg wit="#L1780"/>
+						<rdg wit="#N3761">אין זה תוספת כי אם עיק׳, לחלות את פני מעכ״ת, אם העלה על ס׳ חדושם על השופר ולולב כאשר היה עם לבבו לצוות את א׳
+							אשר יראה בעיניו להעתיקם בעדי ועלי לשלם שכר טרחו כאשר אעשה מכל אשר יזכני מעכ״ת ותהי משכורתו שלימה מעם ה׳ אלקי ישראל</rdg>
+					</app>
+				</p>
+				<p>
+					<app>
+						<lem wit="#L9165">עפר ואפר ופיח כבשן קנקן חדש ואין בו ישן תלמידו <persName key="ZP002">הצעיר בנימין הכהן</persName>
+						</lem>
+						<rdg wit="#W66 #L1780 #N3761"/>
+					</app>
+				</p>
+			</div>
+		</body>
+   </text>
+</TEI>

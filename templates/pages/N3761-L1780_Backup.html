@@ -1,0 +1,342 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+        
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Zacuto Letter"/>
+        <meta name="pb-template" content="N3761-L1780.html"/>
+        
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan&amp;display=swap"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/zacuto.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+        <style include="pb-common-styles">
+        
+        pb-zoom, paper-icon-button {
+            color: black;
+        }
+             body {
+                    --pb-link-theme: {
+                        font-family: "Junicode",Georgia,"Times New Roman",serif;
+                        text-decoration: none;
+                        color: black;
+                    };
+
+                    --pb-alternate-inline: var(--paper-blue-800);
+
+                    --pb-view-height: calc(100vh - 192px);
+
+                    --pb-footnote-ref: {
+                        font-size: .85em;
+                        background-color: #C0C0C0;
+                        text-decoration: none;
+                        text-indent: 0;
+                    };
+
+                    --pb-footnote-number: {
+                        font-size: .75em;
+                    };
+
+                    /* --pb-popover-theme: 'light';
+                    --pb-popover-placement: 'top';
+                    --pb-popover-fallback-placement: 'left right bottom';
+
+                    --pb-panel-max-height: var(--pb-view-height); */
+                    --pb-base-font-family: "Spartan", "Oswald", Verdana, sans-serif;
+                }
+
+                .menubar {
+                    font-family: 'Spartan', sans-serif;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    background-color: #89A6FB;
+                    background-image: url('resources/images/background.jpg');                    
+                    --pb-menubar-color: white;
+                    --pb-download: {
+                        color: black;
+                    };
+                }
+                
+                .toolbar{
+                    background-color: #89A6FB;
+                    color: white;
+                }
+
+                app-toolbar pb-search {
+                    --pb-search-label-color: var(--pb-menubar-color);
+                    --pb-search-input-color: var(--pb-menubar-color);
+                    --pb-search-focus-color: var(--pb-color-focus);
+                }
+                paper-tab {
+                    font-family: "Spartan", sans-serif;
+                }
+
+                .cropper{
+                    width:49px;
+                    height:49px;
+                    overflow:hidden;
+                    border-radius:50%;
+                    margin-right:10px;
+                }
+
+                .menubar .git {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .menubar .git img {
+                    background-size: 100% 100%;
+                    height: 50px;
+                }
+
+                .menubar a, .menubar paper-menu-button {
+                }
+
+                .menubar pb-login {
+                    --pb-login-theme: {
+                        font-weight: 400;
+                    }
+                }
+
+                .menubar pb-lang {
+                    --pb-lang-label-color: var(--pb-menubar-color);
+                    --pb-lang-item-color: var(--pb-menubar-color);
+                }
+
+                .logo img {
+                    width: auto;
+                }
+
+                pb-grid {
+                    --pb-content-theme: {
+                        font-family: "Junicode", Georgia, "Times New Roman", serif;
+                        font-size: 14pt;
+                        line-height: 1.42857143;
+                        margin: 0 16px;
+                    };
+                }
+                
+                pb-view {
+                --pb-highlight-color: #1FAD9D;
+            }
+
+                .metadata {
+                    max-width: 20vw;
+                }
+
+                .content-body {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px 20px;
+                    background: rgb(247,247,247);
+                    min-height: calc(100vh - 275px);
+                }
+
+                .content-body pb-view {
+                    flex: 1 1;
+                    border-radius: 4px;
+                    background-color: white;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    border: 1px solid rgba(0,0,0,.12);
+                }
+                
+                .transcription {
+                    direction: rtl;
+                }
+                
+                .meta{
+                    direction: ltr;
+                }
+
+                .breadcrumbs {
+                    display: flex;
+                    justify-content: space-between;
+                    align-self: center;
+                    background: rgb(247,247,247);
+                    padding:0 0 0 20px;
+                    padding-left: 450px;
+                    font-family: var(--pb-content-font-family);
+                    font-size: 20px;
+                    --pb-breadcrumbs-font-size: 30px;
+}
+
+                .correspDesc {
+                    display: flex;
+                    justify-content: space-between;
+                    align-self: center;
+                    background: rgb(247,247,247);
+                    padding:0 0 0 20px;
+                    padding-left: 450px;
+                    font-family: Spartan;
+                    --pb-content-font-size: 15px;
+}
+                }
+                pb-progress{
+                    --pb-progress-color:#2b7d8d;
+                }
+                
+                pb-grid-action{
+                    margin-top:-6px;
+                    direction: ltr;
+                }
+                .gitlab {
+                    color: black;
+                    margin-right: 16px;
+                }
+                .gitlab img {
+                    display: block;
+                    margin: 16px auto;
+                    height: 32px;
+                }
+                pb-drawer {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    top: 158px;
+                    background:
+                }
+        </style>
+    </custom-style>
+    </head>
+        
+        
+        <body>
+            <pb-page data-template="pages:pb-page" unresolved="unresolved">
+                <pb-document id="document1" data-template="pages:pb-document"/>
+                <pb-document id="document2" path="letters/aux/emptySource.xml" odd="graves"/>
+                <app-drawer-layout force-narrow="force-narrow">
+                    <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                    <app-header-layout>
+                        <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                            <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                            <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                        </app-header>
+                        
+                  <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                            <div class="drawer-content">
+                                <h3>Information</h3>
+                                <pb-collapse opened="true" emit="meta">
+   <div slot="collapse-trigger">
+       Summary
+   </div>
+   <pb-view slot="collapse-content" src="document1" class=".meta" xpath="//note[@type='summary']" subscribe="meta"/>
+</pb-collapse>
+
+   
+<pb-collapse emit="meta">
+   <div slot="collapse-trigger">
+       Textual Witnesses
+   </div>
+   <pb-view slot="collapse-content" src="document1" class=".meta" xpath="//listWit" subscribe="meta"/>
+   </pb-collapse>
+   <pb-collapse emit="meta">
+   <div slot="collapse-trigger">
+       Edition
+   </div>
+   <pb-view slot="collapse-content" src="document1" class=".meta" xpath="//respStmt" subscribe="meta">
+                                    <pb-param name="mode" value="commentary"/>
+                                    </pb-view>
+                                    </pb-collapse>
+   <script>
+window.addEventListener('load', () =&gt;
+    pbEvents.subscribeOnce('pb-collapse-open', 'meta')
+        .then(() =&gt; pbEvents.emit('pb-update', 'meta'))
+);
+</script>
+<!--<pb-clipboard label="Click the symbol to copy the citation">de Molière, Maximilian (Ed.),  Digital Corpus of Moses Zacuto's Correspondence.</pb-clipboard> -->
+
+   </div>
+                        </pb-drawer>
+                        
+                        <section class="breadcrumbs">
+                            <div>
+                            <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title[1]" view="single"/>
+                            </div>
+                        </section>
+                        <section class="correspDesc">
+                            <div>
+                            <pb-view id="title-info" src="document1" xpath="//correspDesc" view="single"/>
+                            </div>
+                        </section>
+                        
+                        <main class="content-body">
+                        
+                         <pb-tabs>
+		        <paper-tab slot="tab">Reading Text</paper-tab>
+		        <paper-tab slot="tab">Synoptic View</paper-tab>
+
+		        <div slot="page">
+		            
+		            <pb-grid id="grid-edition" panels="[0]" subscribe="transcription" emit="transcription" animation="true">
+                                            <pb-view src="document1" class="transcription" xpath="//div[@type='letter']" subscribe="transcription" emit="transcription">
+                                                <pb-param name="view" value="edition"/>
+                                            </pb-view>
+                                </pb-grid>
+		        </div>
+		        <div slot="page">
+		    
+                                <pb-grid-action action="add" class="grid-add" grid="#grid">
+                                <paper-button>
+                                    <iron-icon icon="icons:view-carousel"/> Add</paper-button>
+                            </pb-grid-action>
+		            <pb-grid id="grid" panels="[0,2]" subscribe="transcription" emit="transcription" animation="true">
+                                <template>
+                                    <!-- template used for adding a new column: user can choose between translation, facsimile and notes -->
+                                    <pb-panel label="Witness" emit="transcription">
+                                        <!-- Added to the toolbar -->
+                                        <pb-grid-action grid="#grid" slot="toolbar" action="remove">
+                                            <paper-icon-button icon="icons:close"/>
+                                        </pb-grid-action>
+                                        <div data-template="api:witness-view"/>
+                                            <template title="New York, JTS 3761">
+                                            <pb-view src="document1" class="transcription" xpath="//div[@type='letter']" subscribe="transcription" emit="transcription">
+                                                <pb-param name="view" value="N3761"/>
+                                            </pb-view>
+                                            </template>
+                                        <template title="Warsaw, Ringelblum 66">
+                                            <pb-view src="document1" class="transcription" xpath="//div[@type='letter']" subscribe="transcription" emit="transcription">
+                                                <pb-param name="view" value="W66"/>
+                                            </pb-view>
+                                        </template>
+                                        <template title="Print, Livorno 1780">
+                                            <pb-view src="document1" class="transcription" xpath="//div[@type='letter']" subscribe="transcription" emit="transcription">
+                                                <pb-param name="view" value="L1780"/>
+                                            </pb-view>
+                                            </template>
+                                        <template title="London, BL 9165">
+                                            <pb-view src="document1" class="transcription" xpath="//div[@type='letter']" subscribe="transcription" emit="transcription">
+                                                <pb-param name="view" value="L9165"/>
+                                            </pb-view>
+                                        </template>
+                                        <!--<template title="TEI-XML">
+                                            <pb-code-highlight slot="page" id="output" language="xml" theme="default"/>
+                                        </template>-->
+                                    </pb-panel>
+                                </template>
+                                </pb-grid>
+		        </div>
+		    </pb-tabs>
+                        </main>
+                        <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+                    </app-header-layout>
+                </app-drawer-layout>
+            </pb-page>
+            <div class="splash"/>
+            <!-- <script>
+                window.addEventListener('load', () =&gt;
+                pbEvents.subscribe('pb-refresh', 'transcription', () =&gt; pbEvents.emit('pb-toggle', 'transcription'), true)
+                );
+            </script>-->
+        </body>
+</html>

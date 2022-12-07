@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Zacuto Letter"/>
+        <meta name="pb-template" content="zacuto.html"/>
+
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/zacuto.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <custom-style>
+        <style include="pb-common-styles">
+            @media (min-width: 769px) {
+                .toolbar pb-navigation {
+                    display: none;
+                }
+            }
+
+            main{
+                background-color: lightgrey;
+                padding-bottom: 30px;
+                --pb-link-theme-text-decoration: none;
+                --pb-link-theme-color: black;
+            }
+            
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                direction: rtl;
+                --pb-view-height: calc(100vh - 220px);
+            }
+            
+            .headline {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                direction: ltr;
+                font-size: 7em;
+                font-weight: bold;
+                padding: 15px;
+            }
+            
+            .meta {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                direction: ltr;
+                padding-bottom: 50px;
+            }
+
+            .content-body pb-navigation {
+                position: fixed;
+                bottom: 45%;
+                --paper-fab-background: #35424b;
+                color: white;
+            }
+
+            .content-body pb-navigation[direction=backward] {
+                left: 20px;
+            }
+
+            .content-body pb-navigation[direction=forward] {
+                right: 20px;
+            }
+
+            @media (max-width: 769px) {
+                .content-body pb-navigation {
+                    display: none;
+                }
+            }
+            
+            
+            #view1 {
+            flex: 3 1;
+            height: var(--pb-view-height);
+            overflow: auto;
+            background-color: white;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: 150px;
+            margin-top: 30px;
+            overflow: auto;
+            border-color: 1px solid  rgba(0, 0, 0, 0.5);
+            border-radius: 4px;
+            }
+            
+            #source {
+            flex: 1 1;
+            /*background-color: white;*/
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: 150px;
+            margin-top: 30px;
+            overflow: auto;
+            height: var(--pb-view-height);
+            border-radius: 4px;
+            }
+        </style>
+        </custom-style>
+    </head>
+
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <pb-document id="document2" path="letters/aux/emptySource.xml" odd="graves"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                    </app-header>
+
+                    <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                        <h3>Markings</h3>
+                            <pb-toggle-feature name="name" selector=".persName" action="toggle" default="on" emit="transcription" subscribe="transcription">Persons</pb-toggle-feature>
+                            <pb-toggle-feature name="place" selector=".placeName" action="toggle" default="on" emit="transcription" subscribe="transcription">Places</pb-toggle-feature>
+                            <pb-toggle-feature name="work" selector=".workName" action="toggle" default="on" emit="transcription" subscribe="transcription">Works</pb-toggle-feature>
+                            <pb-toggle-feature name="var" selector=".lem" action="toggle" default="on" emit="transcription" subscribe="transcription">Variants</pb-toggle-feature>
+                            <pb-toggle-feature name="ref" selector=".quote" action="toggle" default="on" emit="transcription" subscribe="transcription">References</pb-toggle-feature>
+                        <h3>Metadata</h3>
+                            <pb-view id="commentary" src="document1" xpath="//respStmt" view="single" subscribe="toc">
+                                <pb-param name="mode" value="commentary"/>
+                            </pb-view>
+                        </div>
+                    </pb-drawer>
+                    
+                    <!-- <section class="breadcrumbs">
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title[1]" view="single"/>
+                    </section>-->
+                    
+                    <div class="headline">
+                    <pb-view id="metadata" src="document1" xpath="//titleStmt/title[1]" view="single"/>
+                    </div>
+                    
+                <div class="meta">
+                <pb-tabs>
+                    <paper-tab slot="tab">Textual Sources</paper-tab>
+                    <paper-tab slot="tab">Summary</paper-tab>
+
+                    <div slot="page">
+                        <pb-view id="metadata" src="document1" xpath="//listWit" view="single"/>
+                    </div>
+                <div slot="page">
+                        <pb-view id="metadata" src="document1" xpath="//note[@type='summary']" view="single"/>
+                </div>
+    </pb-tabs>
+                    </div>
+                    
+                    <main class="content-body">
+                        <pb-view id="source" src="document2" direction="rtl" view="div" subscribe="quote" animation="true" highlight="true"/>
+                        <pb-view id="view1" direction="rtl" src="document1" column-separator=".tei-cb" subscribe="transcription" emit="transcription"/>
+                    </main>
+                        <aside class="index">
+                            <pb-load id="index" url="api/index/{doc}" expand="expand" src="document1" emit="index">
+                                <pb-i18n key="dialogs.loading"/>
+                            </pb-load>
+                        </aside>
+                    <footer>
+                        <p>Moses Zacuto's Correspondence is a project by the University of Halle-Wittenberg and the University of Beer Sheva. It is enabled by funding from the Deutsche Forschungsgemeinschaft. For more information see the project description on <a href="https://kabbalaheditions.org/zacuto/about.html">Kabbalah Editions</a>.</p>
+                    </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+</html>

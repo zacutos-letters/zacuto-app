@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/v3.4.0/schema/de/wegaLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ZL00116">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+								
+				<title>Moses Zacuto to Abraham Rovigo, Mantua, Parashat Ki Teitsei, 5436 (16-22 August 1676)</title>
+				<title level="s">The Correspondence of R. Moses Zacuto</title>
+				<author key="ZP00001">Moses Zacuto</author>
+				<editor>Maximilian de Molière</editor>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Maximilian de Molière</name>
+					<resp>Conversion to TEI</resp>
+					<name>Maximilian de Molière</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+                    <name>Seminar für Judaistik/ Jüdische Studien</name>
+                    <address>
+					<institution>Martin-Luther Universität Halle-Wittenberg</institution>
+					<street>Großer Berlin 14</street>
+					<postCode>06108</postCode>
+					<placeName>
+                            <country>Germany</country>
+                            <settlement>Halle / Saale</settlement>
+                        </placeName>
+					</address>
+                </publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="summary"/>
+				<note type="incipit" xml:lang="he">קבלתי דבריך הנעימים</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness n="1" xml:id="L9165">
+						<msDesc>
+							<msIdentifier>
+								<country>UK</country>
+								<settlement>London</settlement>
+								<repository>British Library</repository>
+								<idno>Or. 9165</idno>
+								<locus>44a</locus>
+							</msIdentifier>
+						</msDesc>
+					</witness>
+				</listWit>
+				<additional>
+					<listBibl>
+						<bibl n="firstPrint"/>
+					</listBibl>
+				</additional>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This edition was created as part of the DFG-funded project "Encyclopedic Magic. A Synergetic Approach to Rabbi Moses Zacuto’s Sources of Practical and Theoretical Kabbalah".</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc n="ZL00116">
+				<correspAction type="sent">
+					<idno>ZL00116</idno>
+					<persName key="ZP001">Moses Zacuto</persName>
+					<settlement key="ZM0002">Mantua</settlement>
+					<date calendar="hebrew">Parashat Ki Teitzei, 5436</date>
+					<date when="1676" calendar="gregorian">16-22 August 1676</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="ZP00003">Abraham Rovigo</persName>
+					<settlement key="ZM0004">Modena</settlement>
+				</correspAction>
+			</correspDesc>
+			<langUsage>
+				<language ident="he-HE">Hebrew</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text type="letter" xml:lang="he">
+		<body>
+			<div>
+				<opener>
+                    <salute>הבן יקיר לי שלו׳</salute>
+                </opener>
+				<p>קבלתי דבריך הנעימים ואעלוז בהם בין על דעתי טוב מצב בריאותכם כן ירבה ובין בהשתעשעי
+					בפסק הנחמד<lb/> אשר כתב אחי יפת <persName key="ZP00005">כמוהר״רי הלוי
+						נר״ו</persName> במה שחדש בפסקי תוספות על פסקי הראש פקדהו נא לשלו׳ בשמי,
+					ועתה<lb/> דע לך שבשבוע זה כתב אלי <persName key="ZP00007">כמוהרר״ש אבוהב
+						נר״ו</persName> והודיעני איך קבל כתבך הנחמד ושדעתו להשיב אליך בדרך<lb/> כלל
+					לא ידעתי כונתו כשתגיע תשובתו לידך תגלה את אזני בס״ד, זאת ועוד דבר אלי <persName key="ZP00008">כמהר״ר גור הלוי נר״ו</persName> על<lb/> דבר הש״ע שלו אשר חשקת
+					בו לקנותו בעד ה׳ כפולות, וכמו שכבר הודעתני בהיותך פה עמנו, ואשר אין הפרש<lb/>
+					עכשיו ביניכם כי אם שהוא רוצה שתתן לו עוד איזה ש״ע אחר מפני שאין לו שום ש״ע לצרכו
+					ואם אמת הדבר<lb/> לא תשגיח על דבר מועט כזה כי באמת שלו שוה כל הון לת״ח להקל
+					מעליו טורח חפישת דברי הפוסקים איש<lb/> ואיש כספרו יתר על שיש בו הגהות מספרי כתב
+					יד כגון <persName key="ZP00009">מהר״ם פרווינצאל ז״ל</persName> וזולתו, וכעת אין
+					לי פנאי<lb/> להאריך כי אם בתפלה לנורא עלילה יעלך בכל מעלה בתורה ובגדולה לשם טוב
+					ולתהלה</p>
+				<dateline>
+                    <placeName>מנטו׳</placeName> ס׳ יטיב לך והארכת ימים שנת ישע״נו</dateline>
+				<closer>כאב את בן ירצה <lb/>
+                    <signed>משה <persName>בכה״ר מרדכי זכות
+						זלה״ה</persName>
+                    </signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
